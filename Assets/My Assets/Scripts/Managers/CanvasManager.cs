@@ -146,6 +146,7 @@ public class CanvasManager : MonoBehaviour
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
         //pauseAudio.Play();
         Time.timeScale = 0f;
     }
@@ -154,6 +155,7 @@ public class CanvasManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
         //pauseAudio.Play();
         //if (soundMenu.activeSelf)
         //{
