@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Crystal
+  - Enemy
+  - Collectible
+  - ThirdPersonCamera
+  - PlayerProjectile
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
@@ -12,11 +17,11 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Collectible
+  - PlayerProjectile
+  - EnemyProjectile
   - 
   - 
   - 
