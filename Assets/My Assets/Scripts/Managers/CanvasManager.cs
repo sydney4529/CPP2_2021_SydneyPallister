@@ -25,6 +25,7 @@ public class CanvasManager : MonoBehaviour
     [Header("Text")]
     public Text livesText;
     public Text scoreText;
+    public Text healthText;
     public Text volText;
     public Text muteText;
 
@@ -35,7 +36,8 @@ public class CanvasManager : MonoBehaviour
     public Toggle muteToggle;
 
     public Image[] hearts;
-    public Sprite heartSprite;
+    public Sprite heartFull;
+    public Sprite heartEmpty;
 
     // Start is called before the first frame update
     void Start()
@@ -107,11 +109,14 @@ public class CanvasManager : MonoBehaviour
         }
         if (livesText)
         {
-            //livesText.text = GameManager.instance.lives.ToString();
+            livesText.text = GameManager.instance.lives.ToString();
         }
         if (scoreText)
         {
-            //scoreText.text = GameManager.instance.score.ToString();
+            scoreText.text = GameManager.instance.score.ToString();
+        }if (healthText)
+        {
+            healthText.text = GameManager.instance.health.ToString();
         }
         if (settingsMenu)
         {
@@ -146,6 +151,7 @@ public class CanvasManager : MonoBehaviour
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
+        GameManager.IsInputEnabled = false;
         Cursor.lockState = CursorLockMode.None;
         //pauseAudio.Play();
         Time.timeScale = 0f;
@@ -154,6 +160,7 @@ public class CanvasManager : MonoBehaviour
     public void ReturnToGame()
     {
         Time.timeScale = 1f;
+        GameManager.IsInputEnabled = true;
         pauseMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         //pauseAudio.Play();

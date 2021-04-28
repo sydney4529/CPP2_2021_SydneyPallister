@@ -8,6 +8,7 @@ public class PlayerFire : MonoBehaviour
     public bool isFiring;
     public float projectileSpeed;
 
+
     public Transform spawnPoint;
     public Projectile projectilePrefab;
 
@@ -22,11 +23,14 @@ public class PlayerFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if(GameManager.IsInputEnabled == true)
         {
-            //FireProjectile();
-            //isFiring = true;
-            FireProjectile();
+            if (Input.GetButtonDown("Fire1"))
+            {
+                //FireProjectile();
+                //isFiring = true;
+                FireProjectile();
+            }
         }
     }
 
@@ -35,8 +39,9 @@ public class PlayerFire : MonoBehaviour
         try
         {
             Projectile projectileInstance = Instantiate(projectilePrefab, spawnPoint.position, Quaternion.identity);
-            //projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
-            projectileInstance.GetComponent<Rigidbody>().velocity = (transform.forward * 30) + chara.velocity; 
+            projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
+            //projectileInstance.transform.rotation.x = projectileInstance.transform.rotation.x * transform.rotation.x;
+            projectileInstance.transform.rotation = transform.rotation;
         }
         catch(ArgumentException ex)
         {

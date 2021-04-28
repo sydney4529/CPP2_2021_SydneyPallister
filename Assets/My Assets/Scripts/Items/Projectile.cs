@@ -35,7 +35,6 @@ public class Projectile : MonoBehaviour
             lifeTime = 2.0f;
         }
 
-        //GetComponent<Rigidbody>().velocity = new Vector3(speed, 0);
         Destroy(gameObject, lifeTime);
     }
 
@@ -43,5 +42,10 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
     }
 }

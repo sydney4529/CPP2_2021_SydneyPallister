@@ -9,6 +9,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     public Transform groundCheck;
     public LayerMask groundMask;
+    Animator anim;
 
     public float speed = 6f;
     public float gravity = -9.81f;
@@ -25,10 +26,28 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 posCur;
     private Quaternion rotCur;
 
+    [Header("Raycast Settings")]
+    public Transform thingToLookFrom;
+    public float lookDistance;
+
+    [Header("Animation Variables")]
+    public bool isRunning;
+    public bool isJumping;
+    public bool isMoving;
+    public bool isFiring;
+
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        anim = GetComponent<Animator>();
+
+        if (lookDistance <= 0)
+        {
+            lookDistance = 10.0f;
+            Debug.Log("Look distance not set on " + name + " defaulting to " + +lookDistance);
+
+        }
     }
 
     // Update is called once per frame
@@ -54,79 +73,93 @@ public class ThirdPersonMovement : MonoBehaviour
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             //transform.rotation = Quaternion.Euler(0f, angle, 0f);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            isMoving = true;
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-
-        //adds jumping
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        else
         {
-            //velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-            velocity.y = Mathf.Sqrt(jumpHeight * -2 * -29.43f);
+            isMoving = false;
         }
 
         //adds gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        if(Input.GetKeyDown(KeyCode.LeftShift))
+        //adds jumping
+        if (Input.GetButtonDown("Jump") && isGrounded && GameManager.IsInputEnabled == true)
+        {
+            //velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+            velocity.y = Mathf.Sqrt(jumpHeight * -2 * -29.43f);
+        }
+        if(isGrounded)
+        {
+            isJumping = false;
+        }
+        if(!isGrounded && velocity.y > 0)
+        {
+            isJumping = true;
+        }
+
+
+        if (Input.GetKey(KeyCode.LeftShift) && isMoving == true)
         {
             speed = 35f;
+            isRunning = true;
         }
-        if(Input.GetKeyUp(KeyCode.LeftShift))
+
+        if (Input.GetKeyUp(KeyCode.LeftShift) || isMoving == false)
         {
             speed = 20f;
+            isRunning = false;
         }
 
-        ////declare a new Ray. It will start at this object's position and it's direction will be straight down from the object (in local space, that is)
-        //Ray ray = new Ray(transform.position, -transform.up);
-        ////decalre a RaycastHit. This is neccessary so it can get "filled" with information when casting the ray below.
-        //RaycastHit hit;
-        ////cast the ray. Note the "out hit" which makes the Raycast "fill" the hit variable with information. The maximum distance the ray will go is 1.5
-        //if (Physics.Raycast(ray, out hit, 1.5f) == true)
-        //{
-        //    //draw a Debug Line so we can see the ray in the scene view. Good to check if it actually does what we want. Make sure that it uses the same values as the actual Raycast. In this case, it starts at the same position, but only goes up to the point that we hit.
-        //    Debug.DrawLine(transform.position, hit.point, Color.green);
-        //    //store the roation and position as they would be aligned on the surface
-        //    rotCur = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
-        //    posCur = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+        if(Input.GetButtonDown("Fire1"))
+        {
+            //velocity.y = Mathf.Sqrt(2 * -2 * -29.43f);
+            if(GameManager.IsInputEnabled == true)
+            {
+                if (isGrounded && isMoving == true)
+                {
+                    velocity.y = Mathf.Sqrt(2 * -2 * -29.43f);
+                }
+                isFiring = true;
+            }
+        }
 
-        //    grounded = true;
-
-        //}
-        ////if you raycast didn't hit anything, we are in the air and not grounded.
-        //else
-        //{
-        //    grounded = false;
-        //}
+        if (Input.GetButtonUp("Fire1"))
+        {
+            isFiring = false;
+        }
 
 
-        //if (grounded == true)
-        //{
-        //    //smoothly rotate and move the objects until it's aligned to the surface. The "5" multiplier controls how fast the changes occur and could be made into a seperate exposed variable
-        //    transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 5);
-        //    transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 5);
-        //}
-        //else
-        //{
-        //    //if we are not grounded, make the object go straight down in world space (simulating gravity). the "1f" multiplier controls how fast we descend.
-        //    transform.position = Vector3.Lerp(transform.position, transform.position - Vector3.up * 1f, Time.deltaTime * 5);
-        //    //from memory, I'm not sure why I aded this... Looks like a fail safe to me. When the object is turned too much towards teh front or back, almost instantly (*1000) make it rotate to a better orientation for aligning.
-        //    if (transform.eulerAngles.x > 15)
-        //    {
-        //        //turnVector.x -= Time.deltaTime * 1000;
-        //    }
-        //    else if (transform.eulerAngles.x < 15)
-        //    {
-        //        //turnVector.x += Time.deltaTime * 1000;
-        //    }
-        //    //if we are not grounded, make the vehicle's rotation "even out". Not completey reaslistic, but easy to work with.
-        //    rotCur.eulerAngles = Vector3.zero;
-        //    transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime);
+        RaycastHit hit;
 
-        //}
+        if (thingToLookFrom)
+        {
+            //Debug.DrawRay(thingToLookFrom.transform.position, thingToLookFrom.transform.forward * lookDistance, Color.red);
+
+            if (Physics.Raycast(thingToLookFrom.position, thingToLookFrom.transform.forward, out hit, lookDistance))
+            {
+                //Debug.Log(name + " Raycast hit: " + hit.transform.name);
+            }
+        }
+        else
+        {
+            //Debug.DrawRay(transform.position, transform.forward * lookDistance, Color.green);
+
+            if (Physics.Raycast(transform.position, transform.transform.forward, out hit, lookDistance))
+            {
+                //Debug.Log(name + " Raycast hit: " + hit.transform.name);
+            }
+        }
+
+        anim.SetBool("isJumping", isJumping);
+        anim.SetBool("isMoving", isMoving);
+        anim.SetBool("isRunning", isRunning);
+        anim.SetBool("isFiring", isFiring);
+
     }
-
 
 }

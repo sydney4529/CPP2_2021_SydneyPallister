@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,10 +11,95 @@ public class GameManager : MonoBehaviour
     public LevelManager currentLevel;
 
     public GameObject player;
+    public GameObject playerInstance;
+    GameObject levelManager;
+
+    public static bool IsInputEnabled = true;
+
+    public static GameManager instance
+    {
+        get { return _instance; }
+        set { _instance = value; }
+    }
+
+    int _score;
+    public int score
+    {
+        get { return _score; }
+        set
+        {
+            _score = value;
+            //Debug.Log("Current score is: " + _score);
+        }
+    }
+
+    public int maxHealth = 3;
+    int _health;
+
+    public int health
+    {
+        get { return _health; }
+        set
+        {
+            _health = value;
+
+            if(_health > maxHealth)
+            {
+                _health = maxHealth; 
+            }
+
+            if(_health <= 0)
+            {
+                Destroy(playerInstance);
+                lives--;
+            }
+        }
+    }
+
+    public int maxLives = 3;
+    int _lives;
+
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            if (_lives > value)
+            {
+                if (SceneManager.GetActiveScene().name == "MainScene")
+                {
+
+                    Debug.Log("Should have spawned");       
+                    Respawn();
+                    health = 3;
+
+                }
+            }
+
+            _lives = value;
+
+            if (_lives > maxLives)
+            {
+                _lives = maxLives;
+            }
+            else if (_lives <= 0)
+            {
+                _lives = 0;
+                if (SceneManager.GetActiveScene().name == "MainScene")
+                {
+                    //SceneManager.LoadScene("GameOver");
+                }
+            }
+            //Debug.Log(_lives);
+
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+        levelManager = GameObject.FindGameObjectWithTag("LevelManager");
+
         if (instance)
             Destroy(gameObject);
         else
@@ -21,13 +107,6 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             instance = this;
         }
-    }
-
-
-    public static GameManager instance
-    {
-        get { return _instance; }
-        set { _instance = value; }
     }
 
     // Update is called once per frame
@@ -61,6 +140,44 @@ public class GameManager : MonoBehaviour
     Application.Quit();
 #endif
             }
+    }
+
+
+    public void SpawnPlayer(Transform spawnLocation)
+    {
+        CinemachineFreeLook thirdPersonCamera = GameObject.FindGameObjectWithTag("ThirdPersonCamera").GetComponent<CinemachineFreeLook>();
+        GameObject mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        Ghost[] ghostEnemy = FindObjectsOfType<Ghost>();
+
+        if (thirdPersonCamera)
+        {
+
+            playerInstance = Instantiate(player, spawnLocation.position, spawnLocation.rotation);
+            playerInstance.GetComponent<ThirdPersonMovement>().cam = mainCamera.transform;
+
+            thirdPersonCamera.Follow = playerInstance.transform;
+            thirdPersonCamera.LookAt = playerInstance.transform;
+
+            for (int i = 0; i < ghostEnemy.Length; i++)
+            {
+                ghostEnemy[i].player = playerInstance.transform;
+            }
+
+        }
+        else
+        {
+            SpawnPlayer(spawnLocation);
+        }
+
+    }
+
+    public void Respawn()
+    {
+        if (SceneManager.GetActiveScene().name == "MainScene")
+        {
+            //playerInstance.transform.position = currentLevel.spawnLocation.position;
+            SpawnPlayer(levelManager.GetComponent<LevelManager>().spawnLocation);
+        }
     }
 
     public void StartGame()

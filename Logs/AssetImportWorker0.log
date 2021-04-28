@@ -1,0 +1,2150 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49218
+Successfully changed project path to: D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   27.21.14.6140
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002105 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 2.202300 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.588300 ms  DeleteObjects: 0.174400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree.prefab
+  artifactKey: Guid(3869ca982ead0c54688e41291e691359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree.prefab using Guid(3869ca982ead0c54688e41291e691359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7c878017ae49dc2d446f8849c26b7a') in 1.632083 seconds
+  Import took 1.635062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Wither.prefab
+  artifactKey: Guid(a08a82a36db97454aac71296eac84689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Wither.prefab using Guid(a08a82a36db97454aac71296eac84689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efddcc95fd4453f04728b6f5fea164f8') in 0.076186 seconds
+  Import took 0.078874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree
+  artifactKey: Guid(b3cfc95b068845b45b478bd807aa514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree using Guid(b3cfc95b068845b45b478bd807aa514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3803cbc61495db606d5aa8daaf992c8a') in 0.008627 seconds
+  Import took 0.011370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Nightmare.prefab
+  artifactKey: Guid(b15db69f6441c474eadaa63298d39fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Nightmare.prefab using Guid(b15db69f6441c474eadaa63298d39fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda3ba5543d221cb1212a4a326c0d214') in 0.029159 seconds
+  Import took 0.031784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab
+  artifactKey: Guid(e0912dcdd4d3f1c47a79f5b7ae3e75af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab using Guid(e0912dcdd4d3f1c47a79f5b7ae3e75af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17d14a42133be605c9e214fb7866120') in 0.006146 seconds
+  Import took 0.008478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Candy.prefab
+  artifactKey: Guid(4f3b47bd8379ee143bbd0f7f08b51f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Devil Tree/Devil_Tree_Candy.prefab using Guid(4f3b47bd8379ee143bbd0f7f08b51f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4b49b23293ad8f5c4f4ca8fed3f754') in 0.217973 seconds
+  Import took 0.220857 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 1.956300 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.509700 ms  DeleteObjects: 0.144500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 1.767600 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.385300 ms  DeleteObjects: 0.138500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.854548 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs
+  artifactKey: Guid(1124ffe42af086d4c83b3798c331b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs using Guid(1124ffe42af086d4c83b3798c331b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192e1fe43fbef63ff43f0e1603e66c93') in 0.009561 seconds
+  Import took 0.012373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.175041 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects
+  artifactKey: Guid(fdf9ff0a5126087468a7df295972344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects using Guid(fdf9ff0a5126087468a7df295972344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58bc888800cc20e33215bebc4ff057f') in 0.007326 seconds
+  Import took 0.010059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035862 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 1 broken.prefab
+  artifactKey: Guid(b6c1c84529ed66a46ad20b19fd77df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 1 broken.prefab using Guid(b6c1c84529ed66a46ad20b19fd77df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc2fdde6a017cbed0218ed59c00e7b') in 0.047472 seconds
+  Import took 0.050308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chest.prefab
+  artifactKey: Guid(4c9b16cb63ec6b049ab43634eb237398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chest.prefab using Guid(4c9b16cb63ec6b049ab43634eb237398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb1859ed7cf8cd455261c3cfe00459e') in 0.013962 seconds
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 2 Broken.prefab
+  artifactKey: Guid(55568aec82f98e5498bfed908e7f1825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 2 Broken.prefab using Guid(55568aec82f98e5498bfed908e7f1825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce467996e75516a633bf4f99fbad55c') in 0.011437 seconds
+  Import took 0.013888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 3 broken.prefab
+  artifactKey: Guid(8854cd0f324ef324b97925158482640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 3 broken.prefab using Guid(8854cd0f324ef324b97925158482640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165d8ee687230982f7d0b54e324e16c7') in 0.009847 seconds
+  Import took 0.012299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 3.prefab
+  artifactKey: Guid(0cdbaf1ab92a8954a9c99865e2b3b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 3.prefab using Guid(0cdbaf1ab92a8954a9c99865e2b3b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c84af83dd07e922faf8e77e4efaf7b') in 0.010129 seconds
+  Import took 0.012729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 5.prefab
+  artifactKey: Guid(033bfe4cae97e1647b10666b35b31e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 5.prefab using Guid(033bfe4cae97e1647b10666b35b31e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f9a574cbf6ddac19f8e3458c304f3b') in 0.016245 seconds
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 6.prefab
+  artifactKey: Guid(69ecd8bd375a5a44cadd50fc5d2b1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 6.prefab using Guid(69ecd8bd375a5a44cadd50fc5d2b1062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f1f979de1784e0865e38d907f9b20a') in 0.012056 seconds
+  Import took 0.015272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 2 broken.prefab
+  artifactKey: Guid(73b1d559964403c4eb4a9a5bc4a1b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 2 broken.prefab using Guid(73b1d559964403c4eb4a9a5bc4a1b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea264d2ff0a4228cc6abfeeb8f449ea7') in 0.011394 seconds
+  Import took 0.014363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 1 Broken.prefab
+  artifactKey: Guid(0af1843034d128b449c6cd5ffeffd417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 1 Broken.prefab using Guid(0af1843034d128b449c6cd5ffeffd417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b402232ba9b34c8e0c0c8cbf9c10b83') in 0.012658 seconds
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 2.prefab
+  artifactKey: Guid(2eeae77124e54fb4db66257a330d6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 2.prefab using Guid(2eeae77124e54fb4db66257a330d6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a0aa7d422bb88ab96b3de6b523c0d7') in 0.017054 seconds
+  Import took 0.019801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 4.prefab
+  artifactKey: Guid(7167dbce2803e5149a8fce6164227f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 4.prefab using Guid(7167dbce2803e5149a8fce6164227f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40b4eac7af5686fa80a2640003a8101') in 0.009307 seconds
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 10.prefab
+  artifactKey: Guid(001ea0b1b702497489284ec1381cce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 10.prefab using Guid(001ea0b1b702497489284ec1381cce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff4d0156ea66d9132bf49be87cf434') in 0.013433 seconds
+  Import took 0.016259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 11.prefab
+  artifactKey: Guid(73e013400311d684ba526651f6caa07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 11.prefab using Guid(73e013400311d684ba526651f6caa07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33719b212b1a17a44e0dfd138e9ea784') in 0.014070 seconds
+  Import took 0.016687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 2.prefab
+  artifactKey: Guid(04b2271764089d14584acafc2a9eaaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 2.prefab using Guid(04b2271764089d14584acafc2a9eaaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c084ffb8e2a077fb0e1fadc87b72de6b') in 0.017280 seconds
+  Import took 0.019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 1.prefab
+  artifactKey: Guid(02822c8ede0877347a36928cedce002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 1.prefab using Guid(02822c8ede0877347a36928cedce002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0617284fd25cae390d46b99f1100d3d6') in 0.016382 seconds
+  Import took 0.018913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 3.prefab
+  artifactKey: Guid(2fc8f63fe22acaa4a83b25a51071bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 3.prefab using Guid(2fc8f63fe22acaa4a83b25a51071bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f610d939d2a774d74b6a65c53bb2e6a9') in 0.013003 seconds
+  Import took 0.015781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel with drink.prefab
+  artifactKey: Guid(35af1def34f05d442abb76573d68351c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel with drink.prefab using Guid(35af1def34f05d442abb76573d68351c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b0ba7c79a80d28e75ecea2524a6b25') in 0.009890 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 1.prefab
+  artifactKey: Guid(ab2da0a338582c64bbc4a37cd8a882da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 1.prefab using Guid(ab2da0a338582c64bbc4a37cd8a882da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6436003b5616095cc83096cc7658028f') in 0.011252 seconds
+  Import took 0.013680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 9.prefab
+  artifactKey: Guid(850558ced4d4a1d4dad17985c3f53c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 9.prefab using Guid(850558ced4d4a1d4dad17985c3f53c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b55591dfcfddcd8c56e36d1cd17dbd7') in 0.009415 seconds
+  Import took 0.011860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket Broken.prefab
+  artifactKey: Guid(7b840364eedec6a4d9de18a9042da451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket Broken.prefab using Guid(7b840364eedec6a4d9de18a9042da451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88733d41b06782835e15c22eef8b6897') in 0.010705 seconds
+  Import took 0.013444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 3.prefab
+  artifactKey: Guid(cef1eecc96c94fd44be7041d74305cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 3.prefab using Guid(cef1eecc96c94fd44be7041d74305cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892ad02b39fdddf5a4cab8748b5feb1e') in 0.011599 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 6.prefab
+  artifactKey: Guid(b6b42ee9bca32e646ad9ca5518f44165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 6.prefab using Guid(b6b42ee9bca32e646ad9ca5518f44165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23e085881a1fb600fec976de387b94d') in 0.009367 seconds
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 3.prefab
+  artifactKey: Guid(bf08994cc1a549b4a942334d376d29bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 3.prefab using Guid(bf08994cc1a549b4a942334d376d29bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77337cac034b34afabe4c0e3a8196916') in 0.010252 seconds
+  Import took 0.013358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 3 broken.prefab
+  artifactKey: Guid(e5ae6d894d8ae924ab3c3ed9bb946068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 3 broken.prefab using Guid(e5ae6d894d8ae924ab3c3ed9bb946068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36294a0964dac2f8c66fb673719c0060') in 0.013548 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 4.prefab
+  artifactKey: Guid(589d0016399410146ba9085463e57136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 4.prefab using Guid(589d0016399410146ba9085463e57136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f7c1dc21caa6c88274c75fb4e3a37') in 0.010973 seconds
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 2.prefab
+  artifactKey: Guid(a7c86b61956942344bde4d6d2bb6151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 2.prefab using Guid(a7c86b61956942344bde4d6d2bb6151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9a2ca22f673811e69fa94413f06539') in 0.012544 seconds
+  Import took 0.014957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 1.prefab
+  artifactKey: Guid(c07ca3c30fcfbd946ad90265edb3cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 1.prefab using Guid(c07ca3c30fcfbd946ad90265edb3cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f5f68900f2b4296241a89cbd915f79') in 0.010388 seconds
+  Import took 0.012998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 5.prefab
+  artifactKey: Guid(18595c9b97abc304a8c987a4ad2f6eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 5.prefab using Guid(18595c9b97abc304a8c987a4ad2f6eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84387f650431b9d808d9a5101ea315e') in 0.010010 seconds
+  Import took 0.012484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 3.prefab
+  artifactKey: Guid(2afb7d3e1861fd2439ff6edccb782e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bed 3.prefab using Guid(2afb7d3e1861fd2439ff6edccb782e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df307dc03f3eafee3dda6357bebbc965') in 0.009298 seconds
+  Import took 0.011669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 5.prefab
+  artifactKey: Guid(d13bfb9d943fc42478cfa6c7f5ee359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 5.prefab using Guid(d13bfb9d943fc42478cfa6c7f5ee359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f58642e68a86e46870331aea96148e') in 0.015372 seconds
+  Import took 0.017809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 2.prefab
+  artifactKey: Guid(82dad12aafd33874ca1021a7e435f32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 2.prefab using Guid(82dad12aafd33874ca1021a7e435f32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023f40791310e559b8d1b6ec1b2eb0e4') in 0.009260 seconds
+  Import took 0.011644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 4.prefab
+  artifactKey: Guid(f2b3bf4f49e68b84e99961da052aa63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 4.prefab using Guid(f2b3bf4f49e68b84e99961da052aa63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b791738d548b96b248dcfc4c509e296') in 0.012793 seconds
+  Import took 0.015633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 4.prefab
+  artifactKey: Guid(455e4e92718d8094e974ba013e973a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 4.prefab using Guid(455e4e92718d8094e974ba013e973a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2073028cf46105caeaeed3b2b0a5676') in 0.009289 seconds
+  Import took 0.011683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 4.prefab
+  artifactKey: Guid(41c3fee6ae95f314cb597e4ddb196e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 4.prefab using Guid(41c3fee6ae95f314cb597e4ddb196e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db35c45b34a835ba62d5d19321f05cd') in 0.009409 seconds
+  Import took 0.012050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 5.prefab
+  artifactKey: Guid(5e5065d08d1cf8445a830fbde6f4f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 5.prefab using Guid(5e5065d08d1cf8445a830fbde6f4f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8a80abb5d544ec00c8ca07d0e8412b') in 0.010407 seconds
+  Import took 0.012853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Fork.prefab
+  artifactKey: Guid(ee628b3f58996b04ea8512c3910ea1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Fork.prefab using Guid(ee628b3f58996b04ea8512c3910ea1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b05b22e14df1bff85e7fdb3a62bb03') in 0.012424 seconds
+  Import took 0.014781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Dirt Grave.prefab
+  artifactKey: Guid(c9a66184f12fd48438185e2dee330c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Dirt Grave.prefab using Guid(c9a66184f12fd48438185e2dee330c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5798e09d8f043ef786404523736c7f09') in 0.010645 seconds
+  Import took 0.013026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrels.prefab
+  artifactKey: Guid(d26081062e5658349928575c81896140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrels.prefab using Guid(d26081062e5658349928575c81896140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be77572936509ec34f157b167646664') in 0.010733 seconds
+  Import took 0.013193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 2.prefab
+  artifactKey: Guid(2c7fb62c521762d44bf550f94841f94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 2.prefab using Guid(2c7fb62c521762d44bf550f94841f94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a3d8439e0ef8c105e766e2c3083fb8') in 0.011806 seconds
+  Import took 0.014453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 2.prefab
+  artifactKey: Guid(ebeac342b19f0b04d9084fb5baa8fcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 2.prefab using Guid(ebeac342b19f0b04d9084fb5baa8fcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69caed1bb6aa57bf83ff0b6e7a65b922') in 0.012058 seconds
+  Import took 0.014919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 1.prefab
+  artifactKey: Guid(f18af34c175820d4291c4626aadfa4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 1.prefab using Guid(f18af34c175820d4291c4626aadfa4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8867abe84a35bff705313060f2a1b946') in 0.015026 seconds
+  Import took 0.017631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 1.prefab
+  artifactKey: Guid(812f323438cab7047a62b9759e0a4c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 1.prefab using Guid(812f323438cab7047a62b9759e0a4c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6291f5231e473b6909a94dcff34c6117') in 0.011592 seconds
+  Import took 0.014161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 1.prefab
+  artifactKey: Guid(815ec37dacf8f2a49b89780f3924afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 1.prefab using Guid(815ec37dacf8f2a49b89780f3924afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5be612544e233ed1bf39e15d6eaeeab') in 0.009644 seconds
+  Import took 0.012064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 2.prefab
+  artifactKey: Guid(82e8ea956a8f5f54d80710725350bc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 2.prefab using Guid(82e8ea956a8f5f54d80710725350bc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c942222ed837507601962c1cff7d042a') in 0.012472 seconds
+  Import took 0.014897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 1.prefab
+  artifactKey: Guid(0dcd1a58593d0c5419dd8a88f628dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 1.prefab using Guid(0dcd1a58593d0c5419dd8a88f628dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe8b9bfd35d000480fcee217f95023') in 0.010367 seconds
+  Import took 0.012739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 3.prefab
+  artifactKey: Guid(3a78fcfc191c40844b1c296e2af1ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 3.prefab using Guid(3a78fcfc191c40844b1c296e2af1ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17da25c1813425561eea0494d6821826') in 0.013611 seconds
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 4.prefab
+  artifactKey: Guid(bd606f2629797f74e84b06da04747a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 4.prefab using Guid(bd606f2629797f74e84b06da04747a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c50573f26d8996e203e0955cbf8cb47') in 0.009708 seconds
+  Import took 0.012169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 2.prefab
+  artifactKey: Guid(35f1a46dea1da0343a6960a753815a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 2.prefab using Guid(35f1a46dea1da0343a6960a753815a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b484045609fcd1465591a1d64cc2d25b') in 0.009501 seconds
+  Import took 0.012155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 5 Open.prefab
+  artifactKey: Guid(c35a95576918d474ebab0e3deb880ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 5 Open.prefab using Guid(c35a95576918d474ebab0e3deb880ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c6ca427fd3d09c5f87e7b760f7672') in 0.013835 seconds
+  Import took 0.016662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 3.prefab
+  artifactKey: Guid(f5b8f3eb08f4dd54f8df087654b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 3.prefab using Guid(f5b8f3eb08f4dd54f8df087654b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80957bf1a1460f895fa7a1a265fbab') in 0.013369 seconds
+  Import took 0.015855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 1.prefab
+  artifactKey: Guid(129aa9774c9898247a88c115baaca33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 1.prefab using Guid(129aa9774c9898247a88c115baaca33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8677c5c5843e40373acfe3a23d2fcd87') in 0.011986 seconds
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 1.prefab
+  artifactKey: Guid(6d130d1e7b2f8fa4c8597af4f2206065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 1.prefab using Guid(6d130d1e7b2f8fa4c8597af4f2206065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e4631bc64163113b5d64f4569b1a08') in 0.009647 seconds
+  Import took 0.012132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 2.prefab
+  artifactKey: Guid(98cb6569769503e4584f0f935ce103f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chair 2.prefab using Guid(98cb6569769503e4584f0f935ce103f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d93c493239c50d38ae5660c430c719') in 0.017742 seconds
+  Import took 0.020138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chest Open.prefab
+  artifactKey: Guid(b1c5fff1bb078b248a8285adfcdddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Chest Open.prefab using Guid(b1c5fff1bb078b248a8285adfcdddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fcc746a3cb37da8dc8c9406c362ded') in 0.013603 seconds
+  Import took 0.016028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 5.prefab
+  artifactKey: Guid(28a4fce5fdaf15241a2dc2a678d4f698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Flower Pot 5.prefab using Guid(28a4fce5fdaf15241a2dc2a678d4f698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad0d92119c3f94f28cc0e281fb56d51') in 0.010346 seconds
+  Import took 0.012754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 1.prefab
+  artifactKey: Guid(f05ae92e44a93af428293790eeea8411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 1.prefab using Guid(f05ae92e44a93af428293790eeea8411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ce2523f16e86348369d31b921e0a25') in 0.010224 seconds
+  Import took 0.012633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 3.prefab
+  artifactKey: Guid(23993a0d7c78f1e43a1b690ba084b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 3.prefab using Guid(23993a0d7c78f1e43a1b690ba084b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232412eb6c24ccac1d841f075efbc3f8') in 0.012599 seconds
+  Import took 0.015255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 9.prefab
+  artifactKey: Guid(525650fda2c8522439e192ed6b874b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 9.prefab using Guid(525650fda2c8522439e192ed6b874b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d9bebe6dbed83d9707514ba98045dc') in 0.012512 seconds
+  Import took 0.014927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Empty barrel.prefab
+  artifactKey: Guid(758a522a2f838cc48a6eaf895dafc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Empty barrel.prefab using Guid(758a522a2f838cc48a6eaf895dafc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea9782339fac9ca35974b51f29fae42') in 0.009350 seconds
+  Import took 0.011893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 3.prefab
+  artifactKey: Guid(1a6b2d5a8a5a3c249befb6a05ab5a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 3.prefab using Guid(1a6b2d5a8a5a3c249befb6a05ab5a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423f8b29f9af34486bbd7bbc75b60d2b') in 0.012684 seconds
+  Import took 0.015773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 1.prefab
+  artifactKey: Guid(2115a00451a43fc4fbe1764c3548de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 1.prefab using Guid(2115a00451a43fc4fbe1764c3548de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76f07dd2c1d05b709eb2ba4636b60b2') in 0.013799 seconds
+  Import took 0.016655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 2.prefab
+  artifactKey: Guid(ecac68ab755d56c41b7e456aece5180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 2.prefab using Guid(ecac68ab755d56c41b7e456aece5180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b0d74b25815d4ea38e1f89e461951f') in 0.010587 seconds
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 8.prefab
+  artifactKey: Guid(e4b56c021761d0b4aaec2d9a3771dc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 8.prefab using Guid(e4b56c021761d0b4aaec2d9a3771dc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68451c6c4fed0061a0e4ea66769de28') in 0.008990 seconds
+  Import took 0.011434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 2.prefab
+  artifactKey: Guid(a6e67fba381a3cd4b8278ad51adc5605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 2.prefab using Guid(a6e67fba381a3cd4b8278ad51adc5605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b0ce22733ccdc2853ed8c2146527a') in 0.010186 seconds
+  Import took 0.012900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 7.prefab
+  artifactKey: Guid(45cf5fc3a62012549ac55d9a53e7b813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 7.prefab using Guid(45cf5fc3a62012549ac55d9a53e7b813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aeb77d50928c6f01eb8980097c2ea1') in 0.009391 seconds
+  Import took 0.011831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 12.prefab
+  artifactKey: Guid(8082d26a4d10fa1479f57908b6ff0614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 12.prefab using Guid(8082d26a4d10fa1479f57908b6ff0614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9a271f38fdf5c4774784f0dae9650e') in 0.008986 seconds
+  Import took 0.011407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 1.prefab
+  artifactKey: Guid(efc132263fe71fa4b99b25bafe975bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 1.prefab using Guid(efc132263fe71fa4b99b25bafe975bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef85de9e0fb903ffb52e7dae87613178') in 0.010684 seconds
+  Import took 0.013522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 10.prefab
+  artifactKey: Guid(fa905338e480d674188b629c8557d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 10.prefab using Guid(fa905338e480d674188b629c8557d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e1342164ede92681a5274cf0fa7120') in 0.009466 seconds
+  Import took 0.011954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 4.prefab
+  artifactKey: Guid(edd8a88df49180242a4d2e99ee1656bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 4.prefab using Guid(edd8a88df49180242a4d2e99ee1656bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5e179d95a5da0d00e515fe79cf8549') in 0.009935 seconds
+  Import took 0.012344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 3.prefab
+  artifactKey: Guid(a9858c9799ef0694599bbadf9b5640f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 3.prefab using Guid(a9858c9799ef0694599bbadf9b5640f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6dff2ca9be18b870b87288c52fc62d') in 0.010170 seconds
+  Import took 0.012806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 3.prefab
+  artifactKey: Guid(f7307d15290ea09428c83105a1bc1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bowl 3.prefab using Guid(f7307d15290ea09428c83105a1bc1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304ffc9e9f11be7b0d7702d3e01ced36') in 0.010396 seconds
+  Import took 0.012972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 5.prefab
+  artifactKey: Guid(648c177a431dd9d4a8aa11eec558f8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Cup 5.prefab using Guid(648c177a431dd9d4a8aa11eec558f8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5098274452d9dfa26499fc0b1af00bd') in 0.010843 seconds
+  Import took 0.014054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 2.prefab
+  artifactKey: Guid(8d9c7dc12fc830143bba380c8011634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 2.prefab using Guid(8d9c7dc12fc830143bba380c8011634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e08fc5e00d0c02063c7566078dfcc75') in 0.011921 seconds
+  Import took 0.014383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 4 broken.prefab
+  artifactKey: Guid(9c492529589bb6140ab156fbe2e24664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 4 broken.prefab using Guid(9c492529589bb6140ab156fbe2e24664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cc3a0acacb0ae4af76891208c68c4a') in 0.009108 seconds
+  Import took 0.011550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 2.prefab
+  artifactKey: Guid(f28a94e0f71b46f48913e5fe6ff07c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 2.prefab using Guid(f28a94e0f71b46f48913e5fe6ff07c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f180f1b0ac036ed0e625b2976047500d') in 0.010199 seconds
+  Import took 0.012731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 4.prefab
+  artifactKey: Guid(93a7bb13c6ebbbb468756c40b8983435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Ladder 4.prefab using Guid(93a7bb13c6ebbbb468756c40b8983435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb758305920880d75c7c6c52cd6a6f1') in 0.009219 seconds
+  Import took 0.011633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 4.prefab
+  artifactKey: Guid(ec1d4e380df5faa41adc77648931a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 4.prefab using Guid(ec1d4e380df5faa41adc77648931a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6064324b20206f4e6a3fd9e9db39a0c6') in 0.009671 seconds
+  Import took 0.012965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 1 broken.prefab
+  artifactKey: Guid(e33ade9fa1348114f8d321f3d630d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 1 broken.prefab using Guid(e33ade9fa1348114f8d321f3d630d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa46e20db4c9f253d8a795acf9f6548') in 0.009589 seconds
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 1.prefab
+  artifactKey: Guid(69fc3c50ef458b442b6e161f8acfd5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Crate 1.prefab using Guid(69fc3c50ef458b442b6e161f8acfd5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540a3f0a1e9a428ce9ead5eb17317cca') in 0.009437 seconds
+  Import took 0.012088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 7.prefab
+  artifactKey: Guid(9266ceadb8731454cbac5162fbf4fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 7.prefab using Guid(9266ceadb8731454cbac5162fbf4fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f281857869f963f559175153dc8d836b') in 0.009600 seconds
+  Import took 0.012158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 5.prefab
+  artifactKey: Guid(346dc552975a02548a297dc4eb5fcac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Lantern 5.prefab using Guid(346dc552975a02548a297dc4eb5fcac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74227db43c68dd5b49261201d320379e') in 0.009417 seconds
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 8.prefab
+  artifactKey: Guid(d4ed76d766b24ae409d4bf0536b7d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Book 8.prefab using Guid(d4ed76d766b24ae409d4bf0536b7d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f9c9a9bfbd83d65494a4f643813f3') in 0.009141 seconds
+  Import took 0.011676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 3.prefab
+  artifactKey: Guid(391fc5d82e3245c408ec796aef02751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Carpet 3.prefab using Guid(391fc5d82e3245c408ec796aef02751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937f0b3f086722f28148390866cefa3b') in 0.010568 seconds
+  Import took 0.013162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 2.prefab
+  artifactKey: Guid(90900266af9af9f4980b30f834fcb71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 2.prefab using Guid(90900266af9af9f4980b30f834fcb71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15a2094b80dd9d3c3dc1fd261ddbdd') in 0.010387 seconds
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 3.prefab
+  artifactKey: Guid(0244ae62c25d43f47bda3cface48a689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bucket 3.prefab using Guid(0244ae62c25d43f47bda3cface48a689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9cb19d7e9855a26ea932023b288042') in 0.011561 seconds
+  Import took 0.014104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 2 broken.prefab
+  artifactKey: Guid(a9b525902b592fa43854af533f2283d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrel 2 broken.prefab using Guid(a9b525902b592fa43854af533f2283d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8ba809b54e9ba2d32af0270e43d3dd') in 0.009333 seconds
+  Import took 0.011853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Half a log.prefab
+  artifactKey: Guid(9c361116a0524424aacac18bb1aa09ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Half a log.prefab using Guid(9c361116a0524424aacac18bb1aa09ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb62317ea432b8d714b9a27606df859d') in 0.009123 seconds
+  Import took 0.011538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 1.prefab
+  artifactKey: Guid(32af8af420043734eabedd211d7ea72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Bench 1.prefab using Guid(32af8af420043734eabedd211d7ea72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6cb507f4dd53742c5d794a5dbebe6d') in 0.010689 seconds
+  Import took 0.013150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrels with drink.prefab
+  artifactKey: Guid(89659df61863be646a56ffb5e141decb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Barrels with drink.prefab using Guid(89659df61863be646a56ffb5e141decb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd953e0f17eff33df0ccacc91c3223ee') in 0.009372 seconds
+  Import took 0.011710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.890033 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 3.prefab
+  artifactKey: Guid(33466be92efc6a142bc1b1c6aac65ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 3.prefab using Guid(33466be92efc6a142bc1b1c6aac65ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8b234afd7bda929e416b3e7d0a8604') in 0.009042 seconds
+  Import took 0.011845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 8.prefab
+  artifactKey: Guid(e19e2f253bf2c4c46b48c20d06726057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 8.prefab using Guid(e19e2f253bf2c4c46b48c20d06726057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01afdec3ab6254bbd0d648ef01393295') in 0.009863 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 13.prefab
+  artifactKey: Guid(16dbe68819fd5274493a4758a4fcdcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 13.prefab using Guid(16dbe68819fd5274493a4758a4fcdcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d090d43be3daab11f982d948f61aee1') in 0.009358 seconds
+  Import took 0.011887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log Bench 2.prefab
+  artifactKey: Guid(0f11db8622f17ed43be2ea9459ef5bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log Bench 2.prefab using Guid(0f11db8622f17ed43be2ea9459ef5bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0388eeb9970bd91820466b0d8c9000fe') in 0.008647 seconds
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 3.prefab
+  artifactKey: Guid(9a38fe5f36201c440b4f840f2b9ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 3.prefab using Guid(9a38fe5f36201c440b4f840f2b9ca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2360effdd7c802a482877bf2ad03bb') in 0.009907 seconds
+  Import took 0.012449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 12.prefab
+  artifactKey: Guid(8e699a5a6a9c539419f4258d86604ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 12.prefab using Guid(8e699a5a6a9c539419f4258d86604ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d5e608a87bb2d8db073835fe9aa520') in 0.009045 seconds
+  Import took 0.011573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 1.prefab
+  artifactKey: Guid(9b2dcadbbf9d46a49a12a7b3a4efd540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 1.prefab using Guid(9b2dcadbbf9d46a49a12a7b3a4efd540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269f8ee7fbc1738db0e83f5b14bfa650') in 0.009731 seconds
+  Import took 0.012125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 4.prefab
+  artifactKey: Guid(f68a5597e3678a64baea6f4f2a0a7207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 4.prefab using Guid(f68a5597e3678a64baea6f4f2a0a7207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa288394b829cbfad42da84c1264e37b') in 0.010337 seconds
+  Import took 0.012794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 4.prefab
+  artifactKey: Guid(7286ac40133bf7b4b9c0f4a52a0f592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 4.prefab using Guid(7286ac40133bf7b4b9c0f4a52a0f592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ed136a42e77e142747dc90819e651d') in 0.009753 seconds
+  Import took 0.012129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 18.prefab
+  artifactKey: Guid(ba33a7d28e5132547b08baaa213628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 18.prefab using Guid(ba33a7d28e5132547b08baaa213628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a39ed590ebc4424a3637aa865cea6a') in 0.008997 seconds
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 11.prefab
+  artifactKey: Guid(b87a50509fb82d448b030c921aaa570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 11.prefab using Guid(b87a50509fb82d448b030c921aaa570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a9c208d51379f6795cf6a984ef8b8d') in 0.009503 seconds
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 9.prefab
+  artifactKey: Guid(0d227f7b1f3c2ff4990e501eba88c541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 9.prefab using Guid(0d227f7b1f3c2ff4990e501eba88c541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9f0e437abb1f3e746ed52e7fc67b5') in 0.008949 seconds
+  Import took 0.011282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log Bench.prefab
+  artifactKey: Guid(e70b1972384e94441a695a44ae410834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log Bench.prefab using Guid(e70b1972384e94441a695a44ae410834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b566201f2842f3f2801997fcf3e39993') in 0.009463 seconds
+  Import took 0.012214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 17.prefab
+  artifactKey: Guid(467fb5c513ea1994db6f0dc6640af8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 17.prefab using Guid(467fb5c513ea1994db6f0dc6640af8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19060a98630ca3e1e67e3e678acae7a7') in 0.009603 seconds
+  Import took 0.012085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 15.prefab
+  artifactKey: Guid(096cef4d642be3145a24f7f8de96944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 15.prefab using Guid(096cef4d642be3145a24f7f8de96944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862d02f02d3a14c789f13387ad94637a') in 0.011041 seconds
+  Import took 0.013429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 5.prefab
+  artifactKey: Guid(26762e634171b114a88ad08a3a0b53ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 5.prefab using Guid(26762e634171b114a88ad08a3a0b53ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99e150e7bde2e717dcb856ffca2e5f5') in 0.010261 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 6.prefab
+  artifactKey: Guid(2a700027a4ec0ee40b81f9c886d0ece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 6.prefab using Guid(2a700027a4ec0ee40b81f9c886d0ece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd1475b5e5db0a54286a136b7ae687d') in 0.010096 seconds
+  Import took 0.013002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 16.prefab
+  artifactKey: Guid(d061c70a940e3114fb396a84b4b8f7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 16.prefab using Guid(d061c70a940e3114fb396a84b4b8f7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3980012a303d397a8405933984f5aa2') in 0.008939 seconds
+  Import took 0.011855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 7.prefab
+  artifactKey: Guid(2371373a4721d4e429a8a45803e55d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 7.prefab using Guid(2371373a4721d4e429a8a45803e55d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d77095f5957b947586f8cf8ff0e115') in 0.009607 seconds
+  Import took 0.012121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 2.prefab
+  artifactKey: Guid(95e1b3482b2cad348a1fa374119adada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 2.prefab using Guid(95e1b3482b2cad348a1fa374119adada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6748cdf64d4c2d4ba4f270ddf5fc7f8') in 0.010499 seconds
+  Import took 0.012953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Spoon.prefab
+  artifactKey: Guid(0b8b233c079b0f14aa0a20a9bc1dbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Spoon.prefab using Guid(0b8b233c079b0f14aa0a20a9bc1dbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f595a529ece3ca614756e9d99180f26f') in 0.010323 seconds
+  Import took 0.012884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 3.prefab
+  artifactKey: Guid(714fd5d0e595c1d46b42ec34983f138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 3.prefab using Guid(714fd5d0e595c1d46b42ec34983f138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9bbb65dcea910f9af9d585c5ca6c5') in 0.009241 seconds
+  Import took 0.011750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 3.prefab
+  artifactKey: Guid(4d4c8a56c30e8ee45b4c51e2088d002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 3.prefab using Guid(4d4c8a56c30e8ee45b4c51e2088d002b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2455b13c87a11aebfd4071e8dfc04f') in 0.010371 seconds
+  Import took 0.012860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Quarter a log.prefab
+  artifactKey: Guid(0336eb77fd67dd649ab5ff4e00433511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Quarter a log.prefab using Guid(0336eb77fd67dd649ab5ff4e00433511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88edf5b185dc0a4c4290c9e9c8a8cdb') in 0.011440 seconds
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 2.prefab
+  artifactKey: Guid(ab62aeeea2070e14bbff921f9124cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 2.prefab using Guid(ab62aeeea2070e14bbff921f9124cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a9be164eab2124c085a68932e4eaed') in 0.008984 seconds
+  Import took 0.011386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 5.prefab
+  artifactKey: Guid(28f2addf26005e647a744865f751cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 5.prefab using Guid(28f2addf26005e647a744865f751cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c1696566dbbc12caae125974a3891') in 0.010804 seconds
+  Import took 0.013404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 1.prefab
+  artifactKey: Guid(62cefe736b6f8934b9c5b7614a526072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 1.prefab using Guid(62cefe736b6f8934b9c5b7614a526072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4018ef0b39057fdec66aadb578e24137') in 0.011030 seconds
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 5.prefab
+  artifactKey: Guid(2dd3b4ba5edeb194e99187b769cebff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 5.prefab using Guid(2dd3b4ba5edeb194e99187b769cebff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8940e46221fd483d44db5afe2de859') in 0.009506 seconds
+  Import took 0.011994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 7.prefab
+  artifactKey: Guid(7d1851c143d351848b832d223b8a3521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 7.prefab using Guid(7d1851c143d351848b832d223b8a3521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6c1955b4041e563ec093124635f189') in 0.010179 seconds
+  Import took 0.012626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 2.prefab
+  artifactKey: Guid(c469e2cbb8a77a643a57ec151373da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 2.prefab using Guid(c469e2cbb8a77a643a57ec151373da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84178455177927df1e6bbac43de77b5') in 0.008793 seconds
+  Import took 0.011407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 9.prefab
+  artifactKey: Guid(891e4f99bc6ec174e989c4502d1891e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 9.prefab using Guid(891e4f99bc6ec174e989c4502d1891e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05ad92261855455dcf4371df9860607') in 0.009641 seconds
+  Import took 0.012365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 10.prefab
+  artifactKey: Guid(6ee0226cbee361f43bcd503913997c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 10.prefab using Guid(6ee0226cbee361f43bcd503913997c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8953b9c120f959003d6bf04cd7d0ba53') in 0.009415 seconds
+  Import took 0.011920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 6.prefab
+  artifactKey: Guid(6ece13e5985fcc9439d71014d1837d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 6.prefab using Guid(6ece13e5985fcc9439d71014d1837d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7384f821da176775d3ca09bbb04ffd8') in 0.010779 seconds
+  Import took 0.013230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Stone Grave.prefab
+  artifactKey: Guid(b0598d970cebc1940bd613410318ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Stone Grave.prefab using Guid(b0598d970cebc1940bd613410318ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c445747672d0444a92adafde3961f66') in 0.010831 seconds
+  Import took 0.013453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 4.prefab
+  artifactKey: Guid(283ff463ceed9934ea2fa45233e6bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 4.prefab using Guid(283ff463ceed9934ea2fa45233e6bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f848352f4ebf1c33eb10b06d5932477') in 0.009507 seconds
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 4.prefab
+  artifactKey: Guid(ab1ea99f2b240b44998dcf1dcd0d433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Table 4.prefab using Guid(ab1ea99f2b240b44998dcf1dcd0d433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448712fd5ff3ff564c9c575b4f6a853f') in 0.009824 seconds
+  Import took 0.012362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 8.prefab
+  artifactKey: Guid(d6a04320a4f4094469c506534c11488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 8.prefab using Guid(d6a04320a4f4094469c506534c11488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7889a7cdb5e926ef919542d021efc68') in 0.011692 seconds
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 10.prefab
+  artifactKey: Guid(991da626fa2d15344b6dbac4a3e2e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 10.prefab using Guid(991da626fa2d15344b6dbac4a3e2e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd863c2297aabbd5be2737961e9bb9c1') in 0.009420 seconds
+  Import took 0.011838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 1.prefab
+  artifactKey: Guid(d18d8b5c02471134a920ae84bf149f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Wardrobe 1.prefab using Guid(d18d8b5c02471134a920ae84bf149f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b779ecf97ab30f5fe2e032f5d8ef9b6') in 0.011464 seconds
+  Import took 0.014000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 5.prefab
+  artifactKey: Guid(23d4a995c438e954e92e0664a8f8cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Potion 5.prefab using Guid(23d4a995c438e954e92e0664a8f8cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8836f4af9f9dc697445828dd3256bf5') in 0.010019 seconds
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 14.prefab
+  artifactKey: Guid(2dc60be175528224a822633bb9dea5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Objects/Log 14.prefab using Guid(2dc60be175528224a822633bb9dea5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b9e5034ceb2b7de7c05a06c31e9eb5') in 0.009249 seconds
+  Import took 0.011713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.029051 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts
+  artifactKey: Guid(ebc7688179142a840acb0fe71374a9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts using Guid(ebc7688179142a840acb0fe71374a9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc64ee63e4060f3357649fbffa46c56') in 0.005510 seconds
+  Import took 0.008231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040794 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 1.prefab
+  artifactKey: Guid(5cbc2fd0c9c647446b3b933628dd34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 1.prefab using Guid(5cbc2fd0c9c647446b3b933628dd34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c1bdc4f2fe76f5fa2f56971914073') in 0.010784 seconds
+  Import took 0.013625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 4.prefab
+  artifactKey: Guid(23e5f888faab973418658e23acd7c4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 4.prefab using Guid(23e5f888faab973418658e23acd7c4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd505dcb7fd5d1287c50bc64932fbd813') in 0.014347 seconds
+  Import took 0.016819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 1.prefab
+  artifactKey: Guid(47fca4736253de24b87236a0ed022149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 1.prefab using Guid(47fca4736253de24b87236a0ed022149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81323336bc172efdd990a75be82353f') in 0.010900 seconds
+  Import took 0.013743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 1.prefab
+  artifactKey: Guid(2f3b9abae49122d47a17439f41a141a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 1.prefab using Guid(2f3b9abae49122d47a17439f41a141a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09245de6a8b0c38dba507578452783a2') in 0.009568 seconds
+  Import took 0.012290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 2 .prefab
+  artifactKey: Guid(cb89e082777bf2840947314c0d709c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 2 .prefab using Guid(cb89e082777bf2840947314c0d709c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cd6621b1880606ced50a50d332855e') in 0.011299 seconds
+  Import took 0.014414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 1.prefab
+  artifactKey: Guid(73609064b16320a468c759b84be43d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 1.prefab using Guid(73609064b16320a468c759b84be43d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b897dfc1a64d6058a04ef3faeba00a') in 0.009771 seconds
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 2.prefab
+  artifactKey: Guid(83a210b59b532ce489e8d41655195aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 2.prefab using Guid(83a210b59b532ce489e8d41655195aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb7bf8b8fde683a99ed457421405855') in 0.011444 seconds
+  Import took 0.013969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 5.prefab
+  artifactKey: Guid(d0722714d0e63cf4fbf78d1059068f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 5.prefab using Guid(d0722714d0e63cf4fbf78d1059068f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b57d6feae135bf2b4332232f64d631e') in 0.009602 seconds
+  Import took 0.011987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 3.prefab
+  artifactKey: Guid(73299fff293f7c74d94e5b357375ec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 3.prefab using Guid(73299fff293f7c74d94e5b357375ec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b835f0eb9b98458f5f95b2b70d7c357a') in 0.010562 seconds
+  Import took 0.013631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 4.prefab
+  artifactKey: Guid(e0a13f15359ca5648846b111d6e74d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 4.prefab using Guid(e0a13f15359ca5648846b111d6e74d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d909154621797f2e094b00e5ee87c') in 0.011020 seconds
+  Import took 0.013668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 4.prefab
+  artifactKey: Guid(2b7b00772021b0d499805ecf95cf8a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 4.prefab using Guid(2b7b00772021b0d499805ecf95cf8a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ca2ca8916b212d5bb3ed44ec9cc71d') in 0.009142 seconds
+  Import took 0.011558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Stairs.prefab
+  artifactKey: Guid(94e5b87fbc0ec0745ac69112dbe2e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Stairs.prefab using Guid(94e5b87fbc0ec0745ac69112dbe2e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1a1c3bc5076b43efa3f0cbb03545d1') in 0.012096 seconds
+  Import took 0.015088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 4.prefab
+  artifactKey: Guid(e9af180c5892d10468257e3bd37935df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 4.prefab using Guid(e9af180c5892d10468257e3bd37935df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba27f652a5d9988007bccbe16d15535e') in 0.010750 seconds
+  Import took 0.013238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 3.prefab
+  artifactKey: Guid(efc3c34d885e5f24793482b2e7024623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 3.prefab using Guid(efc3c34d885e5f24793482b2e7024623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e219ee5bc8489892bccf3b1b64f6b8') in 0.011541 seconds
+  Import took 0.014294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 5.prefab
+  artifactKey: Guid(66af17c81a207b645a7ef5d5c9160870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 5.prefab using Guid(66af17c81a207b645a7ef5d5c9160870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa88b69c85657dfce2282035036b753') in 0.012027 seconds
+  Import took 0.014413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 2.prefab
+  artifactKey: Guid(0edcf9c2ab7cde9458ccfa48ed406ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Wall 2.prefab using Guid(0edcf9c2ab7cde9458ccfa48ed406ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7153dcffce492837a0a6f9adfe75ae') in 0.009408 seconds
+  Import took 0.011850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 6.prefab
+  artifactKey: Guid(d0a6faa05c1c8214aa053d07cb4e343e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Bridge 6.prefab using Guid(d0a6faa05c1c8214aa053d07cb4e343e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a7104017aaad68c926cd0921e861fd') in 0.014264 seconds
+  Import took 0.016666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 2.prefab
+  artifactKey: Guid(018d5723469232e4da8dcb22eaf19e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 2.prefab using Guid(018d5723469232e4da8dcb22eaf19e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2949c71a3d10fac43f3aa06361c997') in 0.011731 seconds
+  Import took 0.014184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 3.prefab
+  artifactKey: Guid(97aec58dc4e1c6c4f9258ba69d786006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Castle Tower 3.prefab using Guid(97aec58dc4e1c6c4f9258ba69d786006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709733abe30f5d5a97000a2f668a2032') in 0.012088 seconds
+  Import took 0.014530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 3.prefab
+  artifactKey: Guid(26dcdb4eb4822664c8eeb1121d70859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 3.prefab using Guid(26dcdb4eb4822664c8eeb1121d70859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e018ebac57aa77e2c62d6b79cc7156b') in 0.010006 seconds
+  Import took 0.012413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 5.prefab
+  artifactKey: Guid(622972c594f47c649b052b80492c59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Prefabs/Buildings Parts/Gate Wall 5.prefab using Guid(622972c594f47c649b052b80492c59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7f3ed2549db70a8f804809563986f1') in 0.011634 seconds
+  Import took 0.014589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.537822 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Textures/Color Pallet.png
+  artifactKey: Guid(da95fd055ddf13a4d9125d3707f3c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Textures/Color Pallet.png using Guid(da95fd055ddf13a4d9125d3707f3c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f507bd2184891709f449ed08e8909caf') in 0.061471 seconds
+  Import took 0.064581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Textures/Grass.png
+  artifactKey: Guid(bf663134b34452c46b5de3af0a4ba226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Textures/Grass.png using Guid(bf663134b34452c46b5de3af0a4ba226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3217949802ae25b2334a34f6aa1ba684') in 0.009736 seconds
+  Import took 0.012375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Textures/Color Pallet.png
+  artifactKey: Guid(da95fd055ddf13a4d9125d3707f3c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Textures/Color Pallet.png using Guid(da95fd055ddf13a4d9125d3707f3c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f507bd2184891709f449ed08e8909caf') in 0.008896 seconds
+  Import took 0.011179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Textures/Grass.png
+  artifactKey: Guid(bf663134b34452c46b5de3af0a4ba226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Textures/Grass.png using Guid(bf663134b34452c46b5de3af0a4ba226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3217949802ae25b2334a34f6aa1ba684') in 0.030158 seconds
+  Import took 0.032470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Textures/Pine Tree Branch.png
+  artifactKey: Guid(156aa8f4dc428ed40854ae13ed4a2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Textures/Pine Tree Branch.png using Guid(156aa8f4dc428ed40854ae13ed4a2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f412edffc624c2e3178ddcdd32f349c') in 0.011194 seconds
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.168832 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet EMM.mat
+  artifactKey: Guid(20785e16c49fd9643b4c2ba21eb57b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet EMM.mat using Guid(20785e16c49fd9643b4c2ba21eb57b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc7a801df62384ee95d1ca16bdf8f97') in 0.037694 seconds
+  Import took 0.040661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet.mat
+  artifactKey: Guid(846bdb2e2a1336b4fa6704d1e44bc933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet.mat using Guid(846bdb2e2a1336b4fa6704d1e44bc933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1327f86a956e7ef4922e1e1122e4f83') in 0.012886 seconds
+  Import took 0.015472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Metal.mat
+  artifactKey: Guid(4e87bdb1672ffba4eb68af21d9c7a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Metal.mat using Guid(4e87bdb1672ffba4eb68af21d9c7a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111af43e7a17297381e3c7dc800be408') in 0.032030 seconds
+  Import took 0.034691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Grass.mat
+  artifactKey: Guid(cf06eb89f66ae9c458afc1f38d1a93d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Grass.mat using Guid(cf06eb89f66ae9c458afc1f38d1a93d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680343f18a4b9ebbb92f80fdfca621a') in 0.162090 seconds
+  Import took 0.164749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet EMM.mat
+  artifactKey: Guid(20785e16c49fd9643b4c2ba21eb57b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet EMM.mat using Guid(20785e16c49fd9643b4c2ba21eb57b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc7a801df62384ee95d1ca16bdf8f97') in 0.013548 seconds
+  Import took 0.015884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Plane.mat
+  artifactKey: Guid(16889debd5c231347b2eec7376695285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Plane.mat using Guid(16889debd5c231347b2eec7376695285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6bf7861dd3a3457b2cadbdbd087049') in 0.010515 seconds
+  Import took 0.012771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet_Transparent.mat
+  artifactKey: Guid(a93cbfdef74ae654eaa50fdb98d3a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Color Pallet_Transparent.mat using Guid(a93cbfdef74ae654eaa50fdb98d3a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d18257a43f943d50d6289ef7cda8d84') in 0.023074 seconds
+  Import took 0.025501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Water.mat
+  artifactKey: Guid(c7035e1b3efbf9d46a9f649d6ad823a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Water.mat using Guid(c7035e1b3efbf9d46a9f649d6ad823a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001d3c54967da29ee8608078953ff861') in 0.028006 seconds
+  Import took 0.030317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Pine Tree Branch.mat
+  artifactKey: Guid(d3478ab1077373c41a26686f56392346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Pine Tree Branch.mat using Guid(d3478ab1077373c41a26686f56392346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dc2a88fc04e2be5ccf0bdad2cb1c4d') in 0.189662 seconds
+  Import took 0.192049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002419 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials/Pine Tree Branch.mat
+  artifactKey: Guid(d3478ab1077373c41a26686f56392346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials/Pine Tree Branch.mat using Guid(d3478ab1077373c41a26686f56392346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dc2a88fc04e2be5ccf0bdad2cb1c4d') in 0.006730 seconds
+  Import took 0.009162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.936830 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Materials
+  artifactKey: Guid(08b1bc7adf4041c47bcd025641e40f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Materials using Guid(08b1bc7adf4041c47bcd025641e40f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5c23175eb9d03233adb2d1a1b67488') in 0.007540 seconds
+  Import took 0.010777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607412 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes
+  artifactKey: Guid(706d0106d6517704b81090d76e00bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes using Guid(706d0106d6517704b81090d76e00bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e82fd96d3312c4b8cfd3db587fdf54f') in 0.005272 seconds
+  Import took 0.007994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069716 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Anvil.fbx
+  artifactKey: Guid(97b2e103b5480ad47ae920649071028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Anvil.fbx using Guid(97b2e103b5480ad47ae920649071028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e78d1755f5b85e347223f59e9f1e5e') in 0.049592 seconds
+  Import took 0.052467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Hammer.fbx
+  artifactKey: Guid(57b1bf1adc3eb894f8385dc0b2cac942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Hammer.fbx using Guid(57b1bf1adc3eb894f8385dc0b2cac942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b85adf5e5fb42521d17277e9d4b4ca2') in 0.010941 seconds
+  Import took 0.013269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Well.fbx
+  artifactKey: Guid(4b390930756fa254f8e1170950bf981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Well.fbx using Guid(4b390930756fa254f8e1170950bf981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b093a8e68f79d11452010408df9de0ba') in 0.019869 seconds
+  Import took 0.022221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 8.fbx
+  artifactKey: Guid(7b63abfe2b16bb046af0d16b3427f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 8.fbx using Guid(7b63abfe2b16bb046af0d16b3427f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822a5acc534cfd27f193abd8ae02ece8') in 0.025464 seconds
+  Import took 0.028089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Castle.fbx
+  artifactKey: Guid(dfb4fa96d5164464b8f0f2e679026d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Castle.fbx using Guid(dfb4fa96d5164464b8f0f2e679026d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569dc5a586b5563a802bfb97ddcffef2') in 0.139045 seconds
+  Import took 0.142696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Graves.fbx
+  artifactKey: Guid(b8d9bd3599f0efd4abc6ff94997da724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Graves.fbx using Guid(b8d9bd3599f0efd4abc6ff94997da724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3f239923c37b5da8620977abf7b31') in 0.020727 seconds
+  Import took 0.023381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mine.fbx
+  artifactKey: Guid(47b32f81d95922942bc1497361dfc314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mine.fbx using Guid(47b32f81d95922942bc1497361dfc314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35e18fe5b1baef20f8a0548c74dd4e9') in 0.020672 seconds
+  Import took 0.023178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Boat.fbx
+  artifactKey: Guid(b71d8b7508ee91b4684cea616a2999a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Boat.fbx using Guid(b71d8b7508ee91b4684cea616a2999a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a0ff9057b84aa4c3751bf3d957de3a') in 0.014395 seconds
+  Import took 0.017033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Terrains.fbx
+  artifactKey: Guid(950579ce7e332ec428653ac8d09dc7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Terrains.fbx using Guid(950579ce7e332ec428653ac8d09dc7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6138341e77ef474330f5d484eddb9b2a') in 0.099098 seconds
+  Import took 0.102352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass Hills.fbx
+  artifactKey: Guid(f66c97d9920e8ee44983105fa445352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass Hills.fbx using Guid(f66c97d9920e8ee44983105fa445352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a95e4b5508eb37f380ab019b33c86ce') in 0.039943 seconds
+  Import took 0.042427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cactuses.fbx
+  artifactKey: Guid(95e02d8cda688b347b602548db2274ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cactuses.fbx using Guid(95e02d8cda688b347b602548db2274ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58cf769e22bbce73479a1421adf513') in 0.033310 seconds
+  Import took 0.035777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Windmill.fbx
+  artifactKey: Guid(53e86c9582a59a44698cabd3256d6b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Windmill.fbx using Guid(53e86c9582a59a44698cabd3256d6b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba42619174c73ef61f969298668b2a67') in 0.020415 seconds
+  Import took 0.022812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dirt Cliffs.fbx
+  artifactKey: Guid(091e74fd3b38e374189ca540acabcc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dirt Cliffs.fbx using Guid(091e74fd3b38e374189ca540acabcc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f604db07999bb00fb3b78e4850c33bf') in 0.025949 seconds
+  Import took 0.028542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Machete.fbx
+  artifactKey: Guid(590e6aa6c4ef65748b17dbe64108a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Machete.fbx using Guid(590e6aa6c4ef65748b17dbe64108a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5786c0e034889130c1b0a01014c3c80f') in 0.013315 seconds
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 7.fbx
+  artifactKey: Guid(2694dfa03cbe76f408806ae806f36435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 7.fbx using Guid(2694dfa03cbe76f408806ae806f36435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02467e52cb79a432ddd7902a0039819e') in 0.024856 seconds
+  Import took 0.027729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 6.fbx
+  artifactKey: Guid(cb4014329a8dc834d8802e5dc6f17050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 6.fbx using Guid(cb4014329a8dc834d8802e5dc6f17050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051bfeeb0f1003d80ad6599121b46d07') in 0.022676 seconds
+  Import took 0.025172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Axe.fbx
+  artifactKey: Guid(813c8c03cd9a9a74ab3c67b4e15204e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Axe.fbx using Guid(813c8c03cd9a9a74ab3c67b4e15204e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a521dc2d69a2947995d1721981789c') in 0.011080 seconds
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Boards.fbx
+  artifactKey: Guid(a783f69e78e030b4cbfd771bdbecd63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Boards.fbx using Guid(a783f69e78e030b4cbfd771bdbecd63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677b9565dfd817875add7b30b3ea9473') in 0.068795 seconds
+  Import took 0.071506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bow.fbx
+  artifactKey: Guid(794481caac5950d4ab128ffb198d92fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bow.fbx using Guid(794481caac5950d4ab128ffb198d92fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f93989adb307b673ad4a24c8dfd5635') in 0.026447 seconds
+  Import took 0.029041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flags.fbx
+  artifactKey: Guid(942990001bbcc78408e059bae95ef55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flags.fbx using Guid(942990001bbcc78408e059bae95ef55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993e5eaae0646ad81bc0193faf103ec') in 0.052318 seconds
+  Import took 0.054894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cannon.fbx
+  artifactKey: Guid(846f816d14ff49146a8145932fd013b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cannon.fbx using Guid(846f816d14ff49146a8145932fd013b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc67094c64e192486a943d9653e25781') in 0.036135 seconds
+  Import took 0.038540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Sword.fbx
+  artifactKey: Guid(6f4bdab9bb1bc714382b98db46fa047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Sword.fbx using Guid(6f4bdab9bb1bc714382b98db46fa047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27350219ab5bb57c5c0883fd7fc0fb26') in 0.013667 seconds
+  Import took 0.016099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Potions.fbx
+  artifactKey: Guid(815ea27b293fc7f49b1f482a9c28b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Potions.fbx using Guid(815ea27b293fc7f49b1f482a9c28b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd93cacd0855efc6522c1b6390e501c') in 0.053944 seconds
+  Import took 0.056544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Towers.fbx
+  artifactKey: Guid(8ad8dd005b26d874e8ef91ef1c8e883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Towers.fbx using Guid(8ad8dd005b26d874e8ef91ef1c8e883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd290b195492909379e5e8efbc3ac568f') in 0.022929 seconds
+  Import took 0.025566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Signs.fbx
+  artifactKey: Guid(db882e8962e899e4586b937f323a41fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Signs.fbx using Guid(db882e8962e899e4586b937f323a41fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56041cb9fa3a707399473aeb59a12c4c') in 0.033327 seconds
+  Import took 0.035779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bushes.fbx
+  artifactKey: Guid(f4aba403e9a9fb74e89da704d3748328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bushes.fbx using Guid(f4aba403e9a9fb74e89da704d3748328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536ca598301b195721be3dd18cb2e524') in 0.052869 seconds
+  Import took 0.055345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cups.fbx
+  artifactKey: Guid(2fdabee1db27a9f41b733799b5d3f3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Cups.fbx using Guid(2fdabee1db27a9f41b733799b5d3f3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e04d9b5698f02077c8b37b4817596b6') in 0.031455 seconds
+  Import took 0.034000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Tables.fbx
+  artifactKey: Guid(7ff54997915b91944924048a9719ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Tables.fbx using Guid(7ff54997915b91944924048a9719ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a4599358c210eb43c1f32f87d12c84') in 0.030874 seconds
+  Import took 0.033299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Sawmill.fbx
+  artifactKey: Guid(9dc09cf478ea78a4d9ddc787ce5bf7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Sawmill.fbx using Guid(9dc09cf478ea78a4d9ddc787ce5bf7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca53347e3c70ad26b17b58198bf81b6') in 0.037811 seconds
+  Import took 0.040179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Pirate Ship.fbx
+  artifactKey: Guid(6d60b413682d14a4fba58160bb2d4be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Pirate Ship.fbx using Guid(6d60b413682d14a4fba58160bb2d4be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a762a1b279e54a64d9ef68426581293') in 0.025580 seconds
+  Import took 0.028136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Wardrobes.fbx
+  artifactKey: Guid(9fbde12b2b72036408011a294fe94981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Wardrobes.fbx using Guid(9fbde12b2b72036408011a294fe94981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cdd2ce8c6e0804759f3289a23198a6') in 0.037975 seconds
+  Import took 0.040427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Beds.fbx
+  artifactKey: Guid(e5fad94e3ad016d45b561d84f1c30e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Beds.fbx using Guid(e5fad94e3ad016d45b561d84f1c30e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a866fa40a2112f8f8ee1a8f84968d1') in 0.025137 seconds
+  Import took 0.027555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Buckets.fbx
+  artifactKey: Guid(32e7f0db4bd211c43909b99cdd2a807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Buckets.fbx using Guid(32e7f0db4bd211c43909b99cdd2a807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10de82770962052765343ad5515650e8') in 0.036594 seconds
+  Import took 0.039011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Roads.fbx
+  artifactKey: Guid(f6260836a8bde9f48afe39579b577e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Roads.fbx using Guid(f6260836a8bde9f48afe39579b577e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a1d9dd8ec1006fb3e85747357a3d8c') in 0.035341 seconds
+  Import took 0.038025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Trees.fbx
+  artifactKey: Guid(cc53ce7be5269c241a52d233a199a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Trees.fbx using Guid(cc53ce7be5269c241a52d233a199a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e062f70c3951b74bfca57065b2e32282') in 0.095305 seconds
+  Import took 0.098254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Furnaces.fbx
+  artifactKey: Guid(3b937e5c5a81b074c8b675c25695e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Furnaces.fbx using Guid(3b937e5c5a81b074c8b675c25695e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f37744f8da736ab7b232509a1ef258') in 0.022949 seconds
+  Import took 0.025942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Logs.fbx
+  artifactKey: Guid(5b91f2c7dd79b4945b166ed996d71ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Logs.fbx using Guid(5b91f2c7dd79b4945b166ed996d71ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7eae8d1e506490d3788cd13cc39fea') in 0.097440 seconds
+  Import took 0.099956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Carpets.fbx
+  artifactKey: Guid(97c8d4f573a9adb4e81781906f729586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Carpets.fbx using Guid(97c8d4f573a9adb4e81781906f729586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00823a8cf25f9f9b71449504f2dcfe77') in 0.057548 seconds
+  Import took 0.059997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flower Pots.fbx
+  artifactKey: Guid(9347228c6d19ae34ea0392bf30220598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flower Pots.fbx using Guid(9347228c6d19ae34ea0392bf30220598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5756b4a0bccd029a83b922f26c70fc') in 0.031577 seconds
+  Import took 0.033962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass.fbx
+  artifactKey: Guid(417fd66e8085e3647b346898244f2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass.fbx using Guid(417fd66e8085e3647b346898244f2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebb042f39a83c4fdc606430fe311db0') in 0.033945 seconds
+  Import took 0.036384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 5.fbx
+  artifactKey: Guid(d3784f51152df2043999e0b862abefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 5.fbx using Guid(d3784f51152df2043999e0b862abefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfc4d445250b4cc08063fa87cf962da') in 0.030730 seconds
+  Import took 0.033256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Crates.fbx
+  artifactKey: Guid(87f6c38e1dda38049984452a05c5cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Crates.fbx using Guid(87f6c38e1dda38049984452a05c5cc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc9f25378cbbc058a2979e9cd4f0614') in 0.049200 seconds
+  Import took 0.051708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 4.fbx
+  artifactKey: Guid(e08dcb2ea4704a74882fdceef2a74d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 4.fbx using Guid(e08dcb2ea4704a74882fdceef2a74d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9316a22ba9604d76c404fb32c57c2eca') in 0.067075 seconds
+  Import took 0.069576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Floor Bricks.fbx
+  artifactKey: Guid(2eb34d922cd11e84d9360254547f85ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Floor Bricks.fbx using Guid(2eb34d922cd11e84d9360254547f85ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de8cd1459ea83cb43a4a532fc2b27d5') in 0.046647 seconds
+  Import took 0.049149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 2.fbx
+  artifactKey: Guid(4b21e1e87fe7384478837882fa7e77b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 2.fbx using Guid(4b21e1e87fe7384478837882fa7e77b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6808aca91ab6825a75068138d76d6e') in 0.025025 seconds
+  Import took 0.027376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mushrooms.fbx
+  artifactKey: Guid(8c6099c53640fa3499e21b210f34d4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mushrooms.fbx using Guid(8c6099c53640fa3499e21b210f34d4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847da6f833332d33a0060d61f3d26324') in 0.031425 seconds
+  Import took 0.033828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Spear.fbx
+  artifactKey: Guid(3cc4850617588f246bc8e309c53b2b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Spear.fbx using Guid(3cc4850617588f246bc8e309c53b2b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0bf7896614bda37b096ff23618271c') in 0.011814 seconds
+  Import took 0.014589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Water.fbx
+  artifactKey: Guid(0c80300d1be5b0540a627276d40fc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Water.fbx using Guid(0c80300d1be5b0540a627276d40fc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f0572596cdd9db4a2ad6ddbebb102c') in 0.039844 seconds
+  Import took 0.042320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Chest.fbx
+  artifactKey: Guid(8b293906c962f914a88e24bedb9a0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Chest.fbx using Guid(8b293906c962f914a88e24bedb9a0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1ad16ddc3358b34038d5c5ff57b420') in 0.051666 seconds
+  Import took 0.054429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Ladders.fbx
+  artifactKey: Guid(dddb0a39fa815f744a7d8c27f6b5680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Ladders.fbx using Guid(dddb0a39fa815f744a7d8c27f6b5680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c68ceae9084a0946001ff05c138602a') in 0.031851 seconds
+  Import took 0.034891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Reeds.fbx
+  artifactKey: Guid(5f3cf2e6bf27d2243bdc0ac8ea915dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Reeds.fbx using Guid(5f3cf2e6bf27d2243bdc0ac8ea915dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcf2808b52cef496d49934c4207f830') in 0.030433 seconds
+  Import took 0.032967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Fences.fbx
+  artifactKey: Guid(f9561f3a477baaf49a3e064b3f59aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Fences.fbx using Guid(f9561f3a477baaf49a3e064b3f59aea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a3c6aec9b5025a9a72e3fa40dcb97a') in 0.104925 seconds
+  Import took 0.107536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Knife.fbx
+  artifactKey: Guid(9271762df700a5649881bbbbd3f99c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Knife.fbx using Guid(9271762df700a5649881bbbbd3f99c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8135c6b2fa29042f1d8dbced274e47a6') in 0.011490 seconds
+  Import took 0.013876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 9.fbx
+  artifactKey: Guid(3e226c37d2cc6d142940295d584d6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 9.fbx using Guid(3e226c37d2cc6d142940295d584d6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaecec770d318fb1f21ff0a78feb660d') in 0.023922 seconds
+  Import took 0.026421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dead Bushes.fbx
+  artifactKey: Guid(9384a4f30b081684d940a8e90e611451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dead Bushes.fbx using Guid(9384a4f30b081684d940a8e90e611451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4706bdafbc6481f2d43558c47dd14e11') in 0.024172 seconds
+  Import took 0.026814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Hatchet.fbx
+  artifactKey: Guid(8c600b2a83975744d821870170636ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Hatchet.fbx using Guid(8c600b2a83975744d821870170636ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3f3508eae958286ea858509ba40977') in 0.011317 seconds
+  Import took 0.013714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bridge.fbx
+  artifactKey: Guid(e989b987b4b036547bcd15063b40642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bridge.fbx using Guid(e989b987b4b036547bcd15063b40642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaee6aa4fbc438f518acd846bcd56dc') in 0.014931 seconds
+  Import took 0.017357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Lanterns.fbx
+  artifactKey: Guid(a5b5c77bf54511e42a2806836530781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Lanterns.fbx using Guid(a5b5c77bf54511e42a2806836530781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947e2af7f0a6776cfd6bdfac84b949ab') in 0.036164 seconds
+  Import took 0.038665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Stones.fbx
+  artifactKey: Guid(82de1f12eb23f9d4ab1dc321682749b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Stones.fbx using Guid(82de1f12eb23f9d4ab1dc321682749b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77fa4566f8d452719ac5b18e66a056f') in 0.095756 seconds
+  Import took 0.098374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Chairs.fbx
+  artifactKey: Guid(6b9be04aa45773348a1ce04a363468e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Chairs.fbx using Guid(6b9be04aa45773348a1ce04a363468e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bffa9eb46848ef1a99d0e9fd9c2522') in 0.028810 seconds
+  Import took 0.031267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Crafting Table.fbx
+  artifactKey: Guid(709fcda0cb9c66e448c72108d86f9e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Crafting Table.fbx using Guid(709fcda0cb9c66e448c72108d86f9e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9e5adacd042849e8b3e18807adc36b') in 0.023487 seconds
+  Import took 0.026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Scrolls.fbx
+  artifactKey: Guid(51de81354ef2d25439e86fc4da94a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Scrolls.fbx using Guid(51de81354ef2d25439e86fc4da94a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182249a14ed41bcd217b58e2ba8aa4a3') in 0.037904 seconds
+  Import took 0.040555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Pickaxe.fbx
+  artifactKey: Guid(be8fe5afb32d9f04d89007e60df40c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Pickaxe.fbx using Guid(be8fe5afb32d9f04d89007e60df40c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bcd61595217b77ea821c4160e11e0b') in 0.010983 seconds
+  Import took 0.013460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bowl with spoon and fork.fbx
+  artifactKey: Guid(2898fee049c94d34ca21729f7527720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Bowl with spoon and fork.fbx using Guid(2898fee049c94d34ca21729f7527720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234a2817119bc701a782f48da690ba81') in 0.047212 seconds
+  Import took 0.050011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 1.fbx
+  artifactKey: Guid(4317f444cd3f7694886d2822a036e279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 1.fbx using Guid(4317f444cd3f7694886d2822a036e279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ef11dfdb7164d88b5fa97f31b0006') in 0.038525 seconds
+  Import took 0.041297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Benches.fbx
+  artifactKey: Guid(79ed86a9a78e55d4a9bf29b1b2f5e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Benches.fbx using Guid(79ed86a9a78e55d4a9bf29b1b2f5e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c0dbfe08915210238e944dc075658') in 0.034513 seconds
+  Import took 0.036899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Shield.fbx
+  artifactKey: Guid(ca165922f5667a149a69dc103494ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Shield.fbx using Guid(ca165922f5667a149a69dc103494ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ed3dc7111d45805378691dc1babb5') in 0.012519 seconds
+  Import took 0.015125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mace.fbx
+  artifactKey: Guid(6bdf049cadfdebd4682d4360c4d96ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Mace.fbx using Guid(6bdf049cadfdebd4682d4360c4d96ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6651b141afa6a8b1e9b6a916e42d3be4') in 0.011842 seconds
+  Import took 0.014303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dock.fbx
+  artifactKey: Guid(a1e55b7dbe408f546bebe6f53f9ae30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Dock.fbx using Guid(a1e55b7dbe408f546bebe6f53f9ae30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e85cf40c5408f93d49e88d1539f7c2e') in 0.012335 seconds
+  Import took 0.014830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Books.fbx
+  artifactKey: Guid(89890915cfe7c064e9ba5cd9577015e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Books.fbx using Guid(89890915cfe7c064e9ba5cd9577015e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f07d3e3a0ffe8079602d3fdcbaca52') in 0.059630 seconds
+  Import took 0.062146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Wooden Cart.fbx
+  artifactKey: Guid(0f8dd99f8b3a5e84cbdaf1698b0d6b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Wooden Cart.fbx using Guid(0f8dd99f8b3a5e84cbdaf1698b0d6b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264593cc0cf37fd07478309397c4a289') in 0.035279 seconds
+  Import took 0.037845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass Patches.fbx
+  artifactKey: Guid(2a29fc1c2469e20469d66d62ed468bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Grass Patches.fbx using Guid(2a29fc1c2469e20469d66d62ed468bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f5601585f03699c97facae88da10e9') in 0.043630 seconds
+  Import took 0.046039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Barrels.fbx
+  artifactKey: Guid(e7e8fcb40a596634bb1e1e34ed4954d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Barrels.fbx using Guid(e7e8fcb40a596634bb1e1e34ed4954d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eb9aac04e89f2c9fa997d21b19a7cb') in 0.057213 seconds
+  Import took 0.059757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flowers.fbx
+  artifactKey: Guid(d8ecbb78d9d6639428b3ebb267dbd908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/Flowers.fbx using Guid(d8ecbb78d9d6639428b3ebb267dbd908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7c8d36a096447ab7a4a09c51a6f99d') in 0.038620 seconds
+  Import took 0.041110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 3.fbx
+  artifactKey: Guid(f84ed9a35a5284e40a78bd8b8dc2020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Low Poly Medieval Kit/Meshes/House 3.fbx using Guid(f84ed9a35a5284e40a78bd8b8dc2020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83315c5af57ec5b60a75d43b07aee8a6') in 0.032265 seconds
+  Import took 0.034769 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

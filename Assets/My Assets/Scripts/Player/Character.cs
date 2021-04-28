@@ -23,6 +23,10 @@ public class Character : MonoBehaviour
     public Transform projectileSpawnPoint;
     public Rigidbody projectilePrefab;
 
+    [Header("Raycast Settings")]
+    public Transform thingToLookFrom;
+    public float lookDistance;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -120,6 +124,27 @@ public class Character : MonoBehaviour
         {
             fire();
         }
+
+        RaycastHit hit;
+
+        if (thingToLookFrom)
+        {
+            //Debug.DrawRay(thingToLookFrom.transform.position, thingToLookFrom.transform.forward * lookDistance, Color.red);
+
+            if (Physics.Raycast(thingToLookFrom.position, thingToLookFrom.transform.forward, out hit, lookDistance))
+            {
+                //Debug.Log(name + " Raycast hit: " + hit.transform.name);
+            }
+        }
+        else
+        {
+            //Debug.DrawRay(transform.position, transform.forward * lookDistance, Color.green);
+
+            if (Physics.Raycast(transform.position, transform.transform.forward, out hit, lookDistance))
+            {
+                //Debug.Log(name + " Raycast hit: " + hit.transform.name);
+            }
+        }
     }
 
     void fire()
@@ -135,5 +160,27 @@ public class Character : MonoBehaviour
     void ResetStats()
     {
         speed = 0.0f;
+    }
+
+    //both objects need colliders, one or both need a Rigid body. 
+    //With character controller, add IsKinematic
+    //called once on first collision
+    private void OnCollisionEnter(Collision collision)
+    {
+        //Debug.Log(name + " : Oncollision Enter " + collision.gameObject.name);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //Debug.Log(name + " : OnTrigger Enter " + other.gameObject.name);
+    }
+
+    //called as long as the collision is happening
+    //game object needs a character controller component
+    //one of the game objects needs a collider
+    //behaves like oncollision stay
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+
     }
 }
