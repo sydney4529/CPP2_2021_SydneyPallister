@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class Ghost : MonoBehaviour
 {
     public Camera mainCamera;
     public Transform player;
     public float speed;
+    public Material invisible;
+    public Material visible;
 
     float MinDist = 60f;
 
@@ -36,6 +36,7 @@ public class Ghost : MonoBehaviour
             if(Vector3.Distance(transform.position, player.position) <= MinDist)
             {
                 gameObject.transform.rotation = Quaternion.Lerp(gameObject.transform.rotation, player.transform.rotation, 2.5f);
+                GetComponentInChildren<SkinnedMeshRenderer>().material = invisible;
             }
         }
         else
@@ -45,6 +46,7 @@ public class Ghost : MonoBehaviour
                 Vector3 pos = Vector3.MoveTowards(transform.position, player.position, speed * Time.fixedDeltaTime);
                 rb.MovePosition(pos);
                 transform.LookAt(player);
+                GetComponentInChildren<SkinnedMeshRenderer>().material = visible;
             }
             
         }

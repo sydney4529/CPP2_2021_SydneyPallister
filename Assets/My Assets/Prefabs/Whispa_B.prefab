@@ -100,6 +100,8 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   player: {fileID: 0}
   speed: 10
+  invisible: {fileID: 2100000, guid: 491bc740f5acc8049af083c96e968826, type: 2}
+  visible: {fileID: 2100000, guid: f7fc63bea42a94147bbf701ca253ec0e, type: 2}
 --- !u!1 &7595282796068760515
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +204,8 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   player: {fileID: 0}
   speed: 0
+  invisible: {fileID: 0}
+  visible: {fileID: 0}
 --- !u!1 &7595282796068760521
 GameObject:
   m_ObjectHideFlags: 0
