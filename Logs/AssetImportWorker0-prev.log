@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51559
+Successfully changed project path to: D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   27.21.14.6140
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001805 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 2.063800 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.517400 ms  DeleteObjects: 0.174300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Flower Dryad/Flower Dryad.prefab
+  artifactKey: Guid(2eb3f370fbc1c324abd3d85f109a0e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Flower Dryad/Flower Dryad.prefab using Guid(2eb3f370fbc1c324abd3d85f109a0e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1889769787687a603f341a17e8c701be') in 0.113484 seconds
+  Import took 0.117096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2851.275951 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Flower Dryad/Flower Dryad_Animations_Check.controller
+  artifactKey: Guid(5cd4cd8d42d03304b9fa82b39d8dbedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Flower Dryad/Flower Dryad_Animations_Check.controller using Guid(5cd4cd8d42d03304b9fa82b39d8dbedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e827d93851b9089478c2521425ed5786') in 0.011895 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.417892 seconds.
+  path: Assets/My Assets/Prefabs/Flower Dryad.prefab
+  artifactKey: Guid(5279c0ad6060eef4fa1614ccc0a75e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Prefabs/Flower Dryad.prefab using Guid(5279c0ad6060eef4fa1614ccc0a75e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad7531a3cc1aae44ab7342d622a2c7') in 0.025193 seconds
+  Import took 0.028667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005205 seconds.
+  path: Assets/My Assets/Prefabs/Flower Dryad.prefab
+  artifactKey: Guid(5279c0ad6060eef4fa1614ccc0a75e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Prefabs/Flower Dryad.prefab using Guid(5279c0ad6060eef4fa1614ccc0a75e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad7531a3cc1aae44ab7342d622a2c7') in 0.032424 seconds
+  Import took 0.035854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2714.399145 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b2186abd03d779326fd649689c222d') in 0.010650 seconds
+  Import took 0.013933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.863431 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6590c0505614b28dc6cb7f471367c9') in 0.006226 seconds
+  Import took 0.009141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.743111 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff32d6bbb4afedce4cd2db27edc33156') in 0.001732 seconds
+  Import took 0.004459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.773830 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0e436e0fb7375618d0466c9333444') in 0.001862 seconds
+  Import took 0.005013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0e436e0fb7375618d0466c9333444') in 0.001524 seconds
+  Import took 0.003539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.095105 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148f506a76649d46fc8794405bc1f7d2') in 0.002198 seconds
+  Import took 0.023480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412621 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f888db2ec16832b833b3564e4be822') in 0.001734 seconds
+  Import took 0.004668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.677024 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f63978fcc0acc98304fa2dc6b7883c5') in 0.001921 seconds
+  Import took 0.004852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988331 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b6443258fa22b454b2d9a5422d578b') in 0.001699 seconds
+  Import took 0.004565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.713405 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4ae11dc64a44eff7b6067346a03303') in 0.002024 seconds
+  Import took 0.004912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4ae11dc64a44eff7b6067346a03303') in 0.001499 seconds
+  Import took 0.004243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.549183 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ceff858fc35dcec49d73ba818354b2') in 0.001807 seconds
+  Import took 0.005117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.231457 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ae49574ec71a5ad82cfdba8253d363') in 0.002680 seconds
+  Import took 0.006875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.699165 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14978de8e8476aae782b7ba1ad6b366a') in 0.001875 seconds
+  Import took 0.155991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.324718 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4c5b951b8b47fae2044235a7c4391b') in 0.001850 seconds
+  Import took 0.004566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.697469 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e46bba0334a11d496b79862223bc5') in 0.001784 seconds
+  Import took 0.004508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.095168 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54809516ca07f3f4f0b2fa50ed23b67') in 0.001855 seconds
+  Import took 0.004649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039250 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54809516ca07f3f4f0b2fa50ed23b67') in 0.001883 seconds
+  Import took 0.005198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.021705 seconds.
+  path: Assets/My Assets/Scripts/Enemies/Dryad.cs
+  artifactKey: Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Scripts/Enemies/Dryad.cs using Guid(29a155035e297fd4b9f16955d07ddabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f98f21534f6a80e6fe4b273885ca0d') in 0.001577 seconds
+  Import took 0.004428 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 1.767500 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.367300 ms  DeleteObjects: 0.128100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

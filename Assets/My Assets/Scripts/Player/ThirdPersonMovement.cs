@@ -124,13 +124,14 @@ public class ThirdPersonMovement : MonoBehaviour
                 {
                     velocity.y = Mathf.Sqrt(2 * -2 * -29.43f);
                 }
-                isFiring = true;
+                //isFiring = true;
+                anim.SetTrigger("Fire");
             }
         }
 
         if (Input.GetButtonUp("Fire1"))
         {
-            isFiring = false;
+            //isFiring = false;
         }
 
 
@@ -159,6 +160,7 @@ public class ThirdPersonMovement : MonoBehaviour
         anim.SetBool("isMoving", isMoving);
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isFiring", isFiring);
+          
 
     }
 
