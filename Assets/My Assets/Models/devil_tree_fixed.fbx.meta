@@ -3,7 +3,12 @@ guid: b1d6cd444278e52439f9e7dcc96b9cac
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Devil_Tree_01
+    second: {fileID: 2100000, guid: 653b1c0ba8f2a4f4faa42e713a53c399, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

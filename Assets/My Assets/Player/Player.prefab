@@ -583,7 +583,7 @@ MonoBehaviour:
     m_Bits: 8
   speed: 20
   gravity: -39.24
-  jumpHeight: 6
+  jumpHeight: 8
   groundDistance: 0.4
   turnSmoothTime: 0.1
   grounded: 0
