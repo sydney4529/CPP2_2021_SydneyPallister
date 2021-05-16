@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 3909645785263264701}
   - component: {fileID: 306617793342036481}
   - component: {fileID: 5071773761325680539}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Castle Tower 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9018270115421158260
 Transform:

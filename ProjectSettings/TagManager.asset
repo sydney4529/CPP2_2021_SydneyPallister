@@ -11,11 +11,6 @@ TagManager:
   - PlayerProjectile
   - EnemyProjectile
   - LevelManager
-  - Water
-  - Vines
-  - Blockade
-  - PatrolNode
-  - Spawn
   layers:
   - Default
   - TransparentFX
@@ -28,8 +23,8 @@ TagManager:
   - Collectible
   - PlayerProjectile
   - EnemyProjectile
-  - PostProcessing
-  - CameraIgnore
+  - 
+  - 
   - 
   - 
   - 

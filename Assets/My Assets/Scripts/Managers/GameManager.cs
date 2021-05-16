@@ -12,9 +12,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
     public GameObject playerInstance;
+    GameObject levelManager;
 
     public static bool IsInputEnabled = true;
-    public static bool alive = true;
 
     public static GameManager instance
     {
@@ -50,9 +50,7 @@ public class GameManager : MonoBehaviour
 
             if(_health <= 0)
             {
-                //Destroy(playerInstance);
-                alive = false;
-                IsInputEnabled = false;
+                Destroy(playerInstance);
                 lives--;
             }
         }
@@ -71,10 +69,9 @@ public class GameManager : MonoBehaviour
                 if (SceneManager.GetActiveScene().name == "MainScene")
                 {
 
-                    //Debug.Log("Should have spawned");
-                    playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
-                    //Respawn();
-                    
+                    Debug.Log("Should have spawned");       
+                    Respawn();
+                    health = 3;
 
                 }
             }
@@ -101,6 +98,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        levelManager = GameObject.FindGameObjectWithTag("LevelManager");
 
         if (instance)
             Destroy(gameObject);
@@ -109,7 +107,6 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             instance = this;
         }
-
     }
 
     // Update is called once per frame
@@ -178,25 +175,14 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "MainScene")
         {
-            Destroy(playerInstance);
             //playerInstance.transform.position = currentLevel.spawnLocation.position;
-            health = 3;
-            alive = true;
-            IsInputEnabled = true;
-            SpawnPlayer(currentLevel.spawnLocation);
-            
+            SpawnPlayer(levelManager.GetComponent<LevelManager>().spawnLocation);
         }
     }
 
     public void StartGame()
     {
-        SceneManager.LoadScene("MainScene");
-    }
 
-    public void GameOver()
-    {
-        SceneManager.LoadScene("GameOver");
-        Cursor.lockState = CursorLockMode.None;
     }
 
     public void QuitGame()
@@ -210,9 +196,7 @@ public class GameManager : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
-        IsInputEnabled = true;
-        alive = true;
+
     }
 
 }

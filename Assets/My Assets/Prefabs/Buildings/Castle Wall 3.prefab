@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 5459437703105947780}
   - component: {fileID: 2655468966129035944}
   - component: {fileID: 3756126419530022559}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Castle Wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3642552026417360464
 Transform:

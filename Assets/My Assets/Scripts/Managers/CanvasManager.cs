@@ -35,9 +35,7 @@ public class CanvasManager : MonoBehaviour
     [Header("Checkbox")]
     public Toggle muteToggle;
 
-    [Header("Health Settings")]
     public Image[] hearts;
-    public int numOfHearts;
     public Sprite heartFull;
     public Sprite heartEmpty;
 
@@ -85,31 +83,8 @@ public class CanvasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (pauseMenu)
         {
-            for (int i = 0; i < hearts.Length; i++)
-            {
-
-                if(i < GameManager.instance.health)
-                {
-                    hearts[i].sprite = heartFull;
-                }
-                else
-                {
-                    hearts[i].sprite = heartEmpty;
-                }
-
-                if(i < numOfHearts)
-                {
-                    hearts[i].enabled = true;
-                }
-                else
-                {
-                    hearts[i].enabled = false;
-                }
-            }
-
             if (Input.GetKeyDown(KeyCode.P))
             {
                 //pauseMenu.SetActive(!pauseMenu.activeSelf);

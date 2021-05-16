@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class LevelEnd : MonoBehaviour
 {
-    public ParticleSystem endPortal;
-    public GameObject endBox;
+    public GameObject endPortal;
 
     // Start is called before the first frame update
     void Start()
@@ -23,9 +22,8 @@ public class LevelEnd : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            endPortal.Play();
-            endBox.SetActive(true);
-            //Destroy(gameObject);
+            endPortal.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }

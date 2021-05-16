@@ -11,8 +11,7 @@ public class Collectible : MonoBehaviour
     {
         POWERUP,
         COIN,
-        GEM1,
-        GEM2,
+        GEM,
         LIFE,
         END
     }
@@ -41,34 +40,30 @@ public class Collectible : MonoBehaviour
             isActive = false;
             Destroy(gameObject);
             //input do something code here
-            switch (currentCollectible)
-            {
+            //switch (currentCollectible)
+            //{
 
-                case CollectibleType.POWERUP:
+            //    case CollectibleType.POWERUP:
 
-                    break;
+            //        break;
 
-                case CollectibleType.LIFE:
+            //    case CollectibleType.LIFE:
 
-                    break;
+            //        break;
 
-                case CollectibleType.GEM1:
+            //    case CollectibleType.GEM:
 
-                    break;
+            //        break;
 
-                case CollectibleType.GEM2:
+            //    case CollectibleType.COIN:
 
-                    break;
+            //        break;
 
-                case CollectibleType.COIN:
+            //    case CollectibleType.END:
 
-                    break;
+            //        break;
 
-                case CollectibleType.END:
-
-                    break;
-
-            }
+            //}
         }
     }
 }
