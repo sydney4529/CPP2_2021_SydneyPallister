@@ -48,6 +48,8 @@ public class ThirdPersonMovement : MonoBehaviour
             Debug.Log("Look distance not set on " + name + " defaulting to " + +lookDistance);
 
         }
+
+        //Debug.Log(transform.localScale);
     }
 
     // Update is called once per frame
@@ -67,7 +69,7 @@ public class ThirdPersonMovement : MonoBehaviour
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         //moves the player based on the direction of the camera
-        if(direction.magnitude >= 0.1f)
+        if(direction.magnitude >= 0.1f && GameManager.IsInputEnabled == true)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
@@ -105,14 +107,22 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && isMoving == true)
         {
-            speed = 35f;
-            isRunning = true;
+            if(speed > 10)
+            {
+                speed = 35f;
+                isRunning = true;
+            }
+       
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) || isMoving == false)
         {
-            speed = 20f;
+            if(speed > 10)
+            {
+                speed = 20f;
+            }
             isRunning = false;
+
         }
 
         if(Input.GetButtonDown("Fire1"))

@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour
         GameManager.instance.lives = startingLives;
         GameManager.instance.health = startingHealth;
         GameManager.instance.SpawnPlayer(spawnLocation);
+        GameManager.instance.currentLevel = gameObject.GetComponent<LevelManager>();
     }
 
     // Update is called once per frame

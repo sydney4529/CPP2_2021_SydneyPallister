@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 8409135215580428488}
   - component: {fileID: 8218404152945082237}
   - component: {fileID: 7069716278497971213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Castle Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5163659942433099367
 Transform:
