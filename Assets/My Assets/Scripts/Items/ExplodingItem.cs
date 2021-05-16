@@ -17,8 +17,10 @@ public class ExplodingItem : MonoBehaviour
             Rigidbody rb = hit.GetComponent<Rigidbody>();
 
             if (rb != null)
-                rb.AddExplosionForce(power, explosionPos, radius, 3.0F);
+                rb.AddExplosionForce(power, explosionPos, radius, 2.0F);
         }
+
+        StartCoroutine(Wait());
     }
 
     // Update is called once per frame
@@ -29,6 +31,13 @@ public class ExplodingItem : MonoBehaviour
 
     private void Awake()
     {
+
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(5);
+        Destroy(gameObject);
 
     }
 }

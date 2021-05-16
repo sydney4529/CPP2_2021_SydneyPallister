@@ -15,11 +15,11 @@ D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58455
+55160
 Successfully changed project path to: D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
 D:/TSF Files/Semester 3/Cross Platform Programming 2/CPP2_2021_SydneyPallister
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -37,76 +37,24 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001831 seconds.
+Registered in 0.001813 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.868 seconds
+- Completed reload, in  0.935 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000771 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
-Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1576 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2053.
-Total: 2.360300 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.749500 ms  DeleteObjects: 0.222500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Asset Store/LowPolyPortal/Materials/PortalStones.mat
-  artifactKey: Guid(8f7636f21468d3c45bfaed3d3db58844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/LowPolyPortal/Materials/PortalStones.mat using Guid(8f7636f21468d3c45bfaed3d3db58844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c358c77c4c8d2ffc3fd5c243ef93fd') in 0.085519 seconds
-  Import took 0.088371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Asset Store/LowPolyPortal/Materials/Stones.mat
-  artifactKey: Guid(b990048a95990b24391a6b1eb32e35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/LowPolyPortal/Materials/Stones.mat using Guid(b990048a95990b24391a6b1eb32e35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f508c208fa3a32115c044d882db8b2') in 0.029876 seconds
-  Import took 0.033145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Asset Store/LowPolyPortal/Materials/Portal.mat
-  artifactKey: Guid(6ea1177b5ca5b1e4db941d9b8327c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store/LowPolyPortal/Materials/Portal.mat using Guid(6ea1177b5ca5b1e4db941d9b8327c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d79c208516b75c522dffe013fece0c1') in 0.098663 seconds
-  Import took 0.101202 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001121 seconds.
+Registered in 0.000440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -116,123 +64,1799 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.693 seconds
 Platform modules already initialized, skipping
-Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+========================================================================
+Worker process is ready to serve import requests
 Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.8 MB.
+System memory in use after: 104.9 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 2.158100 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.720400 ms  DeleteObjects: 0.131800 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 1.817000 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.417800 ms  DeleteObjects: 0.151600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Strawbery.prefab
+  artifactKey: Guid(531692559fdde2747af9fcbae4a0d041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Strawbery.prefab using Guid(531692559fdde2747af9fcbae4a0d041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d51ff1afd901904e0fbcc5a5d56f8bf') in 0.310528 seconds
+  Import took 0.313636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Darkness.prefab
+  artifactKey: Guid(41e04faa14fb7a34e8b16750ec910fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Darkness.prefab using Guid(41e04faa14fb7a34e8b16750ec910fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b7aa2187ba31458ccb215f2c21738b') in 0.087403 seconds
+  Import took 0.130746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Honey.prefab
+  artifactKey: Guid(f4bf7cf600e86114db7d7b20ccdd2c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Beez/Beez_Honey.prefab using Guid(f4bf7cf600e86114db7d7b20ccdd2c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7768d9b85aff7b02a8262eee3eef5ff0') in 0.085327 seconds
+  Import took 0.088353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.261423 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Attack.fbx
+  artifactKey: Guid(e45f556cec664e74daed8e0ebae61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Attack.fbx using Guid(e45f556cec664e74daed8e0ebae61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03fbb678e0e0cc8bf5bf373c3887d8') in 0.034212 seconds
+  Import took 0.066722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Move.fbx
+  artifactKey: Guid(578da6188cc0fab4eb04cf316ba8556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Move.fbx using Guid(578da6188cc0fab4eb04cf316ba8556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426dbb741e26023a3adde3dfc56f672a') in 0.006971 seconds
+  Import took 0.009741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Attack.fbx
+  artifactKey: Guid(e45f556cec664e74daed8e0ebae61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Attack.fbx using Guid(e45f556cec664e74daed8e0ebae61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03fbb678e0e0cc8bf5bf373c3887d8') in 0.003194 seconds
+  Import took 0.005186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Damage.fbx
+  artifactKey: Guid(39ba79f1e8a9e3542a1a05958900e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Damage.fbx using Guid(39ba79f1e8a9e3542a1a05958900e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08c6f3f67066c83989098842ddcac61') in 0.006956 seconds
+  Import took 0.009420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Die.fbx
+  artifactKey: Guid(e687b54cf1503e448b2447d53972576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Die.fbx using Guid(e687b54cf1503e448b2447d53972576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04b200709d164c27c9c693efae997a') in 0.006735 seconds
+  Import took 0.009219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Idle.fbx
+  artifactKey: Guid(2dbb4a8e66c45ed4e94dad12ffe07b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Idle.fbx using Guid(2dbb4a8e66c45ed4e94dad12ffe07b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37be3e0419d2a45deb2259f6eb0acc98') in 0.006723 seconds
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024994 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Die.fbx
+  artifactKey: Guid(e687b54cf1503e448b2447d53972576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Anim_Beez_Die.fbx using Guid(e687b54cf1503e448b2447d53972576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04b200709d164c27c9c693efae997a') in 0.003681 seconds
+  Import took 0.006547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075242 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Beez_Animations_Check.controller
+  artifactKey: Guid(515e9d257111b0645ba5d51e93806f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Beez/Beez_Animations_Check.controller using Guid(515e9d257111b0645ba5d51e93806f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416ba7e02249eb9f00beafbdcdddac89') in 0.010201 seconds
+  Import took 0.013378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.623332 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Attack.fbx
+  artifactKey: Guid(8223df2bb62b5664a820357a254eca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Attack.fbx using Guid(8223df2bb62b5664a820357a254eca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd450e1fba0bf4a4f9efd0e85c4500921') in 0.198261 seconds
+  Import took 0.201466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Damage.fbx
+  artifactKey: Guid(5144e478dc0502a4f960144d89a00411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Damage.fbx using Guid(5144e478dc0502a4f960144d89a00411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d3e6ad9c124a98dcd39433c86c63fe') in 0.165961 seconds
+  Import took 0.168715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Idle.fbx
+  artifactKey: Guid(1e8bf6ff40c3c5e47b7fd500e9e9eab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Idle.fbx using Guid(1e8bf6ff40c3c5e47b7fd500e9e9eab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a90da8e8fac390dbfeed251ed70757') in 0.068946 seconds
+  Import took 0.071325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Move.fbx
+  artifactKey: Guid(e862cbffd0b2377428c81502e59ffb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Move.fbx using Guid(e862cbffd0b2377428c81502e59ffb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d76ac73695350803e7704243a35f102') in 0.090587 seconds
+  Import took 0.093299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Die.fbx
+  artifactKey: Guid(503d4241660400a4db62010736ae3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Animations/Devil Tree/Anim_Deviltree_Die.fbx using Guid(503d4241660400a4db62010736ae3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93689def1a3db24d6f6eb5dfe74ec753') in 0.088433 seconds
+  Import took 0.090755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.401110 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Geezer.prefab
+  artifactKey: Guid(584196b428be0db4d9d6105c2b1697ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Geezer.prefab using Guid(584196b428be0db4d9d6105c2b1697ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23054bdc17a748c5a34ea7c7240181dd') in 0.287654 seconds
+  Import took 0.291048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Slave.prefab
+  artifactKey: Guid(2527dadde287d954d97ab4c0badb5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Slave.prefab using Guid(2527dadde287d954d97ab4c0badb5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16d14ec392700aa5a27b973f37df36a') in 0.079942 seconds
+  Import took 0.083060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Shadow.prefab
+  artifactKey: Guid(e6cd497993814b742be4b0e13032516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Shadow.prefab using Guid(e6cd497993814b742be4b0e13032516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3662dceae77bb377ccc6bc99d2f682a') in 0.051655 seconds
+  Import took 0.054510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Kid.prefab
+  artifactKey: Guid(6fa9812c74f0ce344948054395d4878b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Kid.prefab using Guid(6fa9812c74f0ce344948054395d4878b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df5bef39cb66b2bf708a5c6cb323ad1') in 0.055876 seconds
+  Import took 0.058768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Queen.prefab
+  artifactKey: Guid(923e4b497ff08d748857ad558b1741e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Planta/Planta_Queen.prefab using Guid(923e4b497ff08d748857ad558b1741e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8523539ca83a5ea2924ce3bc23b999c6') in 0.052364 seconds
+  Import took 0.055125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.862088 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Brown.prefab
+  artifactKey: Guid(603596c2e740bf64493e6eb5a86c32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Brown.prefab using Guid(603596c2e740bf64493e6eb5a86c32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aefeb2d1060ddd1e076a88ed1b84de5') in 0.258498 seconds
+  Import took 0.262082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_Brown.prefab
+  artifactKey: Guid(96f9aaa8dfc8ed049bb01e7e67e0f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_Brown.prefab using Guid(96f9aaa8dfc8ed049bb01e7e67e0f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a23854990cdbfdd6b5661280c7c776') in 0.037992 seconds
+  Import took 0.041119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_Green.prefab
+  artifactKey: Guid(f70820e61f104d645add264fb01356dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_Green.prefab using Guid(f70820e61f104d645add264fb01356dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937a0973e47b7b291dd3363bc580a915') in 0.098501 seconds
+  Import took 0.101554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_White.prefab
+  artifactKey: Guid(bcc941f351eeda242a9195076abb71ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_White.prefab using Guid(bcc941f351eeda242a9195076abb71ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7784c3aeaee18ffd3ad96ecb6395d8a0') in 0.082467 seconds
+  Import took 0.085689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_White.prefab
+  artifactKey: Guid(68d7b79f706834246a6538ec21c092da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_White.prefab using Guid(68d7b79f706834246a6538ec21c092da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0c7cbd79747d31c390312d28ad1e05') in 0.014768 seconds
+  Import took 0.017554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_White.prefab
+  artifactKey: Guid(55395530013a1cb45b3f3eb19952420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_White.prefab using Guid(55395530013a1cb45b3f3eb19952420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ab450a5c9ada126c246efae00bf715') in 0.014044 seconds
+  Import took 0.016587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_Brown.prefab
+  artifactKey: Guid(3ffa55fa945cd1e439c59f5b4d32a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Young_Brown.prefab using Guid(3ffa55fa945cd1e439c59f5b4d32a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27908c6439739f2226d9a8041d62428') in 0.017871 seconds
+  Import took 0.020772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_Green.prefab
+  artifactKey: Guid(f9e7274d1a640384a8a1f61fea555dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Queen_Green.prefab using Guid(f9e7274d1a640384a8a1f61fea555dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cedf04a6ad42cea3cfff18616e7866b') in 0.017967 seconds
+  Import took 0.020839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Green.prefab
+  artifactKey: Guid(9373531d74e23974088a50c7511fe22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Rabby/Rabby_Green.prefab using Guid(9373531d74e23974088a50c7511fe22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0383945b6ca29aa059a3c37d2b488ab3') in 0.019300 seconds
+  Import took 0.022273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.102937 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Bitter.prefab
+  artifactKey: Guid(e4657810d0448c94c885bf25ccf27363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Bitter.prefab using Guid(e4657810d0448c94c885bf25ccf27363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40514075d08c9d637a816c0e9f0433c0') in 0.206042 seconds
+  Import took 0.209318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Sweet.prefab
+  artifactKey: Guid(e69dd2af53627174a95874b916927ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Sweet.prefab using Guid(e69dd2af53627174a95874b916927ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992741fe398916554679ab05a9d978cd') in 0.058480 seconds
+  Import took 0.061739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Sour.prefab
+  artifactKey: Guid(c9eeb8e60b9ca1c4b8ff0674f880e7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Forest/Prefab/Turnipa/Turnipa_Sour.prefab using Guid(c9eeb8e60b9ca1c4b8ff0674f880e7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a20612c7e61fa35b24d1663be92781b') in 0.060452 seconds
+  Import took 0.063286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.899394 seconds.
+  path: Assets/Asset Store/Suriyun/UI/GrassPlan.png
+  artifactKey: Guid(d75c366b2f528884c9b7883371155969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/UI/GrassPlan.png using Guid(d75c366b2f528884c9b7883371155969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e22c02b93309af2f7b922827a19d4f') in 0.059987 seconds
+  Import took 0.063013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Suriyun/UI/leaf_particle.png
+  artifactKey: Guid(3487e354c490f544da9ef558c2fdf12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/UI/leaf_particle.png using Guid(3487e354c490f544da9ef558c2fdf12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c2d28979fdaebd711abd665c001fc') in 0.088140 seconds
+  Import took 0.090870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Store/Suriyun/UI/GrassPlan.png
+  artifactKey: Guid(d75c366b2f528884c9b7883371155969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/UI/GrassPlan.png using Guid(d75c366b2f528884c9b7883371155969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e22c02b93309af2f7b922827a19d4f') in 0.007184 seconds
+  Import took 0.009758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/Suriyun/UI/leaf_particle.png
+  artifactKey: Guid(3487e354c490f544da9ef558c2fdf12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/UI/leaf_particle.png using Guid(3487e354c490f544da9ef558c2fdf12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c2d28979fdaebd711abd665c001fc') in 0.004218 seconds
+  Import took 0.006630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Store/Suriyun/UI/Snowflake.png
+  artifactKey: Guid(7a8da37a2e0936c49b8b88e3d66f7b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/UI/Snowflake.png using Guid(7a8da37a2e0936c49b8b88e3d66f7b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075cb7d1ad801866a878f6573f40cc99') in 0.120628 seconds
+  Import took 0.122916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.731353 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_A.prefab
+  artifactKey: Guid(a4fea1f31357f9c4aa74cebdc6102596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_A.prefab using Guid(a4fea1f31357f9c4aa74cebdc6102596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e66ab05d05ea43e3aee69c9081afd42') in 0.299594 seconds
+  Import took 0.302793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_C.prefab
+  artifactKey: Guid(d7acd22b112fa554ea5d1a6e969544db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_C.prefab using Guid(d7acd22b112fa554ea5d1a6e969544db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e1723479cc643f0676720fd22e9e8e') in 0.104356 seconds
+  Import took 0.107240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_B.prefab
+  artifactKey: Guid(d6c75f35d2bea094dace52bc1bd7ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_B.prefab using Guid(d6c75f35d2bea094dace52bc1bd7ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea28fc843e08fe0ffe62337316369896') in 0.113359 seconds
+  Import took 0.116415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_D.prefab
+  artifactKey: Guid(4704dd0f53433f64f9b3ed60415f94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Batty/Batty_D.prefab using Guid(4704dd0f53433f64f9b3ed60415f94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246bfb86124db8912599ef1455a6f567') in 0.070610 seconds
+  Import took 0.073667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423948 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_A.prefab
+  artifactKey: Guid(ddfcbd57e118f2e48b63310f08d5345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_A.prefab using Guid(ddfcbd57e118f2e48b63310f08d5345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a71f998f0d47d2ea7dcfe1095a0da7') in 0.262359 seconds
+  Import took 0.265504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_A.prefab
+  artifactKey: Guid(d135ba9e748d62a4b90fd169d2bd2bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_A.prefab using Guid(d135ba9e748d62a4b90fd169d2bd2bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baca12f8860603ec30173faae43caed4') in 0.021928 seconds
+  Import took 0.024871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_C.prefab
+  artifactKey: Guid(da4991f4d3073b845925318cbcaf43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_C.prefab using Guid(da4991f4d3073b845925318cbcaf43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5dc42c01d36522a04a85b7cb780cf1') in 0.097195 seconds
+  Import took 0.100409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_B.prefab
+  artifactKey: Guid(9d4927f2c62774a4393898bb92f99a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_King_B.prefab using Guid(9d4927f2c62774a4393898bb92f99a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60923eae01b05274df9ec589862eb32b') in 0.070677 seconds
+  Import took 0.073445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_C.prefab
+  artifactKey: Guid(58584043d7f94be41af840eec35a3d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_C.prefab using Guid(58584043d7f94be41af840eec35a3d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266f23a7ad2e76979079db5148f4b53a') in 0.015498 seconds
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_B.prefab
+  artifactKey: Guid(62450c967f64a774a85b638221f1d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Cute_Spider/Cute_Spider_B.prefab using Guid(62450c967f64a774a85b638221f1d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe38afe7db25db285cb2700316c0c51') in 0.020109 seconds
+  Import took 0.023419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767699 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Lusif/Lusif.prefab
+  artifactKey: Guid(5c15e549927e2c341acfa58d6d6e829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Lusif/Lusif.prefab using Guid(5c15e549927e2c341acfa58d6d6e829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928ca8aebe39bea76501cdb2b02f4d73') in 0.249325 seconds
+  Import took 0.253294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Lusif/Lusif_B.prefab
+  artifactKey: Guid(bc7df1884e932da4f971be8baff7cabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Lusif/Lusif_B.prefab using Guid(bc7df1884e932da4f971be8baff7cabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c28a8a99bfdf96ab0fa85c1126d3898') in 0.209017 seconds
+  Import took 0.212279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.459995 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_01.prefab
+  artifactKey: Guid(26bc2984159d1de42bb4b27680704b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_01.prefab using Guid(26bc2984159d1de42bb4b27680704b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a044b4366a81e85c90f09d72f51bab82') in 0.159676 seconds
+  Import took 0.162886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_03.prefab
+  artifactKey: Guid(7be2b5b4cc61026408b6811b60024183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_03.prefab using Guid(7be2b5b4cc61026408b6811b60024183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc997d1e3f153a936aff8fa9d36b21') in 0.097687 seconds
+  Import took 0.100699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_02.prefab
+  artifactKey: Guid(b8749443fa53a8341a7107cfd3c2e95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Suriyun/Monster Pack Darkness/Prefab/Prizon/Prizon_02.prefab using Guid(b8749443fa53a8341a7107cfd3c2e95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9407e86f8b3627af3781ce441cac7') in 0.076507 seconds
+  Import took 0.079654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.916877 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Cute Butterfly.fbx
+  artifactKey: Guid(cf4f02b74fd8ed041a519476d055b1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Cute Butterfly.fbx using Guid(cf4f02b74fd8ed041a519476d055b1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c149fc565f818bb3bc19db6c50e04c') in 0.038647 seconds
+  Import took 0.041798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Tampora_A.fbx
+  artifactKey: Guid(7f4bf2e89359cdf4ba35a9fc50b96bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Tampora_A.fbx using Guid(7f4bf2e89359cdf4ba35a9fc50b96bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be918907042f2aa426a2f06527c97860') in 0.022217 seconds
+  Import took 0.025007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Fire_Pig_A.fbx
+  artifactKey: Guid(f2363bde0a1464b47be773edb96456ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Fire_Pig_A.fbx using Guid(f2363bde0a1464b47be773edb96456ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50db82aa2920ddc7e7703a44acac5ac9') in 0.028760 seconds
+  Import took 0.031798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Golem.fbx
+  artifactKey: Guid(b063ed0bdf1fcb64c8e88b8d7be8494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Golem.fbx using Guid(b063ed0bdf1fcb64c8e88b8d7be8494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6876e797c30932f14747278d341499') in 0.030397 seconds
+  Import took 0.033822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Tampora_B.fbx
+  artifactKey: Guid(dc3e9bd08920ac24098bbe7fec638c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Tampora_B.fbx using Guid(dc3e9bd08920ac24098bbe7fec638c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a47878e1996e53fb29a7275590c8ac') in 0.027101 seconds
+  Import took 0.029966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Fire_Gazer.fbx
+  artifactKey: Guid(4be9030064a00cf479072da1ab0b94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Fire_Gazer.fbx using Guid(4be9030064a00cf479072da1ab0b94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc685e1c343c611316a1619eb9fca49') in 0.016255 seconds
+  Import took 0.019103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Fire_Pig_B.fbx
+  artifactKey: Guid(72265004380b1494cb8d56eb66112961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Fire_Pig_B.fbx using Guid(72265004380b1494cb8d56eb66112961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3e3a5379e0e0634e6a871edeba3d1c') in 0.019264 seconds
+  Import took 0.021810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Minotos.fbx
+  artifactKey: Guid(708083241c993cb428442bfa07d61be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Minotos.fbx using Guid(708083241c993cb428442bfa07d61be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50cb15032525382188c38955dafac30') in 0.018112 seconds
+  Import took 0.021143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/FBX/Cute Phoenix.fbx
+  artifactKey: Guid(230a6564e0d11ed4c85039322dc1735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/FBX/Cute Phoenix.fbx using Guid(230a6564e0d11ed4c85039322dc1735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9340116ebc0bf17f834f51d4d2074846') in 0.020687 seconds
+  Import took 0.023572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.554504 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_A.prefab
+  artifactKey: Guid(6faf3e32354da544c89d34d5fe948771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_A.prefab using Guid(6faf3e32354da544c89d34d5fe948771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2931279b0159e78c2e989be7519ea7e') in 0.018634 seconds
+  Import took 0.022050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_B2.prefab
+  artifactKey: Guid(88a775150ba8a3b4eb015ae1cf519d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_B2.prefab using Guid(88a775150ba8a3b4eb015ae1cf519d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c754bdf7395965db62ce97ab0fdab935') in 0.017021 seconds
+  Import took 0.020450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_B.prefab
+  artifactKey: Guid(6c3cc767dc0bff44181c7ef24cb8eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_B.prefab using Guid(6c3cc767dc0bff44181c7ef24cb8eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582b2f0773e5d1f3fc7ca758e5187614') in 0.061833 seconds
+  Import took 0.077425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_A2.prefab
+  artifactKey: Guid(8feb0f1c274a83f40ac2665101120afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Pig/Fire_Pig_A2.prefab using Guid(8feb0f1c274a83f40ac2665101120afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d68854f45440d43d74adde689d83d21') in 0.039321 seconds
+  Import took 0.042604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384204 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_A.prefab
+  artifactKey: Guid(8b7c745f67259254cbab02a7b3501af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_A.prefab using Guid(8b7c745f67259254cbab02a7b3501af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e294f390897fad3dd26cf7626483b') in 0.013221 seconds
+  Import took 0.016281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_C.prefab
+  artifactKey: Guid(3b9092a401d7b4846b10970e87fe508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_C.prefab using Guid(3b9092a401d7b4846b10970e87fe508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaca344702dc93e31e75eaf0bf673991') in 0.013328 seconds
+  Import took 0.016095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_B.prefab
+  artifactKey: Guid(76f7bfe10f20a6a40b06849e566030c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Fire Gazer/Fire_Gazer_B.prefab using Guid(76f7bfe10f20a6a40b06849e566030c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b1c363386aafe22a2a04a22ee7cc81') in 0.014028 seconds
+  Import took 0.017032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.879452 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_A.prefab
+  artifactKey: Guid(f2763fb4c327779488a4a8fa8156c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_A.prefab using Guid(f2763fb4c327779488a4a8fa8156c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d642c802b8b9c246eef7548e1bf53') in 0.077161 seconds
+  Import took 0.080536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_C.prefab
+  artifactKey: Guid(bbebaf6d67d7ac9478d2f082bb9318be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_C.prefab using Guid(bbebaf6d67d7ac9478d2f082bb9318be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a06c2527d63053a27bd9e968fc9257') in 0.016698 seconds
+  Import took 0.019907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_B.prefab
+  artifactKey: Guid(54032c4990c01ca4393854bf610d6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Tampora/Tampora_B.prefab using Guid(54032c4990c01ca4393854bf610d6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa05f822693cc794a92ca8e11f672ad') in 0.053465 seconds
+  Import took 0.056495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388707 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_A.prefab
+  artifactKey: Guid(d848f0232e2d41f4bb6ee59f18ddede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_A.prefab using Guid(d848f0232e2d41f4bb6ee59f18ddede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e084bab8b1315cf2243273dbd9e21d') in 0.014375 seconds
+  Import took 0.017697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_B.prefab
+  artifactKey: Guid(c5bcdd01ab4f36e4cae16265919c0412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_B.prefab using Guid(c5bcdd01ab4f36e4cae16265919c0412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5d69fba67e0527b845fefa189d50a5') in 0.014808 seconds
+  Import took 0.017801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_C.prefab
+  artifactKey: Guid(d47299fc8ffbb9b4e96c5864160b53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_C.prefab using Guid(d47299fc8ffbb9b4e96c5864160b53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a05f2a8e81e128ccb9aca49452acec') in 0.059318 seconds
+  Import took 0.062704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001826 seconds.
+  path: Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_C.prefab
+  artifactKey: Guid(d47299fc8ffbb9b4e96c5864160b53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/Monster Pack Fire/Prefab/Golem/Golem_C.prefab using Guid(d47299fc8ffbb9b4e96c5864160b53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a05f2a8e81e128ccb9aca49452acec') in 0.034666 seconds
+  Import took 0.037834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.718432 seconds.
+  path: Assets/Suriyun/UI/Fire_Particle.mat
+  artifactKey: Guid(e9e932d740ced6e43a6253542a11dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/UI/Fire_Particle.mat using Guid(e9e932d740ced6e43a6253542a11dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ab4f28bc3c3c14b65b1c624ea116e7') in 0.040958 seconds
+  Import took 0.224305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Suriyun/UI/Fire_Rock_Plan.png
+  artifactKey: Guid(bf03b0393479d6b449e0127ec82d147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/UI/Fire_Rock_Plan.png using Guid(bf03b0393479d6b449e0127ec82d147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b73628cb05d6381e01c930a9d6403c5') in 0.009798 seconds
+  Import took 0.012530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Suriyun/UI/Fire_Particle.png
+  artifactKey: Guid(29ba7e367c8e42840b38dcb34413ddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/UI/Fire_Particle.png using Guid(29ba7e367c8e42840b38dcb34413ddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28df015175915219870e4779fce80f1') in 0.008696 seconds
+  Import took 0.011052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Suriyun/UI/Fire_Rock_Plan.mat
+  artifactKey: Guid(5b86596822cf32f4185876307162b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/UI/Fire_Rock_Plan.mat using Guid(5b86596822cf32f4185876307162b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62df80dedb88d8ae5e08db8c2b57465') in 0.063827 seconds
+  Import took 0.066912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Suriyun/UI/Fire_Rock_Plan.mat
+  artifactKey: Guid(5b86596822cf32f4185876307162b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suriyun/UI/Fire_Rock_Plan.mat using Guid(5b86596822cf32f4185876307162b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62df80dedb88d8ae5e08db8c2b57465') in 0.054738 seconds
+  Import took 0.057651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.360468 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(e7841c23213102942b40f8bff1596b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(e7841c23213102942b40f8bff1596b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree devil_tree_fixed (1) must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree devil_tree_fixed must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'fdcba2b301ea3e56a181280417635543') in 0.124506 seconds
+  Import took 0.129263 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000535 seconds.
+Registered in 0.000574 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
+- Completed reload, in  0.639 seconds
 Platform modules already initialized, skipping
-Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
 Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 2.017700 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.620200 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 1.794100 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.383200 ms  DeleteObjects: 0.132200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 1.822600 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.395500 ms  DeleteObjects: 0.130100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.2 MB.
+System memory in use after: 118.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 2.675100 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.067900 ms  DeleteObjects: 0.149700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.2 MB.
+System memory in use after: 118.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 2.036000 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.668500 ms  DeleteObjects: 0.130000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1678.872145 seconds.
-  path: Assets/My Assets/Prefabs/Environment/mushroom flat 3.prefab
-  artifactKey: Guid(fa8c6bd6df46105499e12d77bd6c90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/mushroom flat 3.prefab using Guid(fa8c6bd6df46105499e12d77bd6c90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a7e30ce0066daf0761e83db55c6317') in 0.067793 seconds
-  Import took 0.070948 seconds .
+  Time since last request: 388.013927 seconds.
+  path: Assets/Asset Store/Heureka/AssetHunterPRO
+  artifactKey: Guid(82438a27e3aa87a4ca1bbdca45986211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Heureka/AssetHunterPRO using Guid(82438a27e3aa87a4ca1bbdca45986211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8196da68dfec3c450db75785e7f39d7') in 0.007666 seconds
+  Import took 0.010557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.466108 seconds.
-  path: Assets/My Assets/Prefabs/Environment/mushroom group.prefab
-  artifactKey: Guid(1f79f02684f02c2428c112bdb2a73fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/mushroom group.prefab using Guid(1f79f02684f02c2428c112bdb2a73fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f475ae1ef6308e31f8dfde89d0de54b5') in 0.014176 seconds
-  Import took 0.017136 seconds .
+  Time since last request: 0.060826 seconds.
+  path: Assets/Asset Store/Heureka/AssetHunterPRO/AHPRO_Readme.asset
+  artifactKey: Guid(059cb120dafc78d4bbf6d0e96525b794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Heureka/AssetHunterPRO/AHPRO_Readme.asset using Guid(059cb120dafc78d4bbf6d0e96525b794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c04eb79ca5967a0b48cc998105956a3') in 0.014958 seconds
+  Import took 0.017813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.066016 seconds.
-  path: Assets/My Assets/Prefabs/Environment/mushroom flat 2.prefab
-  artifactKey: Guid(e66df6b05d53ad4499f3c7b21fac41d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/mushroom flat 2.prefab using Guid(e66df6b05d53ad4499f3c7b21fac41d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb4fd17298c7323dc5cf7cee204d88') in 0.012540 seconds
-  Import took 0.015366 seconds .
+  Time since last request: 445.817830 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/flow.tga
+  artifactKey: Guid(5e761337a4db4144aaedce867ea64633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/flow.tga using Guid(5e761337a4db4144aaedce867ea64633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b240fe83e27a0eced2aaa4bafd3d2386') in 0.091121 seconds
+  Import took 0.094235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1146.041880 seconds.
-  path: Assets/My Assets/Prefabs/Environment/mushroom flat group.prefab
-  artifactKey: Guid(8371f00bbd05b7840be5ab380375bd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/mushroom flat group.prefab using Guid(8371f00bbd05b7840be5ab380375bd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c99b5ae93c4ae961b39796be508f36c') in 0.026401 seconds
-  Import took 0.029438 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex27.png
+  artifactKey: Guid(a237f9ef8a5ab3546a235106579555f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex27.png using Guid(a237f9ef8a5ab3546a235106579555f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5cbcb8aa2ad66bd9022f6ec4ac4b05') in 0.056402 seconds
+  Import took 0.058954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.450909 seconds.
-  path: Assets/My Assets/Prefabs/Environment/devil_tree_fixed (1).prefab
-  artifactKey: Guid(7ab7fed82ca463341926860c35041755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/devil_tree_fixed (1).prefab using Guid(7ab7fed82ca463341926860c35041755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff95947970ccc17115f8e1f76bedb79') in 0.027455 seconds
-  Import took 0.030861 seconds .
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/smoke.tga
+  artifactKey: Guid(43cbbc94c0074c642859e6d3795fc2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/smoke.tga using Guid(43cbbc94c0074c642859e6d3795fc2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22716d9f5ac1ffd1b359ed1351e0dd26') in 0.063661 seconds
+  Import took 0.066085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.066973 seconds.
-  path: Assets/My Assets/Prefabs/Environment/devil_tree_fixed.prefab
-  artifactKey: Guid(c2b495c5aede6b940abdd2727677932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/devil_tree_fixed.prefab using Guid(c2b495c5aede6b940abdd2727677932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8599e15b067e59d7a1dc5204185d522') in 0.030061 seconds
-  Import took 0.032892 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex16.png
+  artifactKey: Guid(a2e87dfbc12446e47af487d6d2b6145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex16.png using Guid(a2e87dfbc12446e47af487d6d2b6145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fa002e4d0335c8d0dbf2c5b78eeed0') in 0.045811 seconds
+  Import took 0.048506 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 325.974416 seconds.
-  path: Assets/My Assets/Envrionment/Materials/Landscape/LowPolyWaterMaterial.mat
-  artifactKey: Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Envrionment/Materials/Landscape/LowPolyWaterMaterial.mat using Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d08b04b2070c99ccbb4aed36dce5cea') in 0.046323 seconds
-  Import took 0.049306 seconds .
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex2.png
+  artifactKey: Guid(74390b862ab9bc3459824f8f63d20612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex2.png using Guid(74390b862ab9bc3459824f8f63d20612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3883f3a7ca40093f77079891f2fe5d2a') in 0.056355 seconds
+  Import took 0.058989 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001025 seconds.
-  path: Assets/My Assets/Envrionment/Materials/Landscape/LowPolyWaterMaterial.mat
-  artifactKey: Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Envrionment/Materials/Landscape/LowPolyWaterMaterial.mat using Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d08b04b2070c99ccbb4aed36dce5cea') in 0.008220 seconds
-  Import took 0.010759 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex7.png
+  artifactKey: Guid(5ab5338db0b64ba478d3a97e7781570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex7.png using Guid(5ab5338db0b64ba478d3a97e7781570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e309b134b079ed090d0549eb9ce9a68') in 0.054413 seconds
+  Import took 0.056947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 590.823853 seconds.
-  path: Assets/My Assets/Prefabs/Environment/Bridge.prefab
-  artifactKey: Guid(e4482dd1060409d4187373242c080bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/Bridge.prefab using Guid(e4482dd1060409d4187373242c080bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c74d2647a20e2c11902932fa64408c') in 0.025393 seconds
-  Import took 0.028444 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex11.png
+  artifactKey: Guid(a429a5d4ceee6774780afc2a6f6c47d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex11.png using Guid(a429a5d4ceee6774780afc2a6f6c47d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d67ad2dfd591ddcd40145865ad6ad') in 0.051192 seconds
+  Import took 0.054108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002223 seconds.
-  path: Assets/My Assets/Prefabs/Environment/Bridge.prefab
-  artifactKey: Guid(e4482dd1060409d4187373242c080bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/Prefabs/Environment/Bridge.prefab using Guid(e4482dd1060409d4187373242c080bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c74d2647a20e2c11902932fa64408c') in 0.007978 seconds
-  Import took 0.011332 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex17.PNG
+  artifactKey: Guid(3b1589a85fac85e4ba0b9f25a4331ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex17.PNG using Guid(3b1589a85fac85e4ba0b9f25a4331ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb37309c6cbe5ecf830b46e651684124') in 0.048690 seconds
+  Import took 0.051232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex28.png
+  artifactKey: Guid(c685f07bd80885a4c890a095dacf752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex28.png using Guid(c685f07bd80885a4c890a095dacf752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191064494dda44517b19913a87840bff') in 0.046348 seconds
+  Import took 0.048977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex32.png
+  artifactKey: Guid(4c6b2eaadf8604b37bff540f8a85080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex32.png using Guid(4c6b2eaadf8604b37bff540f8a85080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b16c0ac914d6b8cd51ae9481dd69d1') in 0.043057 seconds
+  Import took 0.046112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex23.png
+  artifactKey: Guid(de90f05531ca905449530e7b3a44fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex23.png using Guid(de90f05531ca905449530e7b3a44fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc5c1e5a64ddf265b371ccc342ae68e') in 0.042897 seconds
+  Import took 0.045566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Glow.png
+  artifactKey: Guid(b3971db563e328741b6b8a610834879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Glow.png using Guid(b3971db563e328741b6b8a610834879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8f861057baea4ddf27255918c03741') in 0.026376 seconds
+  Import took 0.029110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex24.png
+  artifactKey: Guid(6311f9ec9ce6e834984063b3b05839cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex24.png using Guid(6311f9ec9ce6e834984063b3b05839cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f9366a7bd517961a1fbfe78fe932d2') in 0.043427 seconds
+  Import took 0.045973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/star.tga
+  artifactKey: Guid(d873d9e64aac1204ab0a90336cc0a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/star.tga using Guid(d873d9e64aac1204ab0a90336cc0a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887c71230ea44538e71a7af840d62dd') in 0.045922 seconds
+  Import took 0.048599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex26.tga
+  artifactKey: Guid(cdb616d7ed92d04489f0cada338385ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex26.tga using Guid(cdb616d7ed92d04489f0cada338385ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87ab876308ede6e975396a1924f5b54') in 0.041173 seconds
+  Import took 0.043806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex1.png
+  artifactKey: Guid(51492a1776d54044983f513daaade3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex1.png using Guid(51492a1776d54044983f513daaade3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923236e071e62212c3610a28bdc0e559') in 0.010548 seconds
+  Import took 0.013170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex25.png
+  artifactKey: Guid(4b41c8b1830719741893a692def186f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex25.png using Guid(4b41c8b1830719741893a692def186f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8189f87a11246fb1d1f9fc6ae28003ed') in 0.013842 seconds
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex18.png
+  artifactKey: Guid(0d2c655f70c96174196f4e70a7d01b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex18.png using Guid(0d2c655f70c96174196f4e70a7d01b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a9db213b871d7e9a7401c2d81f8c11') in 0.034793 seconds
+  Import took 0.037105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex14.png
+  artifactKey: Guid(b06a94651ffa85243abb5ff4f470183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex14.png using Guid(b06a94651ffa85243abb5ff4f470183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a64fd2c65f0ab0f2799d2bd137855') in 0.070156 seconds
+  Import took 0.072334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex5.png
+  artifactKey: Guid(021f2ddfc4436754b909906d5d4021cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex5.png using Guid(021f2ddfc4436754b909906d5d4021cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7246dcceece26615011c6bf31dcc48c6') in 0.103790 seconds
+  Import took 0.106253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex10.tga
+  artifactKey: Guid(405e1c02714973e43adb268a6c97b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex10.tga using Guid(405e1c02714973e43adb268a6c97b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b69b8aeee6b3a2adfd847b250b29ca1') in 0.046766 seconds
+  Import took 0.049627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex29.png
+  artifactKey: Guid(af46f7afed1ebe94497fc222780c5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex29.png using Guid(af46f7afed1ebe94497fc222780c5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ccaf35715ad8b7ff5cf9b302a5decd') in 0.038940 seconds
+  Import took 0.041561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex9.png
+  artifactKey: Guid(411165837d5579e4ca7269abc29ddc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex9.png using Guid(411165837d5579e4ca7269abc29ddc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1696157ec61b0f01d7b0e39c1b7a450d') in 0.008873 seconds
+  Import took 0.011570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/smoke_16.png
+  artifactKey: Guid(5d01b79e0657dee4a8e1c27b003f6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/smoke_16.png using Guid(5d01b79e0657dee4a8e1c27b003f6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210ad98fb936e80566857403cd5ec08a') in 0.284179 seconds
+  Import took 0.287090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex3.png
+  artifactKey: Guid(56db7391ef4f06640927fe2f6d640d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex3.png using Guid(56db7391ef4f06640927fe2f6d640d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce77d84f77ff4d525ac1effaded9e2') in 0.040399 seconds
+  Import took 0.042979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex8.png
+  artifactKey: Guid(40b616050aeb2c2438dbf225d7fac401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex8.png using Guid(40b616050aeb2c2438dbf225d7fac401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5524f1acaa6ee28a1b5d58560341ef') in 0.047221 seconds
+  Import took 0.049766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Wood.tga
+  artifactKey: Guid(e5e208cf2492ef94c9fc06cccf0a64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Wood.tga using Guid(e5e208cf2492ef94c9fc06cccf0a64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138f59f5959de1fe04194c8b0b5b1e8b') in 0.056901 seconds
+  Import took 0.059220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex33.png
+  artifactKey: Guid(398da4b026da3fd4dbe04dfc2ba43f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex33.png using Guid(398da4b026da3fd4dbe04dfc2ba43f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6dd3ad0166541378d5143954507654') in 0.039338 seconds
+  Import took 0.042068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex20.png
+  artifactKey: Guid(50b46df24db867648af10d5a25e0d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex20.png using Guid(50b46df24db867648af10d5a25e0d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ecb5f628e65de2d5c9b403e0b746ff') in 0.038614 seconds
+  Import took 0.040985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex19.png
+  artifactKey: Guid(4d6d6627783a1c142b795be20e5d4ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex19.png using Guid(4d6d6627783a1c142b795be20e5d4ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93b8bea01904bf0e7f3d199505e84f6') in 0.027331 seconds
+  Import took 0.029730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex6.png
+  artifactKey: Guid(5f7037ede987fa24c85b5a29d29cad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex6.png using Guid(5f7037ede987fa24c85b5a29d29cad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4262f389fae593acef16f5e6faaea52') in 0.038312 seconds
+  Import took 0.040531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex21.png
+  artifactKey: Guid(cb7dfe469261a1449b2c37df03783fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex21.png using Guid(cb7dfe469261a1449b2c37df03783fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37891d8bf0718611d13c75c263299a6') in 0.029538 seconds
+  Import took 0.031887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/smoke_02.TGA
+  artifactKey: Guid(4bdeeb59cd6b5f349ac63c8187edbcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/smoke_02.TGA using Guid(4bdeeb59cd6b5f349ac63c8187edbcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb7777f3795e8844f35c8b0109e7488') in 0.014807 seconds
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/par_1.tga
+  artifactKey: Guid(b837885280f1d9f44be870098dc1b5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/par_1.tga using Guid(b837885280f1d9f44be870098dc1b5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1647648a6b03c19fbae4d8ef37ea307f') in 0.028993 seconds
+  Import took 0.031624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex13.png
+  artifactKey: Guid(d0013504e9dd2f643bc78a02a9cfe36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex13.png using Guid(d0013504e9dd2f643bc78a02a9cfe36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6842b71ef02e55470bb2589025240f74') in 0.027868 seconds
+  Import took 0.030475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex31.png
+  artifactKey: Guid(bf81fe004b60017468e3ea68eeef9880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex31.png using Guid(bf81fe004b60017468e3ea68eeef9880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1489ccb04edfbcd13428e80560dd660') in 0.030782 seconds
+  Import took 0.033178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex22.png
+  artifactKey: Guid(f00c5c08a68365e49933459170418acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex22.png using Guid(f00c5c08a68365e49933459170418acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d9589fc3979d4b620b1965fc000a75') in 0.035201 seconds
+  Import took 0.038015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex4.png
+  artifactKey: Guid(51e0caf70563fdb4b849ac0f55dfeb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex4.png using Guid(51e0caf70563fdb4b849ac0f55dfeb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea9d18a320bf51ee329734e01268bc') in 0.041751 seconds
+  Import took 0.044245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex34.png
+  artifactKey: Guid(93eb54d38eac95444a6438b64496cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex34.png using Guid(93eb54d38eac95444a6438b64496cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7596efe727f82813f62d3f3aedaf71a3') in 0.048317 seconds
+  Import took 0.050560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex12.png
+  artifactKey: Guid(e21bcbd4a3829da4ba78302ca07d3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex12.png using Guid(e21bcbd4a3829da4ba78302ca07d3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc1393f2e5090878dbc82d9a23997f') in 0.037837 seconds
+  Import took 0.040097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex35.png
+  artifactKey: Guid(1b4f3dcbb1451c5479998ab887ac0210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex35.png using Guid(1b4f3dcbb1451c5479998ab887ac0210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e6735d8dbd36b81c4e499659ba37c5') in 0.041918 seconds
+  Import took 0.044619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex15.PNG
+  artifactKey: Guid(7cb730e9da346f9419466b9fd247c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex15.PNG using Guid(7cb730e9da346f9419466b9fd247c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb1cafaf29d304c6e8ef191e2ab89d2') in 0.043196 seconds
+  Import took 0.045741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Textures/Tex30.png
+  artifactKey: Guid(961a1126028be7040a50d1e1add135d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Textures/Tex30.png using Guid(961a1126028be7040a50d1e1add135d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd769be4bb864ed931d6b5e0e0ca2307a') in 0.028779 seconds
+  Import took 0.031643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.470619 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/FBX/Wood1.FBX
+  artifactKey: Guid(3fb9cb6556d675d4ab90b8195f8bb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/FBX/Wood1.FBX using Guid(3fb9cb6556d675d4ab90b8195f8bb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8862c5bf005ff77adff52587681375') in 0.067487 seconds
+  Import took 0.070326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/FBX/Wood2.FBX
+  artifactKey: Guid(29746232c0bf06f489cdb49c8d65cf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/FBX/Wood2.FBX using Guid(29746232c0bf06f489cdb49c8d65cf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acdf6fe9640e19f3c960109ccd9ba37') in 0.018578 seconds
+  Import took 0.020875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.927620 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire10.mat
+  artifactKey: Guid(f8bf536179cab4dc4830d3cb5043f17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire10.mat using Guid(f8bf536179cab4dc4830d3cb5043f17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f6d4a2d2d434e7a4f448a468f6a333') in 0.037131 seconds
+  Import took 0.040403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire25.mat
+  artifactKey: Guid(1835c91bf580245ec9c7bd1311eeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire25.mat using Guid(1835c91bf580245ec9c7bd1311eeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c5419fb02e78059cdaee67132ec8a3') in 0.074682 seconds
+  Import took 0.077397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire28.mat
+  artifactKey: Guid(bbc287f8ac3a749c79eaa5a01d8c2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire28.mat using Guid(bbc287f8ac3a749c79eaa5a01d8c2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc42f7db919efd2948967b41349137') in 0.017295 seconds
+  Import took 0.019762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34a.mat
+  artifactKey: Guid(3eb0ab81ec364ae43a95e55da77f00a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34a.mat using Guid(3eb0ab81ec364ae43a95e55da77f00a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3875902be36ad78d887d05635d86785f') in 0.016255 seconds
+  Import took 0.018741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire15.mat
+  artifactKey: Guid(63e22631502c54b08a0c4ef3cb561539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire15.mat using Guid(63e22631502c54b08a0c4ef3cb561539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d5df43418f23a5503a162c80177c74') in 0.035347 seconds
+  Import took 0.037975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire32.mat
+  artifactKey: Guid(1a358dab4564b4f99b6581c79b6750c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire32.mat using Guid(1a358dab4564b4f99b6581c79b6750c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45c826e9a4b0a6b38a970136c5f072f') in 0.026611 seconds
+  Import took 0.029008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire11.mat
+  artifactKey: Guid(41191ba2f1dcc4b3c8d073bd6878e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire11.mat using Guid(41191ba2f1dcc4b3c8d073bd6878e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70ccd54ec6ce8962a76ffb7ab88235b') in 0.030379 seconds
+  Import took 0.032984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34c.mat
+  artifactKey: Guid(651a834401a41b34b8c8304cf2f85b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34c.mat using Guid(651a834401a41b34b8c8304cf2f85b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afca87b2cf6a3459d5280b7a333244f7') in 0.029121 seconds
+  Import took 0.031628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire20.mat
+  artifactKey: Guid(8f872b694f33b4b18aa361433933e0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire20.mat using Guid(8f872b694f33b4b18aa361433933e0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8502e5d516f0a89406503d12273dbe4e') in 0.030560 seconds
+  Import took 0.033057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire29.mat
+  artifactKey: Guid(a53e122b98c694ba4a3873b8e3d0d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire29.mat using Guid(a53e122b98c694ba4a3873b8e3d0d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9e5429b775ee764623c51e433cb9a8') in 0.030387 seconds
+  Import took 0.033040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire31.mat
+  artifactKey: Guid(db9f23e9396f290438fd3463e36ab41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire31.mat using Guid(db9f23e9396f290438fd3463e36ab41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd147f9d3cb3f866b8c8aeef4585f574a') in 0.030276 seconds
+  Import took 0.033077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Wood.mat
+  artifactKey: Guid(31d4cfe95824e0347b8274c64916c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Wood.mat using Guid(31d4cfe95824e0347b8274c64916c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c518ce135e88be6857bbc43dbd35f5') in 0.031075 seconds
+  Import took 0.033483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire19.mat
+  artifactKey: Guid(6594bf1ceca11439482493ae9d524f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire19.mat using Guid(6594bf1ceca11439482493ae9d524f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6071662e40dc09b432718696fd22b89') in 0.013993 seconds
+  Import took 0.016423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire18.mat
+  artifactKey: Guid(15f7affff5a67485ba20d32e2abb0ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire18.mat using Guid(15f7affff5a67485ba20d32e2abb0ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214688fa3d016a52bc0abe42c1241c0e') in 0.014637 seconds
+  Import took 0.017207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire13.mat
+  artifactKey: Guid(8565a3a1ce8534309a642365ba8a6079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire13.mat using Guid(8565a3a1ce8534309a642365ba8a6079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142691bf778e9cc3d1d9e1f27b99f4b4') in 0.013165 seconds
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire30.mat
+  artifactKey: Guid(d33051e4926214bd8ba300775cfe1544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire30.mat using Guid(d33051e4926214bd8ba300775cfe1544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d4ee4d30a1d6f907e31a26a2dce4ae') in 0.014696 seconds
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire27.mat
+  artifactKey: Guid(52754fba653ad407abfaebae5a21f254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire27.mat using Guid(52754fba653ad407abfaebae5a21f254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96988656277a6baaf28fbb3e2b9d330') in 0.013266 seconds
+  Import took 0.016526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire23.mat
+  artifactKey: Guid(5000d756de3db4530b55611978e90bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire23.mat using Guid(5000d756de3db4530b55611978e90bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7873890b2964962df66721ffe5b568') in 0.013426 seconds
+  Import took 0.016102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34b.mat
+  artifactKey: Guid(3fc59e315943736459c60c71697f2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire34b.mat using Guid(3fc59e315943736459c60c71697f2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903aed980abb8b0d8475bc96febd7b44') in 0.033775 seconds
+  Import took 0.036598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire21.mat
+  artifactKey: Guid(9781d38965c564afdab8772da5a13551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire21.mat using Guid(9781d38965c564afdab8772da5a13551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b34fc88a324767df839873140ae3bd9') in 0.014412 seconds
+  Import took 0.017232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Asset Store/Cartoon Fire Particles/Materials/Fire14.mat
+  artifactKey: Guid(407b6e4e18faa4fdd8fee66724cbb88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Cartoon Fire Particles/Materials/Fire14.mat using Guid(407b6e4e18faa4fdd8fee66724cbb88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238cb15e36e7e6dd4e8b00fe2d73747') in 0.014121 seconds
+  Import took 0.016547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.333392 seconds.
+  path: Assets/Asset Store/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09a8574e59aab0684308426470c0a8f') in 0.042218 seconds
+  Import took 0.045671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.954075 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/flares/fl_simpleFlare.flare
+  artifactKey: Guid(5522d08d8c850f94fb64e8e4b3972ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/flares/fl_simpleFlare.flare using Guid(5522d08d8c850f94fb64e8e4b3972ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c444efeeaaff78e48cc94c3bce5e579') in 0.011598 seconds
+  Import took 0.014720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.646060 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/plantVertexPainted.FBX
+  artifactKey: Guid(0ab8ab4a68df10a4a9445c910031c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/plantVertexPainted.FBX using Guid(0ab8ab4a68df10a4a9445c910031c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac89180753a4eddb7025e218afcf562d') in 0.036455 seconds
+  Import took 0.039557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_lake.FBX
+  artifactKey: Guid(146dbab6db0212b46bbdd1b3275945b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_lake.FBX using Guid(146dbab6db0212b46bbdd1b3275945b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b0b3a7257dde79a011f789e105b16') in 0.060943 seconds
+  Import took 0.063412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_lakeRipples.FBX
+  artifactKey: Guid(464ea3e9906f72c41a443cab6e313863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_lakeRipples.FBX using Guid(464ea3e9906f72c41a443cab6e313863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eac6a56c354b04799ad5163f274d4ab') in 0.022973 seconds
+  Import took 0.025629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/terrainSample.FBX
+  artifactKey: Guid(8fe0f2c208fce6f4884bf839443beeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/terrainSample.FBX using Guid(8fe0f2c208fce6f4884bf839443beeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ba3b37da7928ff8aa57eb6f9ba5cf') in 0.031797 seconds
+  Import took 0.034379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_ripples.FBX
+  artifactKey: Guid(f6026e852a638e144b4f66f59d0bdfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_ripples.FBX using Guid(f6026e852a638e144b4f66f59d0bdfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c7f8aefa0acd2059849e8a1ada5587') in 0.030021 seconds
+  Import took 0.032685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_ground.FBX
+  artifactKey: Guid(8b86941e5e9aa6b4d986d918cdcb1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_ground.FBX using Guid(8b86941e5e9aa6b4d986d918cdcb1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2170ba934af8a4c97f263ab4ba1e8b63') in 0.037985 seconds
+  Import took 0.040616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallStream.FBX
+  artifactKey: Guid(5ba2f75cd989c9e4d901bcc6965d651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallStream.FBX using Guid(5ba2f75cd989c9e4d901bcc6965d651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671360eecdd8447c542fbc10771a5e13') in 0.013030 seconds
+  Import took 0.015677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_lake.FBX
+  artifactKey: Guid(7cd1726a0df540745a0f139d5da9819c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_lake.FBX using Guid(7cd1726a0df540745a0f139d5da9819c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3228bdd3654f99e049be6d9424244e') in 0.026234 seconds
+  Import took 0.028928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/vegetationGrassVC.FBX
+  artifactKey: Guid(4d170586627aa2347b3979e5a58f786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/vegetationGrassVC.FBX using Guid(4d170586627aa2347b3979e5a58f786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82eb3eb0530a1fdd10013df32e1c909a') in 0.037327 seconds
+  Import took 0.039710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_grass.FBX
+  artifactKey: Guid(5ea59a9c02c9a8042aeb2a47e00f3463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_grass.FBX using Guid(5ea59a9c02c9a8042aeb2a47e00f3463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133b029aa551f289dcdf63d70cd7af4') in 0.029611 seconds
+  Import took 0.032470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_stream.FBX
+  artifactKey: Guid(aeba4a59c26531240971428d9cf804bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_stream.FBX using Guid(aeba4a59c26531240971428d9cf804bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef58c27e046dfdedba89e52676549a5') in 0.018253 seconds
+  Import took 0.020869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallEnd.FBX
+  artifactKey: Guid(35ab8087d4cba274d8bbbe67c7a4f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallEnd.FBX using Guid(35ab8087d4cba274d8bbbe67c7a4f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aef33780b66c0780710a452b53e122') in 0.014916 seconds
+  Import took 0.017433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_edge.FBX
+  artifactKey: Guid(e8c89077a95c1fe44af8d693dda75711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_edge.FBX using Guid(e8c89077a95c1fe44af8d693dda75711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e6af2e3ac4228979b5141b99ad7431') in 0.029852 seconds
+  Import took 0.032463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_stoneDark.FBX
+  artifactKey: Guid(214207b9a83363b45bbe59d7fd5dfd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_stoneDark.FBX using Guid(214207b9a83363b45bbe59d7fd5dfd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ac6e1ad2efe817c200d92955a6571') in 0.040247 seconds
+  Import took 0.042882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_boulder.FBX
+  artifactKey: Guid(4f4459f5a9ed62e4ea67c62fa4c6568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_boulder.FBX using Guid(4f4459f5a9ed62e4ea67c62fa4c6568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0eab56b5a33ae93bc0425dc8818567') in 0.019356 seconds
+  Import took 0.022165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_crates.FBX
+  artifactKey: Guid(604057bad93197b45814863c62c92e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_crates.FBX using Guid(604057bad93197b45814863c62c92e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6296681b533a1cf7b86361cdcb87bcf9') in 0.034123 seconds
+  Import took 0.036894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_stone.FBX
+  artifactKey: Guid(382785a5cf9bd2944a008eba8effc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_stone.FBX using Guid(382785a5cf9bd2944a008eba8effc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e4239a0d96516b3b53a39ef56baa71') in 0.071856 seconds
+  Import took 0.074564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_cobblestone.FBX
+  artifactKey: Guid(39d28144e983ab94191e631348635021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_cobblestone.FBX using Guid(39d28144e983ab94191e631348635021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5704cc8ef6c6876fd0d70444604eee75') in 0.035092 seconds
+  Import took 0.037839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_rocks.FBX
+  artifactKey: Guid(f0973ba91b0eaef40aeaa7133fcd3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_rocks.FBX using Guid(f0973ba91b0eaef40aeaa7133fcd3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6d16c647b9aabc213894c30c86cd28') in 0.058071 seconds
+  Import took 0.060913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_edge.FBX
+  artifactKey: Guid(1512e6eabefdb334580829bda4faa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_edge.FBX using Guid(1512e6eabefdb334580829bda4faa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea967b262eb6231591959194453e8ea0') in 0.018517 seconds
+  Import took 0.021407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallFallEdge.FBX
+  artifactKey: Guid(e41c1205481040149b296dc890c7587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/testScene_waterfallFallEdge.FBX using Guid(e41c1205481040149b296dc890c7587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511c91e09f32f4e49159fae78895c7b') in 0.014546 seconds
+  Import took 0.017312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_edge.FBX
+  artifactKey: Guid(1512e6eabefdb334580829bda4faa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/waterfall_edge.FBX using Guid(1512e6eabefdb334580829bda4faa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea967b262eb6231591959194453e8ea0') in 0.012707 seconds
+  Import took 0.015109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/plantVertexPainted.FBX
+  artifactKey: Guid(0ab8ab4a68df10a4a9445c910031c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/meshes/plantVertexPainted.FBX using Guid(0ab8ab4a68df10a4a9445c910031c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac89180753a4eddb7025e218afcf562d') in 0.012596 seconds
+  Import took 0.014969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.260858 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/render/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(7ae7c85dfa7201343aef881235bd2186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/render/UniversalRenderPipelineAsset.asset using Guid(7ae7c85dfa7201343aef881235bd2186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0503dbb554e54ba1788ac2cea9de923') in 0.005443 seconds
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/render/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(6b38d155e92714441901c6759cbda899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/render/UniversalRenderPipelineAsset_Renderer.asset using Guid(6b38d155e92714441901c6759cbda899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29b1a08b26a80efb58723416a4fa84f') in 0.005958 seconds
+  Import took 0.008604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.745351 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_foliage.tga
+  artifactKey: Guid(f4047a6040f205d4782c20398d92da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_foliage.tga using Guid(f4047a6040f205d4782c20398d92da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a9e1a2b69bc24247f80bde92203493') in 0.038803 seconds
+  Import took 0.041834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_clouds.tga
+  artifactKey: Guid(cceee303018ecc343866e2db15d9b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_clouds.tga using Guid(cceee303018ecc343866e2db15d9b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6584184efcc0f6aed22d882c5839c4a') in 0.009098 seconds
+  Import took 0.011724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterTexture_DF.png
+  artifactKey: Guid(7e519ae359f8e83479c2124fc751037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterTexture_DF.png using Guid(7e519ae359f8e83479c2124fc751037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a94f48514802e4e4f7d866881cdd48') in 0.010413 seconds
+  Import took 0.012907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_cloudsContrast.png
+  artifactKey: Guid(2b7e7e60959af4f4ea2289a11c74c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_cloudsContrast.png using Guid(2b7e7e60959af4f4ea2289a11c74c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041406cac5a4f01d325517a6ec51ece7') in 0.031082 seconds
+  Import took 0.033985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lavaHot_DF.png
+  artifactKey: Guid(6de641ec6d691d549bb26f3d4e999528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lavaHot_DF.png using Guid(6de641ec6d691d549bb26f3d4e999528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8949fc9753bad0c7b226849796fe0dfd') in 0.057938 seconds
+  Import took 0.060757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_testTexture.png
+  artifactKey: Guid(0f6d002254a20df43ba81485ae9fd115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_testTexture.png using Guid(0f6d002254a20df43ba81485ae9fd115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd71eff2a05aab2b55331309d3f9262f') in 0.033468 seconds
+  Import took 0.036285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterTexture.png
+  artifactKey: Guid(9212f531d36922840a60320c6654129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterTexture.png using Guid(9212f531d36922840a60320c6654129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b61a5dc40fe0389b8bfd1b834859b37') in 0.030031 seconds
+  Import took 0.032489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_gradientRadial.png
+  artifactKey: Guid(26e5d1fcd9fae184ca42954cd3d42444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_gradientRadial.png using Guid(26e5d1fcd9fae184ca42954cd3d42444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e357ad253aa2b7c3acbc5954430cc13c') in 0.034285 seconds
+  Import took 0.037442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_smoke.png
+  artifactKey: Guid(dd95d6828e3577b459e65a13b791b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_smoke.png using Guid(dd95d6828e3577b459e65a13b791b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6eee2d645b75c7aae3f7b42ee0983d') in 0.026376 seconds
+  Import took 0.029141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_HM.bmp
+  artifactKey: Guid(f558badf436ff6941ab60f004b577b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_HM.bmp using Guid(f558badf436ff6941ab60f004b577b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c0b6b4836be5888bd111812614edc') in 0.042700 seconds
+  Import took 0.045377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lava.png
+  artifactKey: Guid(6dee20c3f97ab8640acc63c53827cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lava.png using Guid(6dee20c3f97ab8640acc63c53827cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c019aee2dbe2028e0e3333eca6c90f') in 0.038049 seconds
+  Import took 0.040769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grass_NM.bmp
+  artifactKey: Guid(ee607e9e089b1f242835de6430216e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grass_NM.bmp using Guid(ee607e9e089b1f242835de6430216e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bab3b4a53e5c9c56563e9eb82d4d42') in 0.028182 seconds
+  Import took 0.030549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grassDetailmap2.png
+  artifactKey: Guid(549fbf29f23d0b743b8082b6d5a2e94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grassDetailmap2.png using Guid(549fbf29f23d0b743b8082b6d5a2e94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c26cc462bc3e1007e6af800743a280') in 0.039475 seconds
+  Import took 0.041810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grassDetailmap.png
+  artifactKey: Guid(32103a2d7296f51469352bde5791135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grassDetailmap.png using Guid(32103a2d7296f51469352bde5791135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4540e2f5f0bf8d7d96059cd08219db') in 0.081618 seconds
+  Import took 0.084389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grass_DF.png
+  artifactKey: Guid(a4ec06682f0277246bd7bd84e21e6100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_grass_DF.png using Guid(a4ec06682f0277246bd7bd84e21e6100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24a70630ffecdb3e467d4aa74d5a371') in 0.055343 seconds
+  Import took 0.057750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_leavesDecal_DFA.tga
+  artifactKey: Guid(7b2af6a97ad7eed48bc03961434350d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_leavesDecal_DFA.tga using Guid(7b2af6a97ad7eed48bc03961434350d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a266731835e57ff0ddcc23d77923f1f') in 0.087944 seconds
+  Import took 0.090770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_NM.bmp
+  artifactKey: Guid(d2ebe103d60ac7a40b6aad78aa84f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_NM.bmp using Guid(d2ebe103d60ac7a40b6aad78aa84f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce212bb0b15c86ccf3ddf3c29138eb19') in 0.079936 seconds
+  Import took 0.082987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_cloudsColorBlur.tga
+  artifactKey: Guid(0c4f6b829fac2c748adb09bd48392cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_cloudsColorBlur.tga using Guid(0c4f6b829fac2c748adb09bd48392cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53930dd9a0ddecd77dacf8d5f21d30a4') in 0.008357 seconds
+  Import took 0.011108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_DF.png
+  artifactKey: Guid(7ab962fd4d4f192489034511904c8316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock_DF.png using Guid(7ab962fd4d4f192489034511904c8316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe375ef6a76b2968f80948283a0ec5d4') in 0.008136 seconds
+  Import took 0.010795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_treeLeavesDetail.png
+  artifactKey: Guid(bcddc602b37e24c47b0ec84599dcd245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_treeLeavesDetail.png using Guid(bcddc602b37e24c47b0ec84599dcd245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13156099a23a46492120b16a8b8281c0') in 0.019345 seconds
+  Import took 0.022265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock2_DF.png
+  artifactKey: Guid(e22903dbcbbf72944a6fca16c797aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_rock2_DF.png using Guid(e22903dbcbbf72944a6fca16c797aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d26d950152f9611656a69f27fcb0fd') in 0.043757 seconds
+  Import took 0.046484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lava_DF.png
+  artifactKey: Guid(cd664ea133bf44f4baa5b90048109a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_lava_DF.png using Guid(cd664ea133bf44f4baa5b90048109a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c642a37bb6e54505b0d73196dd140850') in 0.026256 seconds
+  Import took 0.028619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterfallTexture_DF.png
+  artifactKey: Guid(314c3bc2841ce354e9c8cb8579fe3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_vfx_waterfallTexture_DF.png using Guid(314c3bc2841ce354e9c8cb8579fe3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd057d4dfe1cd0e4bb089ba2ee5138c5') in 0.008228 seconds
+  Import took 0.010834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_particlesWater_DFA.png
+  artifactKey: Guid(39760dd3307c508448418a2925037403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/ZerinLabs_shaderPack_CartoonLandscape/textures/t_particlesWater_DFA.png using Guid(39760dd3307c508448418a2925037403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4d8c0d3f629a81b5ef2084caadc165') in 0.049127 seconds
+  Import took 0.051609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.575212 seconds.
+  path: Assets/My Assets/Envrionment/Materials/dirt.png
+  artifactKey: Guid(c00455a8489b28046b49321a2028bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/dirt.png using Guid(c00455a8489b28046b49321a2028bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af68bd92a5718c0978133aeb07cc7596') in 0.205295 seconds
+  Import took 0.208316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/My Assets/Envrionment/Materials/snow_normal.png
+  artifactKey: Guid(d8b78be7885310347ba0cef13eb29d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/snow_normal.png using Guid(d8b78be7885310347ba0cef13eb29d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f002ac61b04555fa5318b66acc6a70') in 0.093938 seconds
+  Import took 0.096316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/My Assets/Envrionment/Materials/Rock_Normal.jpg
+  artifactKey: Guid(3a2df8ca48b50974db67b106a4a9a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/Rock_Normal.jpg using Guid(3a2df8ca48b50974db67b106a4a9a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95877c13599b32550feb7ee1ea8eaee') in 0.303070 seconds
+  Import took 0.305411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/My Assets/Envrionment/Materials/pinkdirt.png
+  artifactKey: Guid(da294d2f326c598499851cb1e78dcf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/pinkdirt.png using Guid(da294d2f326c598499851cb1e78dcf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75a986b55bc9f2a105a206445c30a10') in 0.039271 seconds
+  Import took 0.042515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/My Assets/Envrionment/Materials/dirt_normal.png
+  artifactKey: Guid(cf5fad8e3c5057d47a6362ee3348b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/dirt_normal.png using Guid(cf5fad8e3c5057d47a6362ee3348b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41241dae5cb9ce107b108826870b284f') in 0.022940 seconds
+  Import took 0.025312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/My Assets/Envrionment/Materials/new flowers noraml.jpg
+  artifactKey: Guid(16e4e507c77cbcb45b2430066b1ff7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/new flowers noraml.jpg using Guid(16e4e507c77cbcb45b2430066b1ff7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f25424c7ab4223d5bb1eb3ea21c3c8b') in 0.029671 seconds
+  Import took 0.031995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/My Assets/Envrionment/Materials/dirt_normal.png
+  artifactKey: Guid(cf5fad8e3c5057d47a6362ee3348b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/dirt_normal.png using Guid(cf5fad8e3c5057d47a6362ee3348b37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41241dae5cb9ce107b108826870b284f') in 0.008369 seconds
+  Import took 0.010917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/My Assets/Envrionment/Materials/dirt.png
+  artifactKey: Guid(c00455a8489b28046b49321a2028bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Envrionment/Materials/dirt.png using Guid(c00455a8489b28046b49321a2028bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af68bd92a5718c0978133aeb07cc7596') in 0.007852 seconds
+  Import took 0.010998 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
