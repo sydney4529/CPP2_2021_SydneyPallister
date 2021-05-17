@@ -20,7 +20,7 @@ public class ThirdPersonMovement : MonoBehaviour
     float turnSmoothVelocity;
 
     Vector3 velocity;
-    bool isGrounded;
+    public bool isGrounded;
 
     public bool grounded;
     private Vector3 posCur;

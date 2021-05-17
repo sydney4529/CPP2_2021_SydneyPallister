@@ -19,7 +19,6 @@ public class MovingPlatform : MonoBehaviour
     Vector3 ogScale;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -87,11 +86,22 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.transform.parent = transform;
+        ogScale = other.transform.localScale;
+
+        if (other.gameObject.tag == "Player")
+        {
+            other.transform.parent = transform;
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
     {
-        other.transform.parent = null;
+        if (other.gameObject.tag == "Player")
+        {
+            other.transform.parent = null;
+        }
+
     }
+
 }

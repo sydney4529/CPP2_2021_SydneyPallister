@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6991614239105103682}
   - component: {fileID: 6646260691028590067}
   - component: {fileID: 7620426209873628549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Brick 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
