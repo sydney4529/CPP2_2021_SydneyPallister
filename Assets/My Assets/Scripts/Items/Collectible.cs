@@ -9,11 +9,14 @@ public class Collectible : MonoBehaviour
 {
     public enum CollectibleType
     {
-        POWERUP,
+        FIREPOWERUP,
+        SPEEDPOWERUP,
+        SHEILDPOWERUP,
         COIN,
         GEM1,
         GEM2,
         LIFE,
+        HEALTH,
         END
     }
 
@@ -44,24 +47,35 @@ public class Collectible : MonoBehaviour
             switch (currentCollectible)
             {
 
-                case CollectibleType.POWERUP:
+                case CollectibleType.FIREPOWERUP:
+                    collision.gameObject.GetComponent<PlayerFire>().poweredUp = true;
+                    break;
 
+                case CollectibleType.SPEEDPOWERUP:
+                    collision.gameObject.GetComponent<ThirdPersonMovement>().speedPowered = true;
+                    break;
+
+                case CollectibleType.SHEILDPOWERUP:
                     break;
 
                 case CollectibleType.LIFE:
+                    GameManager.instance.lives++;
+                    break;
 
+                case CollectibleType.HEALTH:
+                    GameManager.instance.health++;
                     break;
 
                 case CollectibleType.GEM1:
-
+                    GameManager.instance.score+=5;
                     break;
 
                 case CollectibleType.GEM2:
-
+                    GameManager.instance.score+=10;
                     break;
 
                 case CollectibleType.COIN:
-
+                    GameManager.instance.score += 15;
                     break;
 
                 case CollectibleType.END:

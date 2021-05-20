@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6494526852770618807}
   - component: {fileID: 5611665878816014646}
   - component: {fileID: 5611665878816014641}
+  - component: {fileID: 1885606854558149075}
   m_Layer: 0
   m_Name: mushroom flat 2
   m_TagString: Untagged
@@ -112,3 +113,19 @@ CapsuleCollider:
   m_Height: 16.3
   m_Direction: 1
   m_Center: {x: -0.91, y: 7.7, z: -0.2}
+--- !u!208 &1885606854558149075
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693258457209338978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 14.648001, y: 23.643002, z: 15.329}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 12.14, y: 23.573002, z: -12.759001}
+  m_TimeToStationary: 0.5

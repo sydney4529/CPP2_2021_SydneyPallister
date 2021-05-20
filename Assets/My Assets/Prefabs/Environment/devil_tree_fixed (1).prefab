@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 590748726512370869}
   - component: {fileID: 3447001525326983295}
   - component: {fileID: 6900235988834068669}
+  - component: {fileID: 6637630614193743368}
   m_Layer: 0
   m_Name: devil_tree_fixed (1)
   m_TagString: Untagged
@@ -96,3 +97,19 @@ CapsuleCollider:
   m_Height: 17.299723
   m_Direction: 1
   m_Center: {x: -0.051217802, y: 8.569291, z: 0.000030517578}
+--- !u!208 &6637630614193743368
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807452567214461354}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 6.9030004, y: 8.650001, z: 6.9030004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.051000003, y: 8.569, z: 0}
+  m_TimeToStationary: 0.5

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2537521316977716905}
   - component: {fileID: 347869503601826403}
   - component: {fileID: 1374289315594517561}
+  - component: {fileID: -5126576679229559134}
   m_Layer: 0
   m_Name: mushroom flat group
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CapsuleCollider:
   m_Height: 47.324154
   m_Direction: 1
   m_Center: {x: 6.6, y: 0, z: 1.08}
+--- !u!208 &-5126576679229559134
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293208556948650934}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 35.145, y: 23.662, z: 41.355003}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5

@@ -26,9 +26,14 @@ public class PlayerCollision : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            //Debug.Log("collided");
             GameManager.instance.health--;
-            //Destroy(gameObject);
+            anim.SetTrigger("Hurt");
+        }
+
+        if (collision.gameObject.tag == "EnemyProjectile")
+        {
+            GameManager.instance.health--;
+            anim.SetTrigger("Hurt");
         }
     }
 

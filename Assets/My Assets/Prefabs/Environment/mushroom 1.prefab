@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2193595196866924846}
   - component: {fileID: 4149434272384640484}
   - component: {fileID: 3338387634575347792}
+  - component: {fileID: -8658316212476505381}
   m_Layer: 0
   m_Name: mushroom 1
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CapsuleCollider:
   m_Height: 51.94344
   m_Direction: 1
   m_Center: {x: 0.06, y: 25.934355, z: 0.46}
+--- !u!208 &-8658316212476505381
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2491963992247813169}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 9.531, y: 25.972002, z: 9.531}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.006, y: 25.934002, z: 0}
+  m_TimeToStationary: 0.5

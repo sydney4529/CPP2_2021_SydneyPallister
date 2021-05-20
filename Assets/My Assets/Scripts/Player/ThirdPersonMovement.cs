@@ -21,6 +21,8 @@ public class ThirdPersonMovement : MonoBehaviour
 
     Vector3 velocity;
     public bool isGrounded;
+    public bool speedPowered;
+    bool trigger;
 
     public bool grounded;
     private Vector3 posCur;
@@ -105,25 +107,40 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.LeftShift) && isMoving == true)
+        if (Input.GetKey(KeyCode.LeftShift) && isMoving == true && speedPowered == false)
         {
             if(speed > 10)
             {
                 speed = 35f;
-                isRunning = true;
+                //isRunning = true;
             }
        
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift) || isMoving == false)
+        if (Input.GetKeyUp(KeyCode.LeftShift) || isMoving == false && speedPowered == false)
         {
             if(speed > 10)
             {
                 speed = 20f;
             }
-            isRunning = false;
+            //isRunning = false;
 
         }
+
+        if(speedPowered && !trigger)
+        {
+            StartCoroutine(SpeedCo());
+        }
+
+        if(speed > 20 && isMoving)
+        {
+            isRunning = true;
+        }
+        else
+        {
+            isRunning = false;
+        }
+
 
         if(Input.GetButtonDown("Fire1"))
         {
@@ -172,6 +189,17 @@ public class ThirdPersonMovement : MonoBehaviour
         anim.SetBool("isFiring", isFiring);
           
 
+    }
+
+    IEnumerator SpeedCo()
+    {
+        speed = 55f;
+        trigger = true;
+        yield return new WaitForSeconds(5);
+        speed = 20;
+        trigger = false;
+        speedPowered = false;
+        Debug.Log("done");
     }
 
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6420929317691232280}
   - component: {fileID: 9151119245393814738}
   - component: {fileID: 9062012413763822600}
+  - component: {fileID: -6060078392407863129}
   m_Layer: 0
   m_Name: Broken_Pillar2
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CapsuleCollider:
   m_Height: 3.1124525
   m_Direction: 1
   m_Center: {x: 0, y: 1.0717864, z: 0}
+--- !u!208 &-6060078392407863129
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7349788865267221767}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.69000006, y: 1.5560001, z: 0.69000006}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.072, z: 0}
+  m_TimeToStationary: 0.5

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6914504742697659820}
   - component: {fileID: 5140959972041449354}
   - component: {fileID: 4125157322868212032}
+  - component: {fileID: 1948746946799128747}
   m_Layer: 0
   m_Name: Castle Tower 3
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8182338071934582370, guid: dfb4fa96d5164464b8f0f2e679026d15, type: 3}
+--- !u!208 &1948746946799128747
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078254534363493808}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.717, y: 7.175, z: 4.729}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.079, y: 7.0120006, z: -0.07300001}
+  m_TimeToStationary: 0.5

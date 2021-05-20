@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5945175370823414333}
   - component: {fileID: 920408127704449693}
   - component: {fileID: 3637384308039843397}
+  - component: {fileID: 2555649207384148031}
   m_Layer: 3
   m_Name: Castle Wall 2
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5224621079024282842, guid: dfb4fa96d5164464b8f0f2e679026d15, type: 3}
+--- !u!208 &2555649207384148031
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7672197460127903962}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.119, y: 3.992, z: 1.4410001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.038000003, y: 3.8290002, z: -0.026}
+  m_TimeToStationary: 0.5

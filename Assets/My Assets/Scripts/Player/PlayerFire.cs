@@ -11,6 +11,10 @@ public class PlayerFire : MonoBehaviour
 
     public Transform spawnPoint;
     public Projectile projectilePrefab;
+    public Projectile poweredUpPrefab;
+
+    public bool poweredUp;
+    bool trigger;
 
     CharacterController chara;
 
@@ -32,16 +36,32 @@ public class PlayerFire : MonoBehaviour
                 FireProjectile();
             }
         }
+
+        if(poweredUp && !trigger)
+        {
+            trigger = true;
+            StartCoroutine(WaitForFire(5));
+        }
     }
 
     public void FireProjectile()
     {
         try
         {
-            Projectile projectileInstance = Instantiate(projectilePrefab, spawnPoint.position, Quaternion.identity);
-            projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
-            //projectileInstance.transform.rotation.x = projectileInstance.transform.rotation.x * transform.rotation.x;
-            projectileInstance.transform.rotation = transform.rotation;
+            if(!poweredUp)
+            {
+                Projectile projectileInstance = Instantiate(projectilePrefab, spawnPoint.position, Quaternion.identity);
+                projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
+                //projectileInstance.transform.rotation.x = projectileInstance.transform.rotation.x * transform.rotation.x;
+                projectileInstance.transform.rotation = transform.rotation;
+            }
+            else
+            {
+                Projectile projectileInstance = Instantiate(poweredUpPrefab, spawnPoint.position, Quaternion.identity);
+                projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
+                projectileInstance.transform.rotation = transform.rotation;
+            }
+            
         }
         catch(ArgumentException ex)
         {
@@ -49,5 +69,12 @@ public class PlayerFire : MonoBehaviour
         }
         
         //isFiring = false;
+    }
+
+    IEnumerator WaitForFire(float t)
+    {
+        yield return new WaitForSeconds(t);
+        poweredUp = false;
+        trigger = false;
     }
 }

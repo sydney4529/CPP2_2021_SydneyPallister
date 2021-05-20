@@ -84,24 +84,24 @@ public class MovingPlatform : MonoBehaviour
         currentTarget = points[pointNumber];
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        ogScale = other.transform.localScale;
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    ogScale = other.transform.localScale;
 
-        if (other.gameObject.tag == "Player")
-        {
-            other.transform.parent = transform;
-        }
+    //    if (other.gameObject.tag == "Player")
+    //    {
+    //        other.transform.parent = transform;
+    //    }
 
-    }
+    //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            other.transform.parent = null;
-        }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Player")
+    //    {
+    //        other.transform.parent = null;
+    //    }
 
-    }
+    //}
 
 }

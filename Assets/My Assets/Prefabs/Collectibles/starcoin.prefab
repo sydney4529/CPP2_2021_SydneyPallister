@@ -140,5 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8fa16889167864d875aba7a2ecc8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCollectible: 1
+  currentCollectible: 3
   rotSpeed: 100

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 538498855920142087}
   - component: {fileID: 2350270506617533389}
   - component: {fileID: 3989137256326721355}
+  - component: {fileID: 7141869535075692453}
   m_Layer: 0
   m_Name: mushroom group
   m_TagString: Untagged
@@ -97,3 +98,19 @@ CapsuleCollider:
   m_Height: 60.378277
   m_Direction: 1
   m_Center: {x: 0.7, y: 29.932528, z: -2.86}
+--- !u!208 &7141869535075692453
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295636773619126808}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 14.408001, y: 30.189001, z: 14.408001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.9310001, y: 29.933, z: -2.095}
+  m_TimeToStationary: 0.5

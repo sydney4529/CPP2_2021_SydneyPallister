@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8fa16889167864d875aba7a2ecc8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCollectible: 5
+  currentCollectible: 8
   rotSpeed: 90
 --- !u!65 &2986895754550789180
 BoxCollider:

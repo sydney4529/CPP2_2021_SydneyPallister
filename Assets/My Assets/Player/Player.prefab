@@ -586,6 +586,7 @@ MonoBehaviour:
   jumpHeight: 8
   groundDistance: 0.4
   turnSmoothTime: 0.1
+  isGrounded: 0
   grounded: 0
   thingToLookFrom: {fileID: 2689647487890382558}
   lookDistance: 30
@@ -609,6 +610,8 @@ MonoBehaviour:
   projectileSpeed: 4
   spawnPoint: {fileID: 2689647487890382558}
   projectilePrefab: {fileID: 5781406562447065028, guid: cf7771ba322445245b0cb39e4453c90f, type: 3}
+  poweredUpPrefab: {fileID: 1832309904877990294, guid: 0fec8a6f59b590642a4c97f3affaaaf7, type: 3}
+  poweredUp: 0
 --- !u!114 &4050804024898822589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,6 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84499dcf9e537e429dc4cd29e9eec7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!1 &5812782394921358391
 GameObject:
   m_ObjectHideFlags: 0

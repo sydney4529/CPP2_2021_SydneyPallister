@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 233728488478681803}
   - component: {fileID: 233728488478681800}
   - component: {fileID: -622442223857313790}
+  - component: {fileID: 2994160383451921854}
   m_Layer: 0
   m_Name: Crystal Cluster
   m_TagString: Blockade
@@ -28,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152700519028342959}
-  m_LocalRotation: {x: -0.77703273, y: -0, z: -0, w: 0.6294602}
+  m_LocalRotation: {x: -0.77703065, y: 0, z: 0, w: 0.62946284}
   m_LocalPosition: {x: 224.19145, y: -47.9703, z: -62.28448}
   m_LocalScale: {x: 48.38445, y: 48.384453, z: 58.79716}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -101.979, y: 0, z: 0}
 --- !u!33 &3682603340474652080
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -125,3 +126,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shatteredPrefab: {fileID: 1153118441538767722, guid: ed02906554342e14aa2496c75ef69c5c, type: 3}
+--- !u!208 &2994160383451921854
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152700519028342959}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.113000005, y: 0.108, z: 0.11800001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.006, y: -0.021000002, z: 0.109000005}
+  m_TimeToStationary: 0.5

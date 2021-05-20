@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1221473103404459427}
   - component: {fileID: 3969778044256457065}
   - component: {fileID: 5875724978494525956}
+  - component: {fileID: 593403289601692749}
   m_Layer: 0
   m_Name: Stone_Wall
   m_TagString: Untagged
@@ -95,3 +96,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.43858093, y: 1.7118292, z: 2.920231}
   m_Center: {x: 0, y: 0.6366241, z: 0.24178243}
+--- !u!208 &593403289601692749
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177149250654089404}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.21900001, y: 0.85600007, z: 1.46}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.637, z: 0.24200001}
+  m_TimeToStationary: 0.5

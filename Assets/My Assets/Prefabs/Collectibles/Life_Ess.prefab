@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2558737460530925158}
   m_Layer: 0
   m_Name: Life_Ess
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,5 +155,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8fa16889167864d875aba7a2ecc8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCollectible: 4
+  currentCollectible: 6
   rotSpeed: 120

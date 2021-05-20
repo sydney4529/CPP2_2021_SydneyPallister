@@ -20,6 +20,7 @@ public class Spawner : MonoBehaviour
         {
             randomPrefab = UnityEngine.Random.Range(0, range);
             Instantiate(prefabs[randomPrefab], transform.position, Quaternion.identity);
+            //Destroy(gameObject);
         }
         catch (IndexOutOfRangeException ex)
         {

@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 8661912730258229143}
   - component: {fileID: 1795195798531601907}
   - component: {fileID: 8403381018933026543}
+  - component: {fileID: -3689168671155764322}
   m_Layer: 0
   m_Name: Castle Tower 2
   m_TagString: Untagged
@@ -290,3 +291,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1716908818217341822, guid: dfb4fa96d5164464b8f0f2e679026d15, type: 3}
+--- !u!208 &-3689168671155764322
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107763333632390611}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 4.6980004, y: 13.432001, z: 4.6980004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.115, y: 12.997001, z: 0.20700002}
+  m_TimeToStationary: 0.5
