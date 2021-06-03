@@ -16,6 +16,7 @@ TagManager:
   - Blockade
   - PatrolNode
   - Spawn
+  - MainCanvas
   layers:
   - Default
   - TransparentFX

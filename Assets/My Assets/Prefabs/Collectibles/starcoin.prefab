@@ -112,9 +112,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1.1412838
-  m_Height: 2.282567
+  m_Height: 4.8367414
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -1.2770867, z: 0}
 --- !u!65 &8519009045416684896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140,5 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8fa16889167864d875aba7a2ecc8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 2985827690837919169, guid: 438d2e26d2ed15345b199672a112c771, type: 3}
   currentCollectible: 3
   rotSpeed: 100

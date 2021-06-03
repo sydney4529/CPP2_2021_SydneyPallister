@@ -97,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1672668, y: 0.8943939, z: 1.7582779}
-  m_Center: {x: -0.017288208, y: 0.06905365, z: -0.027812958}
+  m_Size: {x: 1.1672668, y: 1.5715103, z: 1.7582779}
+  m_Center: {x: -0.017288208, y: -0.26950455, z: -0.027812958}
 --- !u!65 &3612748353602307273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ BoxCollider:
   m_GameObject: {fileID: 4531297069970422165}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.7891064, y: 0.315036, z: 1.225281}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.000000029802322}
@@ -139,9 +139,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.6126405
-  m_Height: 0.315036
+  m_Height: 3.0278168
   m_Direction: 1
-  m_Center: {x: 0, y: 0.000000007450581, z: 0.000000029802322}
+  m_Center: {x: 0, y: -0.901268, z: 0}
 --- !u!114 &780800593394024541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,5 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8fa16889167864d875aba7a2ecc8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 2985827690837919169, guid: 438d2e26d2ed15345b199672a112c771, type: 3}
   currentCollectible: 4
   rotSpeed: 110

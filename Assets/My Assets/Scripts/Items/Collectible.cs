@@ -20,6 +20,8 @@ public class Collectible : MonoBehaviour
         END
     }
 
+    public ParticleSystem collect;
+
     public CollectibleType currentCollectible;
 
     public float rotSpeed;
@@ -42,6 +44,7 @@ public class Collectible : MonoBehaviour
         if(collision.gameObject.tag == "Player" && isActive)
         {
             isActive = false;
+            Instantiate(collect, transform.position, transform.rotation);
             Destroy(gameObject);
             //input do something code here
             switch (currentCollectible)
@@ -56,6 +59,7 @@ public class Collectible : MonoBehaviour
                     break;
 
                 case CollectibleType.SHEILDPOWERUP:
+                    collision.gameObject.GetComponentInChildren<PlayerMaterials>().shieldPowered = true;
                     break;
 
                 case CollectibleType.LIFE:

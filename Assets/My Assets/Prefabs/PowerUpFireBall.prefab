@@ -77,8 +77,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  lifeTime: 0
-  burst: {fileID: 0}
+  lifeTime: 3
+  burst: {fileID: 8909452649397926948, guid: 179605e365fad7a4bb8830e93bd2a180, type: 3}
+  hit: {fileID: 7742085008464462694, guid: a2530a621eca5f946a8d204e22dc86b1, type: 3}
 --- !u!1001 &4638879148792568472
 PrefabInstance:
   m_ObjectHideFlags: 0

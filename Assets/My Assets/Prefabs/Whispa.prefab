@@ -1,77 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3458739825522533374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3393510788233320882}
-  - component: {fileID: 4789958407892175337}
-  - component: {fileID: 4709059393122920129}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &3393510788233320882
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3458739825522533374}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -24.409447}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_Children: []
-  m_Father: {fileID: 7595282796069255137}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49.743233, y: 20.450182}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4789958407892175337
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3458739825522533374}
-  m_CullTransparentMesh: 1
---- !u!114 &4709059393122920129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3458739825522533374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!1 &5132755857199435533
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +107,7 @@ RectTransform:
   m_Children:
   - {fileID: 9037853564150006165}
   m_Father: {fileID: 7595282796069255137}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -260,8 +188,9 @@ GameObject:
   - component: {fileID: 3651201130679703873}
   - component: {fileID: 4546440192383565583}
   - component: {fileID: 2899494386654001350}
+  - component: {fileID: 4094672932287824885}
   m_Layer: 7
-  m_Name: Whispa_B
+  m_Name: Whispa
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +209,6 @@ Transform:
   m_Children:
   - {fileID: 7595282796069255149}
   - {fileID: 7595282796069255139}
-  - {fileID: 3393510788233320882}
   - {fileID: 9068045718152370406}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -351,6 +279,20 @@ MonoBehaviour:
   speed: 10
   invisible: {fileID: 2100000, guid: 491bc740f5acc8049af083c96e968826, type: 2}
   visible: {fileID: 2100000, guid: f7fc63bea42a94147bbf701ca253ec0e, type: 2}
+  enemyID: 0
+--- !u!114 &4094672932287824885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7595282796068760513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e1ac2d3df338d46aaab54dcb0edd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 6c2628af-81a4-467a-a927-5586682664b4
 --- !u!1 &7595282796068760515
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +397,7 @@ MonoBehaviour:
   speed: 0
   invisible: {fileID: 0}
   visible: {fileID: 0}
+  enemyID: 0
 --- !u!1 &7595282796068760521
 GameObject:
   m_ObjectHideFlags: 0

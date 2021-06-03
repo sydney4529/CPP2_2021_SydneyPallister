@@ -14,6 +14,7 @@ public class Projectile : MonoBehaviour
     public float lifeTime;
 
     public ParticleSystem burst;
+    public ParticleSystem hit;
 
     CapsuleCollider thisCollider;
 
@@ -46,6 +47,15 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if(collision.gameObject.layer == 7)
+        {
+            Instantiate(hit, transform.position, transform.rotation);
+        }
+        else
+        {
+            Instantiate(burst, transform.position, transform.rotation);
+        }
+        
         Destroy(gameObject);
     }
 }

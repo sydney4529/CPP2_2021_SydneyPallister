@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     Rigidbody rb;
 
     public GameObject target;
+    public ParticleSystem deathBurst;
 
     enum EnemyType { Chase, Patrol, Dead}
     [SerializeField] EnemyType enemyType;
@@ -37,10 +38,14 @@ public class Enemy : MonoBehaviour
     bool alive;
 
     public int health;
+    public string enemyID;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        name = "Dryad";
+
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
@@ -48,6 +53,8 @@ public class Enemy : MonoBehaviour
         attackDist = 20;
         health = 3;
         alive = true;
+        //enemyID = GetInstanceID();
+        enemyID = GetComponent<UniqueId>().uniqueId;
 
         anim.applyRootMotion = false;
 
@@ -86,7 +93,112 @@ public class Enemy : MonoBehaviour
             agent.SetDestination(target.transform.position);
         }
 
-        
+        if (GameManager.save == true)
+        {
+            Debug.Log("save is true");
+            LoadGameComplete();
+        }
+
+        if(alive == false)
+        {
+            Debug.Log("was destroyed");
+            CanvasManager canvas = FindObjectOfType<CanvasManager>();
+            canvas.eRef.Remove(this);
+            Destroy(gameObject);
+        }
+
+    }
+
+    public void SaveGamePrepare()
+    {
+        List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
+            GameManager.StateManager.gameState.enemies;
+
+        for (int i = 0; i < enemies1.Count; i++)
+        {
+            if (enemies1[i].enemyID == enemyID)
+            {
+                // Found enemy. Now break break from loop
+                GameManager.StateManager.gameState.enemies.Remove(enemies1[i]);
+                break;
+            }
+        }
+
+        GameManager.StateManager.gameState.enemies1.Clear();
+        LoadSaveManager.GameStateData.DataEnemy data = new LoadSaveManager.GameStateData.DataEnemy();
+
+        data.enemyID = GetComponent<UniqueId>().uniqueId;
+        data.health = health;
+        data.saveAlive = alive;
+
+        data.posRotScale.posX = transform.position.x;
+        data.posRotScale.posY = transform.position.y;
+        data.posRotScale.posZ = transform.position.z;
+
+        data.posRotScale.rotX = transform.localEulerAngles.x;
+        data.posRotScale.rotY = transform.localEulerAngles.y;
+        data.posRotScale.rotZ = transform.localEulerAngles.z;
+
+        data.posRotScale.scaleX = transform.localScale.x;
+        data.posRotScale.scaleY = transform.localScale.y;
+        data.posRotScale.scaleZ = transform.localScale.z;
+
+        //Add enemy to Game State
+        GameManager.StateManager.gameState.enemies1.Add(data);
+        //Debug.Log(GameManager.StateManager.gameState.enemies1.Count);
+    }
+
+    public void LoadGameComplete()
+    {
+
+        // Cycle through enemies and find matching ID
+        List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
+            GameManager.StateManager.gameState.enemies1;
+
+        // Reference to this enemy
+        LoadSaveManager.GameStateData.DataEnemy data = null;
+
+        Debug.Log(GameManager.StateManager.gameState.enemies1.Count);
+
+        for (int i = 0; i < enemies1.Count; i++)
+        {
+            //Debug.Log(enemies1[i].enemyID);
+            //Debug.Log(enemyID);
+            if (enemies1[i].enemyID == enemyID)
+            {
+                // Found enemy. Now break break from loop
+                //Debug.Log("in loop");
+                data = enemies1[i];
+                break;
+            }
+        }
+
+        // If here and no enemy is found, then it was destroyed when saved. So destroy.
+        if (data == null)
+        {
+            CanvasManager canvas = FindObjectOfType<CanvasManager>();
+            canvas.eRef.Remove(this);
+            Destroy(gameObject);
+            return;
+        }
+
+        // Else load enemy data
+        enemyID = data.enemyID;
+        health = data.health;
+        alive = data.saveAlive;
+        Debug.Log(data.saveAlive);
+
+        // Set position
+        transform.position = new Vector3(data.posRotScale.posX,
+            data.posRotScale.posY, data.posRotScale.posZ);
+
+        // Set rotation
+        transform.localRotation = Quaternion.Euler(data.posRotScale.rotX,
+            data.posRotScale.rotY, data.posRotScale.rotZ);
+
+        // Set scale
+        transform.localScale = new Vector3(data.posRotScale.scaleX,
+            data.posRotScale.scaleY, data.posRotScale.scaleZ);
 
     }
 
@@ -173,9 +285,9 @@ public class Enemy : MonoBehaviour
 
         anim.SetFloat("Speed", transform.InverseTransformDirection(agent.velocity).z);
 
-        Debug.Log(health);
-        Debug.Log(target);
-        Debug.Log(alive);
+        //Debug.Log(health);
+        //Debug.Log(target);
+       // Debug.Log(alive);
     }
 
     void SetTarget()
@@ -205,9 +317,16 @@ public class Enemy : MonoBehaviour
             else
             {
                 alive = false;
+                if (co != null)
+                {
+                    StopCoroutine(co);
+                }
                 enemyType = EnemyType.Dead;
                 target = null;
                 anim.SetTrigger("Die");
+                CanvasManager canvas = FindObjectOfType<CanvasManager>();
+                canvas.eRef.Remove(this);
+
             }
             
             //Hurt();
@@ -231,8 +350,8 @@ public class Enemy : MonoBehaviour
     void DryadDie()
     {
         Vector3 spawn = new Vector3(transform.position.x, transform.position.y+5, transform.position.z);
-
         Instantiate(spawner, spawn, Quaternion.identity);
+        Instantiate(deathBurst, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 }

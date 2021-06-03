@@ -15,12 +15,34 @@ public class GameManager : MonoBehaviour
 
     public static bool IsInputEnabled = true;
     public static bool alive = true;
+    public static bool vulnerable = true;
 
+    public static bool save;
+
+    AsyncOperation async;
     public static GameManager instance
     {
         get { return _instance; }
         set { _instance = value; }
     }
+
+    public static LoadSaveManager StateManager
+    {
+        get
+        {
+            if (!statemanager)
+                statemanager = instance.GetComponent<LoadSaveManager>();
+
+            return statemanager;
+        }
+    }
+
+    // Internal reference to single active instance of object - for singleton behaviour
+    //private static GameManager instance = null;
+
+    private static LoadSaveManager statemanager = null;
+
+    private static bool bShouldLoad = false;
 
     int _score;
     public int score
@@ -48,12 +70,14 @@ public class GameManager : MonoBehaviour
                 _health = maxHealth; 
             }
 
-            if(_health <= 0)
+            if(_health <= 0 && alive == true)
             {
                 //Destroy(playerInstance);
                 alive = false;
                 IsInputEnabled = false;
                 lives--;
+                playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
+                //Debug.Log("Called");
             }
         }
     }
@@ -72,7 +96,10 @@ public class GameManager : MonoBehaviour
                 {
 
                     //Debug.Log("Should have spawned");
-                    playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
+                    if (alive == false)
+                    {
+                        //playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
+                    }
                     //Respawn();
                     
 
@@ -98,10 +125,35 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
+    //// Start is called before the first frame update
+    //void Start()
+    //{
+
+    //    if (instance)
+    //        Destroy(gameObject);
+    //    else
+    //    {
+    //        DontDestroyOnLoad(gameObject);
+    //        instance = this;
+    //    }
+
+    //}
+
+    //void Awake()
+    //{
+    //    //Check if there is an existing instance of this object
+    //    if ((instance) && (instance.GetInstanceID() != GetInstanceID()))
+    //        Destroy(gameObject); //Delete duplicate
+    //    else
+    //    {
+    //        instance = this; //Make this object the only instance
+    //        DontDestroyOnLoad(gameObject); //Set as do not destroy
+    //    }
+    //}
+
+    // Use this for initialization
     void Start()
     {
-
         if (instance)
             Destroy(gameObject);
         else
@@ -110,29 +162,25 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
 
+        // Check if the Level should be loaded
+        if (bShouldLoad)
+        {
+            // Load the file to read from	
+            StateManager.Load(Application.persistentDataPath + "/SaveGame.xml");
+
+            // Reset load flag
+            bShouldLoad = false;
+        }
+
+        // Store the Player name, which can come from an InputField UI Component
+        PlayerPrefs.SetString("Name", "Dragon");
+        PlayerPrefs.SetFloat("Volume", 0.5f);
+        PlayerPrefs.Save();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (player)
-
-            //if (Input.GetKeyDown(KeyCode.Escape))
-            //{
-            //    if (SceneManager.GetActiveScene().name == "Jungle_Hijinx")
-            //    {
-            //        SceneManager.LoadScene("TitleScreen");
-            //    }
-            //    else if (SceneManager.GetActiveScene().name == "TitleScreen")
-            //    {
-            //        SceneManager.LoadScene("Jungle_Hijinx");
-            //    }
-            //    else if (SceneManager.GetActiveScene().name == "GameOver")
-            //    {
-            //        SceneManager.LoadScene("TitleScreen");
-            //    }
-
-            //}
 
             if (Input.GetKeyDown(KeyCode.Backspace))
             {
@@ -178,25 +226,43 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "MainScene")
         {
-            Destroy(playerInstance);
-            //playerInstance.transform.position = currentLevel.spawnLocation.position;
-            health = 3;
-            alive = true;
-            IsInputEnabled = true;
-            SpawnPlayer(currentLevel.spawnLocation);
-            
+
+            if (save)
+            {
+                SceneManager.LoadScene("MainScene");
+                CanvasManager canvasManager = FindObjectOfType<CanvasManager>();
+                canvasManager.cRef = FindObjectOfType<PlayerSave>();
+                alive = true;
+                vulnerable = true;
+                IsInputEnabled = true;
+                canvasManager.LoadGame();  
+            }
+            else
+            {
+                SceneManager.LoadScene("MainScene");
+                health = 3;
+                alive = true;
+                vulnerable = true;
+                IsInputEnabled = true;
+
+            }
+
         }
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene("MainScene");
+        lives = maxLives;
+        health = maxHealth;
     }
 
     public void GameOver()
     {
         SceneManager.LoadScene("GameOver");
         Cursor.lockState = CursorLockMode.None;
+        score = 0;
+        save = false;
     }
 
     public void QuitGame()
@@ -215,4 +281,59 @@ public class GameManager : MonoBehaviour
         alive = true;
     }
 
+    public void Save()
+    {
+        save = true;
+        //Debug.Log(Application.persistentDataPath);
+
+        // Call save game functionality
+        StateManager.Save(Application.persistentDataPath + "/SaveGame.xml");
+    }
+
+    public void Load()
+    {
+        bShouldLoad = true;
+
+        //Call load game functionality
+        StateManager.Load(Application.persistentDataPath + "/SaveGame.xml");
+    }
+
+    public void PreLoadGame()
+    {
+        async = SceneManager.LoadSceneAsync("MainScene");
+        async.allowSceneActivation = false;
+        StartCoroutine(StartLevel());
+
+    }
+
+    IEnumerator StartLevel()
+    {
+        while (!async.isDone)
+        {
+            if (async.progress == 0.9f)
+            {
+                yield return new WaitForSeconds(1.0f);
+                async.allowSceneActivation = true;
+            }
+            yield return 0;
+        }
+
+        alive = true;
+        vulnerable = true;
+        IsInputEnabled = true;
+
+        if (save)
+        {
+            //CanvasManager canvasManager = FindObjectOfType<CanvasManager>();
+            //canvasManager.cRef = FindObjectOfType<PlayerSave>();
+            //canvasManager.LoadGame();
+            playerInstance.GetComponent<PlayerSave>().LoadGameComplete();
+            Load();
+        }
+        else
+        {
+            score = 0;
+            health = 3;
+        }
+    }  
 }

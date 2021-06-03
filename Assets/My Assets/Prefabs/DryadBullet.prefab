@@ -142,4 +142,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 50
   lifeTime: 0
-  burst: {fileID: 0}
+  burst: {fileID: 2985827690837919169, guid: 438d2e26d2ed15345b199672a112c771, type: 3}
+  hit: {fileID: 7742085008464462694, guid: a2530a621eca5f946a8d204e22dc86b1, type: 3}

@@ -19,27 +19,31 @@ public class PlayerCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CanvasManager canvas = FindObjectOfType<CanvasManager>();
+        Debug.Log(canvas.gRef.Count);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if (GameManager.alive == true && GameManager.vulnerable)
         {
-            GameManager.instance.health--;
-            anim.SetTrigger("Hurt");
-        }
+            if (collision.gameObject.tag == "Enemy")
+            {
+                GameManager.instance.health--;
+                anim.SetTrigger("Hurt");
+            }
 
-        if (collision.gameObject.tag == "EnemyProjectile")
-        {
-            GameManager.instance.health--;
-            anim.SetTrigger("Hurt");
+            if (collision.gameObject.tag == "EnemyProjectile")
+            {
+                GameManager.instance.health--;
+                anim.SetTrigger("Hurt");
+            }
         }
     }
 
     void OnTriggerStay(Collider other)
     {
-        if(GameManager.alive == true)
+        if(GameManager.alive == true && GameManager.vulnerable)
         {
             if (other.gameObject.tag == "Vines")
             {
@@ -89,7 +93,8 @@ public class PlayerCollision : MonoBehaviour
     {
         if (GameManager.instance.lives > 0)
         {
-            GameManager.instance.Respawn();
+            //GameManager.instance.Respawn();
+            GameManager.instance.PreLoadGame();
         }
         else
         {

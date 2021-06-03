@@ -13,8 +13,22 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         //GameManager.instance.currentLevel = GetComponent<LevelManager>();
-        GameManager.instance.lives = startingLives;
-        GameManager.instance.health = startingHealth;
+        if(GameManager.save == false)
+        {
+            if(GameManager.instance.lives == 0)
+            {
+                GameManager.instance.lives = startingLives;
+            }
+            
+            GameManager.instance.health = startingHealth;
+        }
+
+        if(GameManager.save == true)
+        {
+            Vector3 newPos = new Vector3(GameManager.StateManager.gameState.player.posRotScale.posX, GameManager.StateManager.gameState.player.posRotScale.posY, GameManager.StateManager.gameState.player.posRotScale.posZ);
+            spawnLocation.transform.position = newPos;
+        }
+        
         GameManager.instance.SpawnPlayer(spawnLocation);
         GameManager.instance.currentLevel = gameObject.GetComponent<LevelManager>();
     }

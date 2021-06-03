@@ -1521,6 +1521,7 @@ GameObject:
   - component: {fileID: 1434114968}
   - component: {fileID: 1434114967}
   - component: {fileID: 1434114971}
+  - component: {fileID: 1793793554322120953}
   m_Layer: 0
   m_Name: Flower Dryad
   m_TagString: Untagged
@@ -1629,6 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  deathBurst: {fileID: 4635406391967673384, guid: 56cb861438bb92a499062e8f17bb3210, type: 3}
   enemyType: 1
   patrolType: 0
   autoGenPath: 0
@@ -1645,6 +1647,20 @@ MonoBehaviour:
   pathIndex: 0
   distanceToNextNode: 0
   health: 0
+  enemyID: 0
+--- !u!114 &1793793554322120953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527364526494527294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e1ac2d3df338d46aaab54dcb0edd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 506aaddf-c5e1-4d8a-8e6e-955d99909f14
 --- !u!1 &8527364526494527296
 GameObject:
   m_ObjectHideFlags: 0
