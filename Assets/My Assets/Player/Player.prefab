@@ -732,7 +732,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   hit: {fileID: 8300000, guid: f94818bcaebd99647b16f0e646bbab52, type: 3}
   vines: {fileID: 8300000, guid: 39134b286f2077745911618c04192d1f, type: 3}
-  death: {fileID: 8300000, guid: 62cff17971284a54792f1dc757bcea25, type: 3}
+  death: {fileID: 8300000, guid: 7dbb14fabbca72f49b3f86d45d3365d6, type: 3}
   mixerGroup: {fileID: 24300002, guid: e16709b2c71c9904f854c7b4db7ca8c7, type: 2}
   deathSource: {fileID: 0}
 --- !u!114 &6623358353890553299
