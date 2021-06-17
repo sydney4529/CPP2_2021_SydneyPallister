@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 3792522853022761340}
   - component: {fileID: 8053886311690245489}
   - component: {fileID: 5797216362644746174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gem2
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

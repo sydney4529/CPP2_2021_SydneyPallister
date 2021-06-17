@@ -6,11 +6,15 @@ public class AttachtoParent : MonoBehaviour
 {
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
-            other.transform.parent = transform;
+            if(other.gameObject.GetComponent<ThirdPersonMovement>().isGrounded == true)
+            {
+                other.gameObject.GetComponent<ThirdPersonMovement>().gravity = 0;
+                if (other.gameObject.GetComponent<ThirdPersonMovement>().gravity == 0)
+                    other.transform.parent = transform;
+            }
         }
-
     }
 
     private void OnTriggerExit(Collider other)
@@ -18,6 +22,7 @@ public class AttachtoParent : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             other.transform.parent = null;
+            other.gameObject.GetComponent<ThirdPersonMovement>().gravity = -39.24f;
         }
 
     }

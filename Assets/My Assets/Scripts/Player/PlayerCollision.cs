@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerCollision : MonoBehaviour
 {
     ThirdPersonMovement movementScript;
     bool notTriggered;
     public Animator anim;
+
+    public AudioClip hit;
+    public AudioClip vines;
+    public AudioClip death;
+    public AudioMixerGroup mixerGroup;
+    AudioSource hitSource;
+    AudioSource vineSource;
+    public AudioSource deathSource;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +29,28 @@ public class PlayerCollision : MonoBehaviour
     void Update()
     {
         CanvasManager canvas = FindObjectOfType<CanvasManager>();
-        Debug.Log(canvas.gRef.Count);
+
+        if (!hitSource)
+        {
+            hitSource = gameObject.AddComponent<AudioSource>();
+            hitSource.outputAudioMixerGroup = mixerGroup;
+            hitSource.clip = hit;
+            hitSource.loop = false;
+        }
+        if (!deathSource)
+        {
+            deathSource = gameObject.AddComponent<AudioSource>();
+            deathSource.outputAudioMixerGroup = mixerGroup;
+            deathSource.clip = death;
+            deathSource.loop = false;
+        }
+        if (!vineSource)
+        {
+            vineSource = gameObject.AddComponent<AudioSource>();
+            vineSource.outputAudioMixerGroup = mixerGroup;
+            vineSource.clip = vines;
+            vineSource.loop = false;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -31,12 +61,14 @@ public class PlayerCollision : MonoBehaviour
             {
                 GameManager.instance.health--;
                 anim.SetTrigger("Hurt");
+                hitSource.Play();
             }
 
             if (collision.gameObject.tag == "EnemyProjectile")
             {
                 GameManager.instance.health--;
                 anim.SetTrigger("Hurt");
+                hitSource.Play();
             }
         }
     }
@@ -47,6 +79,7 @@ public class PlayerCollision : MonoBehaviour
         {
             if (other.gameObject.tag == "Vines")
             {
+                vineSource.Play();
                 movementScript.speed = 10;
                 movementScript.isRunning = false;
                 if (notTriggered)
@@ -69,6 +102,7 @@ public class PlayerCollision : MonoBehaviour
                     notTriggered = false;
                 }
             }
+
         }
         
     }
@@ -81,10 +115,24 @@ public class PlayerCollision : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (GameManager.alive == true && GameManager.vulnerable)
+        {
+            if (other.gameObject.tag == "Explosion")
+            {
+                GameManager.instance.health--;
+                anim.SetTrigger("Hurt");
+                hitSource.Play();
+            }
+        }  
+    }
+
     IEnumerator Wait()
     {
         GameManager.instance.health--;
         anim.SetTrigger("Hurt");
+        hitSource.Play();
         yield return new WaitForSeconds(2);
         notTriggered = true;
     }
@@ -93,16 +141,12 @@ public class PlayerCollision : MonoBehaviour
     {
         if (GameManager.instance.lives > 0)
         {
-            //GameManager.instance.Respawn();
             GameManager.instance.PreLoadGame();
         }
         else
         {
             GameManager.instance.GameOver();
         }
-
-        //GameManager.instance.Respawn();
-
     }
 
     public void ApplyDamage(int damage)

@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using System;
 
 public class PlayerFire : MonoBehaviour
 {
     public bool isFiring;
     public float projectileSpeed;
-
 
     public Transform spawnPoint;
     public Projectile projectilePrefab;
@@ -18,6 +18,10 @@ public class PlayerFire : MonoBehaviour
 
     CharacterController chara;
 
+    public AudioClip fire;
+    public AudioMixerGroup mixerGroup;
+    AudioSource fireSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,13 +31,20 @@ public class PlayerFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.IsInputEnabled == true)
+        if (!fireSource)
+        {
+            fireSource = gameObject.AddComponent<AudioSource>();
+            fireSource.outputAudioMixerGroup = mixerGroup;
+            fireSource.clip = fire;
+            fireSource.loop = false;
+        }
+
+        if (GameManager.IsInputEnabled == true)
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                //FireProjectile();
-                //isFiring = true;
                 FireProjectile();
+                fireSource.Play();
             }
         }
 
@@ -52,7 +63,6 @@ public class PlayerFire : MonoBehaviour
             {
                 Projectile projectileInstance = Instantiate(projectilePrefab, spawnPoint.position, Quaternion.identity);
                 projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
-                //projectileInstance.transform.rotation.x = projectileInstance.transform.rotation.x * transform.rotation.x;
                 projectileInstance.transform.rotation = transform.rotation;
             }
             else
@@ -68,7 +78,6 @@ public class PlayerFire : MonoBehaviour
             Debug.Log(ex.Message);
         }
         
-        //isFiring = false;
     }
 
     IEnumerator WaitForFire(float t)

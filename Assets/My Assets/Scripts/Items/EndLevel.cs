@@ -20,7 +20,7 @@ public class EndLevel : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
-            GameManager.instance.QuitGame();
+            GameManager.instance.ReturnToMenu();
         }
     }
 }

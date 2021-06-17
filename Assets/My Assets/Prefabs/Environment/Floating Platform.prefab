@@ -129,7 +129,7 @@ MonoBehaviour:
   - {x: 194.26, y: 180.29, z: 283.81}
   - {x: 194.26, y: 192.65, z: 283.81}
   pointNumber: 0
-  tolerance: 0
+  tolerance: 0.08
   speed: 4
   delayTime: 2
   automatic: 1

@@ -46,7 +46,7 @@ public class Collectible : MonoBehaviour
             isActive = false;
             Instantiate(collect, transform.position, transform.rotation);
             Destroy(gameObject);
-            //input do something code here
+
             switch (currentCollectible)
             {
 
@@ -83,7 +83,7 @@ public class Collectible : MonoBehaviour
                     break;
 
                 case CollectibleType.END:
-
+                    GameManager.instance.score += 50;
                     break;
 
             }

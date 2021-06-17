@@ -17,6 +17,8 @@ TagManager:
   - PatrolNode
   - Spawn
   - MainCanvas
+  - CameraIgnore
+  - Explosion
   layers:
   - Default
   - TransparentFX

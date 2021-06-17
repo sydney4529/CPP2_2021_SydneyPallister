@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class CanvasManager : MonoBehaviour
 {
@@ -46,12 +47,18 @@ public class CanvasManager : MonoBehaviour
     public PlayerSave cRef;
     public List<Enemy> eRef = new List<Enemy>();
     public List<Ghost> gRef = new List<Ghost>();
+    public List<Turret> TRef = new List<Turret>();
+    public List<Exploder> explodeRef = new List<Exploder>();
+    public List<Chaser> chaseRef = new List<Chaser>();
+
+    AudioSource clickSource;
 
     bool gamePaused;
 
     // Start is called before the first frame update
     void Start()
     {
+        clickSource = GetComponent<AudioSource>();
         
         if (pauseMenu)
         {
@@ -108,35 +115,8 @@ public class CanvasManager : MonoBehaviour
             if(SceneManager.GetActiveScene().name == "MainScene")
             {
                 cRef = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerSave>();
-
-                //foreach (GameObject fooObj in GameObject.FindGameObjectsWithTag("Enemy"))
-                //{
-                //    Debug.Log("this was called");
-                //    if (fooObj.name == "Ghost")
-                //    {
-                //        Ghost enem = fooObj.GetComponent<Ghost>();
-                //        gRef.Add(enem);
-                //    }
-                //    else
-                //    {
-                //        eRef.Add(fooObj.GetComponent<Enemy>());
-                //    }
-                //}
             }
         }
-
-        //foreach (GameObject fooObj in GameObject.FindGameObjectsWithTag("Enemy"))
-        //{
-        //    if (fooObj.name == "Ghost")
-        //    {
-        //        Ghost enem = fooObj.GetComponent<Ghost>();
-        //        gRef.Add(enem);
-        //    }
-        //    else
-        //    {
-        //        eRef.Add(fooObj.GetComponent<Enemy>());
-        //    }
-        //}
 
         if (pauseMenu)
         {
@@ -164,25 +144,6 @@ public class CanvasManager : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.P))
             {
-                //pauseMenu.SetActive(!pauseMenu.activeSelf);
-                //Time.timeScale = 0;
-                //if (pauseMenu.activeSelf || soundMenu.activeSelf)
-                //{
-                //    //PauseGame();
-                //    ReturnToGame();
-                //}
-                //if (pauseMenu.activeSelf)
-                //{
-                //    //PauseGame();
-                //    ReturnToGame();
-                //}
-                //else if (!pauseMenu.activeSelf)
-                //{
-                //    //ReturnToGame();
-                //    PauseGame();
-                //    //pauseAudio.Play();
-                //}
-
                 PauseGame();
             }
         }
@@ -237,33 +198,15 @@ public class CanvasManager : MonoBehaviour
         {
            
             Cursor.lockState = CursorLockMode.None;
-            //pauseAudio.Play();
             Time.timeScale = 0f;
-            //GameManager.IsInputEnabled = false;
         }
         else
         {
             Time.timeScale = 1f;
-            //GameManager.instance.playerInstance.transform.position = new Vector3(GameManager.StateManager.gameState.player.posRotScale.posX, GameManager.StateManager.gameState.player.posRotScale.posY, GameManager.StateManager.gameState.player.posRotScale.posZ);
-            //pauseMenu.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
-            //GameManager.IsInputEnabled = true;
         }
 
         GameManager.IsInputEnabled = !GameManager.IsInputEnabled;
-    }
-
-    public void ReturnToGame()
-    {
-        //Time.timeScale = 1f;
-        //pauseMenu.SetActive(false);
-        //Cursor.lockState = CursorLockMode.Locked;
-        //GameManager.IsInputEnabled = true;
-        //pauseAudio.Play();
-        //if (soundMenu.activeSelf)
-        //{
-        //    soundMenu.SetActive(false);
-        //}
     }
 
     void ShowMainMenu()
@@ -292,7 +235,6 @@ public class CanvasManager : MonoBehaviour
 
     void ToggleValueChanged(Toggle change)
     {
-        //muteText.text = "Muted : " + muteToggle.isOn;
         if (muteToggle.isOn == true)
         {
             muteText.text = "Muted";
@@ -306,39 +248,28 @@ public class CanvasManager : MonoBehaviour
 
     public void SaveGame()
     {
-        foreach (GameObject fooObj in GameObject.FindGameObjectsWithTag("Enemy"))
-        {
-            if (fooObj.name == "Ghost")
-            {
-                Ghost enem = fooObj.GetComponent<Ghost>();
-                gRef.Add(enem);
-            }
-            else
-            {
-                eRef.Add(fooObj.GetComponent<Enemy>());
-            }
-        }
-
-        cRef.SaveGamePrepare();
-
-        foreach (Enemy enem in eRef)
-        {
-            if (eRef != null)
-            {
-                enem.SaveGamePrepare();
-            }           
-        }
-        foreach (Ghost ghost in gRef)
-        {
-            if (gRef != null)
-                ghost.SaveGamePrepare();
-        }
-
-        GameManager.instance.Save();
+        StartCoroutine(StartSave());
     }
 
     public void LoadGame()
     {
+        GameManager.IsInputEnabled = false;
+        GameManager.vulnerable = false;
+        GameManager.instance.PreLoadGame();
+        PauseGame();
+    }
+
+    IEnumerator StartSave()
+    {
+        yield return StartCoroutine(Save());
+        GameManager.instance.Save();
+    }
+
+    IEnumerator Save()
+    {
+        if(cRef != null)
+            cRef.SaveGamePrepare();
+
         foreach (GameObject fooObj in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             if (fooObj.name == "Ghost")
@@ -346,34 +277,59 @@ public class CanvasManager : MonoBehaviour
                 Ghost enem = fooObj.GetComponent<Ghost>();
                 gRef.Add(enem);
             }
-            else
+            if (fooObj.name == "Dryad")
             {
                 eRef.Add(fooObj.GetComponent<Enemy>());
             }
+            if (fooObj.name == "Turret")
+            {
+                TRef.Add(fooObj.GetComponent<Turret>());
+            }
+            if (fooObj.name == "Chaser")
+            {
+                chaseRef.Add(fooObj.GetComponent<Chaser>());
+            }
+            if (fooObj.name == "Exploder")
+            {
+                explodeRef.Add(fooObj.GetComponent<Exploder>());
+            }
         }
 
-        //cRef.LoadGameComplete();
-        //foreach(Enemy enem in eRef)
-        //{
-        //    if(eRef != null)
-        //    {
-        //        enem.LoadGameComplete();
-        //    }
-        //}
-        //foreach(Ghost ghost in gRef)
-        //{
-        //    if(gRef != null)
-        //    {
-        //        ghost.LoadGameComplete();
-        //    }
-        //}
+        foreach (Enemy enem in eRef)
+        {
+            if (enem != null)
+            {
+                enem.SaveGamePrepare();
+            }
+        }
+        foreach (Ghost ghost in gRef)
+        {
+            if (ghost != null)
+                ghost.SaveGamePrepare();
+        }
+        foreach (Turret tur in TRef)
+        {
+            if (tur != null)
+                tur.SaveGamePrepare();
+        }
+        foreach (Chaser chase in chaseRef)
+        {
+            if (chase != null)
+                chase.SaveGamePrepare();
+        }
+        foreach (Exploder explode in explodeRef)
+        {
+            if (explode != null)
+                explode.SaveGamePrepare();
+        }
 
-        //GameManager.instance.Load();
-        GameManager.IsInputEnabled = false;
-        GameManager.vulnerable = false;
-        GameManager.instance.PreLoadGame();
-        PauseGame();
-        
+        yield return new WaitForSeconds(1);
+    }
+
+    public void playSound()
+    {
+        if(isActiveAndEnabled)
+            clickSource.Play();
     }
 
 }

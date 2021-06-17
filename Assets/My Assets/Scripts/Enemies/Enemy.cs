@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Audio;
 
 public class Enemy : MonoBehaviour
 {
@@ -40,6 +41,13 @@ public class Enemy : MonoBehaviour
     public int health;
     public string enemyID;
 
+    public AudioClip enemyDeath;
+    public AudioClip enemyHit;
+    public AudioClip fire;
+    public AudioMixerGroup mixerGroup;
+    AudioSource deathSource;
+    AudioSource fireSource;
+    AudioSource hitSource;
 
     // Start is called before the first frame update
     void Start()
@@ -49,12 +57,12 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+        enemyID = GetComponent<UniqueId>().uniqueId;
+
         chaseDist = 30;
         attackDist = 20;
         health = 3;
         alive = true;
-        //enemyID = GetInstanceID();
-        enemyID = GetComponent<UniqueId>().uniqueId;
 
         anim.applyRootMotion = false;
 
@@ -95,16 +103,8 @@ public class Enemy : MonoBehaviour
 
         if (GameManager.save == true)
         {
-            Debug.Log("save is true");
+            //Debug.Log("save is true");
             LoadGameComplete();
-        }
-
-        if(alive == false)
-        {
-            Debug.Log("was destroyed");
-            CanvasManager canvas = FindObjectOfType<CanvasManager>();
-            canvas.eRef.Remove(this);
-            Destroy(gameObject);
         }
 
     }
@@ -112,19 +112,19 @@ public class Enemy : MonoBehaviour
     public void SaveGamePrepare()
     {
         List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
-            GameManager.StateManager.gameState.enemies;
+            GameManager.StateManager.gameState.enemies1;
 
         for (int i = 0; i < enemies1.Count; i++)
         {
             if (enemies1[i].enemyID == enemyID)
             {
                 // Found enemy. Now break break from loop
-                GameManager.StateManager.gameState.enemies.Remove(enemies1[i]);
+                GameManager.StateManager.gameState.enemies1.Remove(enemies1[i]);
                 break;
             }
         }
 
-        GameManager.StateManager.gameState.enemies1.Clear();
+        //GameManager.StateManager.gameState.enemies1.Clear();
         LoadSaveManager.GameStateData.DataEnemy data = new LoadSaveManager.GameStateData.DataEnemy();
 
         data.enemyID = GetComponent<UniqueId>().uniqueId;
@@ -145,7 +145,6 @@ public class Enemy : MonoBehaviour
 
         //Add enemy to Game State
         GameManager.StateManager.gameState.enemies1.Add(data);
-        //Debug.Log(GameManager.StateManager.gameState.enemies1.Count);
     }
 
     public void LoadGameComplete()
@@ -158,16 +157,11 @@ public class Enemy : MonoBehaviour
         // Reference to this enemy
         LoadSaveManager.GameStateData.DataEnemy data = null;
 
-        Debug.Log(GameManager.StateManager.gameState.enemies1.Count);
-
         for (int i = 0; i < enemies1.Count; i++)
         {
-            //Debug.Log(enemies1[i].enemyID);
-            //Debug.Log(enemyID);
             if (enemies1[i].enemyID == enemyID)
             {
                 // Found enemy. Now break break from loop
-                //Debug.Log("in loop");
                 data = enemies1[i];
                 break;
             }
@@ -186,7 +180,7 @@ public class Enemy : MonoBehaviour
         enemyID = data.enemyID;
         health = data.health;
         alive = data.saveAlive;
-        Debug.Log(data.saveAlive);
+        //Debug.Log(data.saveAlive);
 
         // Set position
         transform.position = new Vector3(data.posRotScale.posX,
@@ -205,16 +199,30 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(GameManager.StateManager.gameState.enemies1.Count);
 
-        //if (health <= 0 && alive)
-        //{
-        //    enemyType = EnemyType.Dead;
-        //    target = null;
-        //    agent.velocity = new Vector3(0, 0, 0);
-        //    anim.SetTrigger("Die");
-        //    alive = false;
-        //}
-
+        if (!deathSource)
+        {
+            deathSource = gameObject.AddComponent<AudioSource>();
+            deathSource.outputAudioMixerGroup = mixerGroup;
+            deathSource.clip = enemyDeath;
+            deathSource.loop = false;
+            //dieSource.Play();
+        }
+        if (!fireSource)
+        {
+            fireSource = gameObject.AddComponent<AudioSource>();
+            fireSource.outputAudioMixerGroup = mixerGroup;
+            fireSource.clip = fire;
+            fireSource.loop = false;
+        }
+        if (!hitSource)
+        {
+            hitSource = gameObject.AddComponent<AudioSource>();
+            hitSource.outputAudioMixerGroup = mixerGroup;
+            hitSource.clip = enemyHit;
+            hitSource.loop = false;
+        }
 
         if (alive)
         {
@@ -252,16 +260,11 @@ public class Enemy : MonoBehaviour
             {
                 enemyType = EnemyType.Patrol;
                 target = path[pathIndex];
-                //if(co != null)
-                //{
-                //    StopCoroutine(co);
-                //} 
             }
 
             if (Vector3.Distance(transform.position, GameManager.instance.playerInstance.transform.position) <= attackDist && !fired)
             {
                 co = StartCoroutine(DelayFire());
-                //StartCoroutine(DelayFire());
                 fired = true;
             }
 
@@ -281,13 +284,7 @@ public class Enemy : MonoBehaviour
             }
         }
 
-
-
         anim.SetFloat("Speed", transform.InverseTransformDirection(agent.velocity).z);
-
-        //Debug.Log(health);
-        //Debug.Log(target);
-       // Debug.Log(alive);
     }
 
     void SetTarget()
@@ -304,6 +301,7 @@ public class Enemy : MonoBehaviour
         {
             if(health > 1)
             {
+                hitSource.Play();
                 anim.SetTrigger("Damage");
                 if(GameManager.instance.playerInstance.GetComponent<PlayerFire>().poweredUp == true)
                 {
@@ -316,20 +314,38 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                alive = false;
-                if (co != null)
+                if (alive == true)
                 {
-                    StopCoroutine(co);
+                    rb.velocity = Vector3.zero;
+                    rb.useGravity = false;
+                    rb.detectCollisions = false;
+                    alive = false;
+                    if (co != null)
+                    {
+                        StopCoroutine(co);
+                    }
+                    enemyType = EnemyType.Dead;
+                    target = null;
+                    anim.SetTrigger("Die");
+                    deathSource.Play();
+                    CanvasManager canvas = FindObjectOfType<CanvasManager>();
+                    canvas.eRef.Remove(this);
+                    List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
+                    GameManager.StateManager.gameState.enemies1;
+
+                    for (int i = 0; i < enemies1.Count; i++)
+                    {
+                        if (enemies1[i].enemyID == enemyID)
+                        {
+                            // Found enemy. Now break break from loop
+                            GameManager.StateManager.gameState.enemies1.Remove(enemies1[i]);
+                            break;
+                        }
+                    }
                 }
-                enemyType = EnemyType.Dead;
-                target = null;
-                anim.SetTrigger("Die");
-                CanvasManager canvas = FindObjectOfType<CanvasManager>();
-                canvas.eRef.Remove(this);
 
             }
             
-            //Hurt();
         }
     }
 
@@ -338,11 +354,12 @@ public class Enemy : MonoBehaviour
         Projectile projectileInstance = Instantiate(bullet, spawnPoint.position, Quaternion.identity);
         projectileInstance.GetComponent<Rigidbody>().velocity = transform.forward * projectileInstance.speed;
         projectileInstance.transform.rotation = transform.rotation;
+        fireSource.Play();
     }
 
     IEnumerator DelayFire()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.3f);
         anim.SetTrigger("Attack");
         fired = false;
     }

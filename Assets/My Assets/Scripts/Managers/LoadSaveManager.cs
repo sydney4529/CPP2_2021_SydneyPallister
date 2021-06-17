@@ -65,6 +65,9 @@ public class LoadSaveManager : MonoBehaviour {
 		// Instance variables
 		public List<DataEnemy> enemies = new List<DataEnemy>();
 		public List<DataEnemy> enemies1 = new List<DataEnemy>();
+		public List<DataEnemy> enemies2 = new List<DataEnemy>();
+		public List<DataEnemy> enemies3 = new List<DataEnemy>();
+		public List<DataEnemy> enemies4 = new List<DataEnemy>();
 
 		public DataPlayer player = new DataPlayer();
 	}
@@ -91,9 +94,6 @@ public class LoadSaveManager : MonoBehaviour {
 	public void LoadOld(string fileName = "GameData.xml")
 	{
 
-		//aes.Mode = CipherMode.CBC;
-		//aes.Padding = PaddingMode.PKCS7;
-
 		XmlSerializer serializer = new XmlSerializer(typeof(GameStateData));
 		FileStream stream = new FileStream(fileName, FileMode.Open);
 		gameState = serializer.Deserialize(stream) as GameStateData;
@@ -104,14 +104,6 @@ public class LoadSaveManager : MonoBehaviour {
 
 	public void Save(string fileName = "GameData.xml")
 	{
-		// Clear existing enemy data
-		//gameState.enemies.Clear();
-		//gameState.enemies1.Clear();
-
-		//Clear existing player data
-		//gameState.player = null;
-
-
 		XmlSerializer serializer = new XmlSerializer(typeof(GameStateData));
 		FileStream stream = new FileStream(fileName, FileMode.Create);
 

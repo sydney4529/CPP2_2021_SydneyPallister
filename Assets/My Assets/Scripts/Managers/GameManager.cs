@@ -51,7 +51,6 @@ public class GameManager : MonoBehaviour
         set
         {
             _score = value;
-            //Debug.Log("Current score is: " + _score);
         }
     }
 
@@ -72,12 +71,11 @@ public class GameManager : MonoBehaviour
 
             if(_health <= 0 && alive == true)
             {
-                //Destroy(playerInstance);
+                playerInstance.GetComponent<PlayerCollision>().deathSource.Play();
                 alive = false;
                 IsInputEnabled = false;
                 lives--;
                 playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
-                //Debug.Log("Called");
             }
         }
     }
@@ -94,15 +92,10 @@ public class GameManager : MonoBehaviour
             {
                 if (SceneManager.GetActiveScene().name == "MainScene")
                 {
-
-                    //Debug.Log("Should have spawned");
                     if (alive == false)
                     {
                         //playerInstance.GetComponent<PlayerCollision>().anim.SetTrigger("Die");
                     }
-                    //Respawn();
-                    
-
                 }
             }
 
@@ -120,36 +113,9 @@ public class GameManager : MonoBehaviour
                     //SceneManager.LoadScene("GameOver");
                 }
             }
-            //Debug.Log(_lives);
 
         }
     }
-
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-
-    //    if (instance)
-    //        Destroy(gameObject);
-    //    else
-    //    {
-    //        DontDestroyOnLoad(gameObject);
-    //        instance = this;
-    //    }
-
-    //}
-
-    //void Awake()
-    //{
-    //    //Check if there is an existing instance of this object
-    //    if ((instance) && (instance.GetInstanceID() != GetInstanceID()))
-    //        Destroy(gameObject); //Delete duplicate
-    //    else
-    //    {
-    //        instance = this; //Make this object the only instance
-    //        DontDestroyOnLoad(gameObject); //Set as do not destroy
-    //    }
-    //}
 
     // Use this for initialization
     void Start()
@@ -284,7 +250,6 @@ public class GameManager : MonoBehaviour
     public void Save()
     {
         save = true;
-        //Debug.Log(Application.persistentDataPath);
 
         // Call save game functionality
         StateManager.Save(Application.persistentDataPath + "/SaveGame.xml");
@@ -324,9 +289,6 @@ public class GameManager : MonoBehaviour
 
         if (save)
         {
-            //CanvasManager canvasManager = FindObjectOfType<CanvasManager>();
-            //canvasManager.cRef = FindObjectOfType<PlayerSave>();
-            //canvasManager.LoadGame();
             playerInstance.GetComponent<PlayerSave>().LoadGameComplete();
             Load();
         }

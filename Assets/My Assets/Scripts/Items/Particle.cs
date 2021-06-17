@@ -6,6 +6,7 @@ public class Particle : MonoBehaviour
 {
 
     ParticleSystem self;
+    AudioSource source;
 
     // Start is called before the first frame update
     void Start()
@@ -16,18 +17,32 @@ public class Particle : MonoBehaviour
     private void Awake()
     {
         self = GetComponent<ParticleSystem>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(self.isPlaying)
-        {
+        //if(self.isPlaying || source.isPlaying)
+        //{
 
-        }
-        else
+        //}
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
+
+        if(!self.isPlaying)
         {
-            Destroy(gameObject);
+            if(source != null)
+            {
+                if(!source.isPlaying)
+                    Destroy(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

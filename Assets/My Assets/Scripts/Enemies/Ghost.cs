@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.AI;
 
 public class Ghost : MonoBehaviour
 {
@@ -9,14 +11,27 @@ public class Ghost : MonoBehaviour
     public float speed;
     public Material invisible;
     public Material visible;
+    public GameObject spawner;
+    public ParticleSystem deathBurst;
 
-    float MinDist = 60f;
+    float MinDist = 40f;
+    float attackDist = 5f;
+
+    Vector3 MinDistVect;
 
     Rigidbody rb;
+    Animator anim;
+    NavMeshAgent agent;
 
     public string enemyID;
 
     public bool alive;
+
+    public AudioClip enemyDeath;
+    public AudioClip enemyHit;
+    public AudioMixerGroup mixerGroup;
+    AudioSource deathSource;
+    AudioSource hitSource;
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +44,14 @@ public class Ghost : MonoBehaviour
         name = "Ghost";
 
         alive = true;
-
-        //enemyID = GetInstanceID();
+        MinDistVect = new Vector3(40, 0, 40);
 
         enemyID = GetComponent<UniqueId>().uniqueId;
 
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+        deathSource = GetComponent<AudioSource>();
+        agent = GetComponent<NavMeshAgent>();
 
         if(GameManager.save == true)
         {
@@ -57,10 +74,8 @@ public class Ghost : MonoBehaviour
             }
         }
 
-        //GameManager.StateManager.gameState.enemies.Remove(this);
         LoadSaveManager.GameStateData.DataEnemy data = new LoadSaveManager.GameStateData.DataEnemy();
 
-        //data.health = health;
         data.enemyID = GetComponent<UniqueId>().uniqueId;
         data.saveAlive = alive;
 
@@ -78,8 +93,6 @@ public class Ghost : MonoBehaviour
 
         //Add enemy to Game State
         GameManager.StateManager.gameState.enemies.Add(data);
-
-        Debug.Log(GameManager.StateManager.gameState.enemies.Count);
     }
 
     public void LoadGameComplete()
@@ -113,7 +126,6 @@ public class Ghost : MonoBehaviour
         // Else load enemy data
         enemyID = data.enemyID;
         alive = data.saveAlive;
-        //health = data.health;
 
         // Set position
         transform.position = new Vector3(data.posRotScale.posX,
@@ -129,6 +141,24 @@ public class Ghost : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (!deathSource)
+        {
+            deathSource = gameObject.AddComponent<AudioSource>();
+            deathSource.outputAudioMixerGroup = mixerGroup;
+            deathSource.clip = enemyDeath;
+            deathSource.loop = false;
+        }
+        if (!hitSource)
+        {
+            hitSource = gameObject.AddComponent<AudioSource>();
+            hitSource.outputAudioMixerGroup = mixerGroup;
+            hitSource.clip = enemyHit;
+            hitSource.loop = false;
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -137,53 +167,77 @@ public class Ghost : MonoBehaviour
 
         if (dot > 0.7f) 
         {
-            if(Vector3.Distance(transform.position, player.position) <= MinDist)
+            if(Vector3.Distance(transform.position, player.position) <= MinDistVect.x && alive == true)
             {
-                gameObject.transform.rotation = Quaternion.Lerp(gameObject.transform.rotation, player.transform.rotation, 2.5f);
-                GetComponentInChildren<SkinnedMeshRenderer>().material = invisible;
+                if(player.position.y <= transform.position.y + 2)
+                {
+                    agent.speed = 0;
+                    agent.velocity = Vector3.zero;
+                    gameObject.transform.rotation = Quaternion.Lerp(gameObject.transform.rotation, player.transform.rotation, 2.5f);
+                    if (alive == true)
+                    {
+                        GetComponentInChildren<SkinnedMeshRenderer>().material = invisible;
+                    }
+                    anim.SetBool("Moving", false);
+                }
             }
         }
         else
         {
-            if(Vector3.Distance(transform.position, player.position) <= MinDist)
+            if(Vector3.Distance(transform.position, player.position) <= MinDist && alive == true)
             {
-                Vector3 pos = Vector3.MoveTowards(transform.position, player.position, speed * Time.fixedDeltaTime);
-                rb.MovePosition(pos);
-                transform.LookAt(player);
-                GetComponentInChildren<SkinnedMeshRenderer>().material = visible;
+                if (Vector3.Distance(transform.position, player.position) > attackDist)
+                {
+                    agent.speed = 12;
+                    agent.SetDestination(player.transform.position);
+
+                    transform.LookAt(player);
+                    if (alive == true)
+                        GetComponentInChildren<SkinnedMeshRenderer>().material = visible;
+                    anim.SetBool("Moving", true);
+                }   
             }
             
+        }
+
+        if(Vector3.Distance(transform.position, player.position) <= attackDist && alive == true)
+        {
+            anim.SetTrigger("Attack");
+        } 
+        else
+        {
+            anim.ResetTrigger("Attack");
         }
 
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "PlayerProjectile")
+        if(collision.gameObject.tag == "PlayerProjectile" && alive == true)
         {
+            hitSource.Play();
+            rb.velocity = Vector3.zero;
+            rb.useGravity = false;
+            rb.detectCollisions = false;
             GameManager.instance.score+=5;
-            //    List<LoadSaveManager.GameStateData.DataEnemy> enemies =
-            //GameManager.StateManager.gameState.enemies;
-            //    for (int i = 0; i < enemies.Count; i++)
-            //    {
-            //        if (enemies[i].enemyID == enemyID)
-            //        {
-            //            // Found enemy. Now break break from loop
-            //            enemies[i].saveAlive = false;
-            //            break;
-            //        }
-            //    }
-            //CanvasManager canvas = FindObjectOfType<CanvasManager>();
-            //canvas.gRef.Remove(this);
-            //Destroy(gameObject);
-            StartCoroutine(StartDestroy());
+            deathSource.Play();
+            anim.SetTrigger("Die");
+            alive = false;
+            GetComponentInChildren<SkinnedMeshRenderer>().material = visible;
         }
+    }
+
+    public void Die()
+    {
+        StartCoroutine(StartDestroy());
     }
 
     IEnumerator StartDestroy()
     {
-
         yield return StartCoroutine(Destroy());
+        Vector3 spawn = new Vector3(transform.position.x, transform.position.y + 5, transform.position.z);
+        Instantiate(spawner, spawn, Quaternion.identity);
+        Instantiate(deathBurst, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 
@@ -191,6 +245,7 @@ public class Ghost : MonoBehaviour
     {
         CanvasManager canvas = FindObjectOfType<CanvasManager>();
         canvas.gRef.Remove(this);
+
 
         List<LoadSaveManager.GameStateData.DataEnemy> enemies =
             GameManager.StateManager.gameState.enemies;
@@ -205,6 +260,6 @@ public class Ghost : MonoBehaviour
             }
         }
 
-        yield return true;
+        yield return new WaitForSeconds(0.2f);
     }
 }

@@ -29,7 +29,7 @@ public class MovingPlatform : MonoBehaviour
             currentTarget = points[0];
         }
 
-        tolerance = speed * Time.deltaTime;
+        //tolerance = speed * Time.unscaledDeltaTime;
     }
 
     // Update is called once per frame
@@ -47,9 +47,6 @@ public class MovingPlatform : MonoBehaviour
         {
             UpdateTarget();
         }
-
-        //Debug.Log(currentTarget);
-        //Debug.Log(transform.position);
     }
 
     private void MovePlatform()
@@ -83,25 +80,5 @@ public class MovingPlatform : MonoBehaviour
         }
         currentTarget = points[pointNumber];
     }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    ogScale = other.transform.localScale;
-
-    //    if (other.gameObject.tag == "Player")
-    //    {
-    //        other.transform.parent = transform;
-    //    }
-
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.gameObject.tag == "Player")
-    //    {
-    //        other.transform.parent = null;
-    //    }
-
-    //}
 
 }
