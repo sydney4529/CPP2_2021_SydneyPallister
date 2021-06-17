@@ -246,17 +246,19 @@ public class Ghost : MonoBehaviour
         CanvasManager canvas = FindObjectOfType<CanvasManager>();
         canvas.gRef.Remove(this);
 
-
-        List<LoadSaveManager.GameStateData.DataEnemy> enemies =
+        if (GameManager.save == true)
+        {
+            List<LoadSaveManager.GameStateData.DataEnemy> enemies =
             GameManager.StateManager.gameState.enemies;
 
-        for (int i = 0; i < enemies.Count; i++)
-        {
-            if (enemies[i].enemyID == enemyID)
+            for (int i = 0; i < enemies.Count; i++)
             {
-                // Found enemy. Now break break from loop
-                GameManager.StateManager.gameState.enemies.Remove(enemies[i]);
-                break;
+                if (enemies[i].enemyID == enemyID)
+                {
+                    // Found enemy. Now break break from loop
+                    GameManager.StateManager.gameState.enemies.Remove(enemies[i]);
+                    break;
+                }
             }
         }
 

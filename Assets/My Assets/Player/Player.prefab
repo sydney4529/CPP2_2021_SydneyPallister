@@ -716,6 +716,7 @@ MonoBehaviour:
   poweredUpPrefab: {fileID: 1832309904877990294, guid: 0fec8a6f59b590642a4c97f3affaaaf7, type: 3}
   poweredUp: 0
   fire: {fileID: 8300000, guid: 778935d095ad9c1428981aef43640c6f, type: 3}
+  firePower: {fileID: 8300000, guid: 4236e22c88eca764a8ea5605c4b08c0e, type: 3}
   mixerGroup: {fileID: 24300002, guid: e16709b2c71c9904f854c7b4db7ca8c7, type: 2}
 --- !u!114 &4050804024898822589
 MonoBehaviour:
@@ -979,6 +980,8 @@ MonoBehaviour:
   regular: {fileID: 2100000, guid: a8ea671c0aa0e884eb6b3cf82068e039, type: 2}
   playerLight: {fileID: 3522590629289191027}
   shieldPowered: 0
+  shield: {fileID: 8300000, guid: 1315a11095a655a4ca941faf8b3006a8, type: 3}
+  mixerGroup: {fileID: 24300002, guid: e16709b2c71c9904f854c7b4db7ca8c7, type: 2}
 --- !u!1 &5812782394921358397
 GameObject:
   m_ObjectHideFlags: 0

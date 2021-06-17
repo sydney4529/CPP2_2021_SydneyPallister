@@ -851,6 +851,9 @@ MonoBehaviour:
   cRef: {fileID: 0}
   eRef: []
   gRef: []
+  TRef: []
+  explodeRef: []
+  chaseRef: []
 --- !u!82 &1063871447
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1096,6 +1099,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1255399491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2375125671222391130, guid: bfe14736a458437438ea218c57e8caf8, type: 3}
+  m_PrefabInstance: {fileID: 265135224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1255399492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255399491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9cc25c781698849ad51c2b9bc8465c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1354583482
 GameObject:
   m_ObjectHideFlags: 0

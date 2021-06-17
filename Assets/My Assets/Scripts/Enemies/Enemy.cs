@@ -330,16 +330,19 @@ public class Enemy : MonoBehaviour
                     deathSource.Play();
                     CanvasManager canvas = FindObjectOfType<CanvasManager>();
                     canvas.eRef.Remove(this);
-                    List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
+                    if (GameManager.save == true)
+                    {
+                        List<LoadSaveManager.GameStateData.DataEnemy> enemies1 =
                     GameManager.StateManager.gameState.enemies1;
 
-                    for (int i = 0; i < enemies1.Count; i++)
-                    {
-                        if (enemies1[i].enemyID == enemyID)
+                        for (int i = 0; i < enemies1.Count; i++)
                         {
-                            // Found enemy. Now break break from loop
-                            GameManager.StateManager.gameState.enemies1.Remove(enemies1[i]);
-                            break;
+                            if (enemies1[i].enemyID == enemyID)
+                            {
+                                // Found enemy. Now break break from loop
+                                GameManager.StateManager.gameState.enemies1.Remove(enemies1[i]);
+                                break;
+                            }
                         }
                     }
                 }

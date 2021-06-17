@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMaterials : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class PlayerMaterials : MonoBehaviour
 
     SkinnedMeshRenderer dragon;
 
+    public AudioClip shield;
+    public AudioMixerGroup mixerGroup;
+    AudioSource shieldSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +40,15 @@ public class PlayerMaterials : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(glowing)
+        if (!shieldSource)
+        {
+            shieldSource = gameObject.AddComponent<AudioSource>();
+            shieldSource.outputAudioMixerGroup = mixerGroup;
+            shieldSource.clip = shield;
+            shieldSource.loop = false;
+        }
+
+        if (glowing)
         {
             Debug.Log("yes");
             Color orange = new Color32(200, 79, 39, 1);
@@ -50,6 +63,7 @@ public class PlayerMaterials : MonoBehaviour
 
         if(shieldPowered == true && !triggered)
         {
+            shieldSource.Play();
             dragon.material = glow;
             glowing = true;
             GameManager.vulnerable = false;

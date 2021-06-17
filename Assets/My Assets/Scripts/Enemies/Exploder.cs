@@ -225,19 +225,22 @@ public class Exploder : MonoBehaviour
                     anim.SetTrigger("Die");
                     CanvasManager canvas = FindObjectOfType<CanvasManager>();
                     canvas.explodeRef.Remove(this);
-                    List<LoadSaveManager.GameStateData.DataEnemy> enemies4 =
+                    deathSource.Play();
+                    if (GameManager.save == true)
+                    {
+                        List<LoadSaveManager.GameStateData.DataEnemy> enemies4 =
                     GameManager.StateManager.gameState.enemies4;
 
-                    for (int i = 0; i < enemies4.Count; i++)
-                    {
-                        if (enemies4[i].enemyID == enemyID)
+                        for (int i = 0; i < enemies4.Count; i++)
                         {
-                            // Found enemy. Now break break from loop
-                            GameManager.StateManager.gameState.enemies4.Remove(enemies4[i]);
-                            break;
+                            if (enemies4[i].enemyID == enemyID)
+                            {
+                                // Found enemy. Now break break from loop
+                                GameManager.StateManager.gameState.enemies4.Remove(enemies4[i]);
+                                break;
+                            }
                         }
                     }
-                    deathSource.Play();
                 }
             }
         }

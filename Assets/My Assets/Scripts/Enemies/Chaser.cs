@@ -234,16 +234,21 @@ public class Chaser : MonoBehaviour
                     anim.SetTrigger("Die");
                     CanvasManager canvas = FindObjectOfType<CanvasManager>();
                     canvas.chaseRef.Remove(this);
-                    List<LoadSaveManager.GameStateData.DataEnemy> enemies3 =
+                    if (GameManager.save == true)
+                    {
+
+
+                        List<LoadSaveManager.GameStateData.DataEnemy> enemies3 =
                     GameManager.StateManager.gameState.enemies3;
 
-                    for (int i = 0; i < enemies3.Count; i++)
-                    {
-                        if (enemies3[i].enemyID == enemyID)
+                        for (int i = 0; i < enemies3.Count; i++)
                         {
-                            // Found enemy. Now break break from loop
-                            GameManager.StateManager.gameState.enemies3.Remove(enemies3[i]);
-                            break;
+                            if (enemies3[i].enemyID == enemyID)
+                            {
+                                // Found enemy. Now break break from loop
+                                GameManager.StateManager.gameState.enemies3.Remove(enemies3[i]);
+                                break;
+                            }
                         }
                     }
                     deathSource.Play();

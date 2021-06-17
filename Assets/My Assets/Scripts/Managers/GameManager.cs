@@ -242,6 +242,7 @@ public class GameManager : MonoBehaviour
 
     public void ReturnToMenu()
     {
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("MainMenu");
         IsInputEnabled = true;
         alive = true;

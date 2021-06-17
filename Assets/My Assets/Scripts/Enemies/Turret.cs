@@ -219,16 +219,19 @@ public class Turret : MonoBehaviour
                     anim.SetTrigger("Die");
                     CanvasManager canvas = FindObjectOfType<CanvasManager>();
                     canvas.TRef.Remove(this);
-                    List<LoadSaveManager.GameStateData.DataEnemy> enemies2 =
+                    if (GameManager.save == true)
+                    {
+                        List<LoadSaveManager.GameStateData.DataEnemy> enemies2 =
                     GameManager.StateManager.gameState.enemies2;
 
-                    for (int i = 0; i < enemies2.Count; i++)
-                    {
-                        if (enemies2[i].enemyID == enemyID)
+                        for (int i = 0; i < enemies2.Count; i++)
                         {
-                            // Found enemy. Now break break from loop
-                            GameManager.StateManager.gameState.enemies2.Remove(enemies2[i]);
-                            break;
+                            if (enemies2[i].enemyID == enemyID)
+                            {
+                                // Found enemy. Now break break from loop
+                                GameManager.StateManager.gameState.enemies2.Remove(enemies2[i]);
+                                break;
+                            }
                         }
                     }
                 }

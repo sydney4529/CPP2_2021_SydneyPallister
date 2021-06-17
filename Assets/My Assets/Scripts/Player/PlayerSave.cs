@@ -33,7 +33,6 @@ public class PlayerSave : MonoBehaviour
         LoadSaveManager.GameStateData.DataPlayer data =
             GameManager.StateManager.gameState.player;
 
-
         // Fill in player data for save game
         data.collectedScore = GameManager.instance.score;
         data.health = GameManager.instance.health;

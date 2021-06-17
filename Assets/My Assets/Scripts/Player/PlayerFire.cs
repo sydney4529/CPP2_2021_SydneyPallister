@@ -19,8 +19,10 @@ public class PlayerFire : MonoBehaviour
     CharacterController chara;
 
     public AudioClip fire;
+    public AudioClip firePower;
     public AudioMixerGroup mixerGroup;
     AudioSource fireSource;
+    AudioSource firePowerSource;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,13 @@ public class PlayerFire : MonoBehaviour
             fireSource.clip = fire;
             fireSource.loop = false;
         }
+        if (!firePowerSource)
+        {
+            firePowerSource = gameObject.AddComponent<AudioSource>();
+            firePowerSource.outputAudioMixerGroup = mixerGroup;
+            firePowerSource.clip = firePower;
+            firePowerSource.loop = false;
+        }
 
         if (GameManager.IsInputEnabled == true)
         {
@@ -50,6 +59,7 @@ public class PlayerFire : MonoBehaviour
 
         if(poweredUp && !trigger)
         {
+            firePowerSource.Play();
             trigger = true;
             StartCoroutine(WaitForFire(5));
         }
